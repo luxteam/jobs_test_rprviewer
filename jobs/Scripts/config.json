@@ -1,0 +1,11 @@
+{
+  "engine": "",
+  "loader": "fx-gltf",
+  "scene": {
+    "path": ""
+  },
+  "animation_": "off",
+  "textures": {
+    "flipY": "yes"
+  }
+}
