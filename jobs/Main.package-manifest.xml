@@ -14,9 +14,9 @@
         <configuration name="RadeonProRender">
             <value>rpr</value>
         </configuration>
-        <!--<configuration name="Hybrid">-->
-            <!--<value>hyb</value>-->
-        <!--</configuration>-->
+        <configuration name="Hybrid">
+            <value>hyb</value>
+        </configuration>
     </option>
 </package-manifest>
 

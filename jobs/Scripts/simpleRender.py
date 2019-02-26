@@ -11,6 +11,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.
 from jobs_launcher.core.config import main_logger
 import report_sceleton
 import datetime
+import pyautogui
 
 
 def get_windows_titles():
@@ -59,7 +60,7 @@ def main():
     with open(os.path.join(os.path.dirname(__file__), 'config.json'), 'r') as file:
         config_template = json.loads(file.read())
 
-    imgui_ini = os.path.join(args.output_dir, 'imgui.ini')
+    imgui_ini = os.path.join(args.render_path, 'imgui.ini')
     if os.path.exists(imgui_ini):
         os.remove(imgui_ini)
         shutil.copyfile(os.path.join(os.path.dirname(__file__), 'imgui.ini'), imgui_ini)
@@ -74,28 +75,45 @@ def main():
             test_report['render_color_path'] = test['name'] + test['file_ext']
             # TODO: get gpu name
             test_report['render_time'] = 1
-            test_report['test_status'] = 'passed'
+            test_report['test_status'] = 'failed'
             test_report['date_time'] = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
             config_template['engine'] = args.render_engine
-            config_template['scene']['path'] = os.path.join(args.scene_path, test['scene_sub_path'])
+            config_template['scene']['path'] = os.path.normpath(os.path.join(args.scene_path, test['scene_sub_path']))
+            config_template['animation'] = test['animation']
 
             with open(os.path.join(args.render_path, "config.json"), 'w') as file:
                 json.dump(config_template, file)
 
             os.chdir(args.render_path)
-            p = psutil.Popen([os.path.join(args.render_path, "RadeonProViewer.exe")], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            p = psutil.Popen([os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe"))],
+                             stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
+            stdout, stderr = b"", b""
             try:
                 stdout, stderr = p.communicate(timeout=test['render_time'])
             except subprocess.TimeoutExpired:
-                # TODO: grab only specific window
-                error_screen = pyscreenshot.grab()
-                error_screen.save(os.path.join(args.output_dir, test['name'] + test['file_ext']))
+                # if app works during 'render_time' - mark test as passed
+                try:
+                    test_report['test_status'] = 'passed'
+                    # FIX: region coordinates
+                    app_image = pyautogui.screenshot(os.path.normpath(os.path.join(args.output_dir, test['name'] + test['file_ext'])),
+                                                     region=(50, 50, 1580, 1068))
+                except Exception:
+                    pass
 
                 for child in reversed(p.children(recursive=True)):
                     child.terminate()
                 p.terminate()
+            else:
+                test_report['test_status'] = 'error'
+            finally:
+                with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
+                    file.write("[STDOUT]\n\n")
+                    file.write(stdout.decode("UTF-8"))
+                with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
+                    file.write("\n[STDERR]\n\n")
+                    file.write(stderr.decode("UTF-8"))
 
             with open(os.path.join(args.output_dir, test['name'] + '_RPR.json'), 'w') as file:
                 json.dump([test_report], file, indent=4)

@@ -1,4 +1,18 @@
 [
-    {"name": "Duck", "status": "active", "scene_sub_path": "Duck/glTF/Duck.gltf", "file_ext": ".jpg", "render_time": 10},
-    {"name": "Buggy", "status": "active", "scene_sub_path": "Buggy/glTF/Buggy.gltf", "file_ext": ".png", "render_time": 10}
+    {
+        "name": "Duck",
+        "status": "active",
+        "scene_sub_path": "Duck/glTF/Duck.gltf",
+        "file_ext": ".jpg",
+        "render_time": 20,
+        "animation": "off"
+    },
+    {
+        "name": "Buggy",
+        "status": "active",
+        "scene_sub_path": "Buggy/glTF/Buggy.gltf",
+        "file_ext": ".png",
+        "render_time": 20,
+        "animation": "off"
+    }
 ]
