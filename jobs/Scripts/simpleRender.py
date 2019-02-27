@@ -4,7 +4,6 @@ import os
 import subprocess
 import psutil
 import ctypes
-import pyscreenshot
 import json
 import shutil
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
@@ -73,7 +72,12 @@ def main():
             test_report['tool'] = args.render_engine
             test_report['test_case'] = test['name']
             test_report['render_color_path'] = test['name'] + test['file_ext']
-            # TODO: get gpu name
+            try:
+                s = subprocess.Popen("wmic path win32_VideoController get name", stdout=subprocess.PIPE)
+                stdout = s.communicate()
+                test_report['render_device'] = stdout[0].decode("utf-8").split('\n')[1].replace('\r', '').strip(' ')
+            except:
+                pass
             test_report['render_time'] = 1
             test_report['test_status'] = 'failed'
             test_report['date_time'] = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
