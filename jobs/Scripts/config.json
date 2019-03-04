@@ -13,6 +13,8 @@
     "intensity":  1.5
   },
 
+  "uiConfig" : "UIConfig.json",
+
   "default_light": {
     "add": "yes",
     "position": [ 0.0, 20.0, 20.0, 1.0 ],

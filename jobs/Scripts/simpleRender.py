@@ -87,7 +87,7 @@ def main():
             config_template['animation'] = test['animation']
 
             with open(os.path.join(args.render_path, "config.json"), 'w') as file:
-                json.dump(config_template, file)
+                json.dump(config_template, file, indent=4)
 
             os.chdir(args.render_path)
             p = psutil.Popen([os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe"))],
