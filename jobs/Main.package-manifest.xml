@@ -5,7 +5,7 @@
     <variable name="ScenesDir" value="{ResPath}"/>
     <variable name="CommonDir" value="{CWD}/../jobs_launcher/common"/>
     <variable name="BaselineDir" value="{CWD}/../Work/Baseline"/>
-    <variable name="RenderPath" value="{CWD}/../Viewer/RprViewer/"/>
+    <variable name="RenderPath" value="{CWD}/../RprViewer/"/>
 
     <option name="RenderEngine">
         <configuration name="OpenGL">

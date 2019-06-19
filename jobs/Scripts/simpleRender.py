@@ -56,13 +56,15 @@ def main():
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
 
-    with open(os.path.join(os.path.dirname(__file__), 'config.json'), 'r') as file:
+    if not os.path.exists(os.path.join(args.render_path, 'config.original.json')):
+        shutil.copyfile(os.path.join(args.render_path, 'config.json'), os.path.join(args.render_path, 'config.original.json'))
+    with open(os.path.join(args.render_path, 'config.original.json'), 'r') as file:
         config_template = json.loads(file.read())
 
-    imgui_ini = os.path.join(args.render_path, 'imgui.ini')
-    if os.path.exists(imgui_ini):
-        os.remove(imgui_ini)
-        shutil.copyfile(os.path.join(os.path.dirname(__file__), 'imgui.ini'), imgui_ini)
+    # imgui_ini = os.path.join(args.render_path, 'imgui.ini')
+    # if os.path.exists(imgui_ini):
+    #     os.remove(imgui_ini)
+    #     shutil.copyfile(os.path.join(os.path.dirname(__file__), 'imgui.ini'), imgui_ini)
 
     for test in tests_list:
         if test['status'] == 'active':
@@ -82,9 +84,14 @@ def main():
             test_report['test_status'] = 'failed'
             test_report['date_time'] = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
+            config_template.update(test['config_parameters'])
+
             config_template['engine'] = args.render_engine
+            config_template['iterations_per_frame'] = 10
+            config_template['save_frames'] = 'yes'
+            config_template['frame_exit_after'] = 3
+
             config_template['scene']['path'] = os.path.normpath(os.path.join(args.scene_path, test['scene_sub_path']))
-            config_template['animation'] = test['animation']
 
             with open(os.path.join(args.render_path, "config.json"), 'w') as file:
                 json.dump(config_template, file, indent=4)
@@ -99,10 +106,10 @@ def main():
             except subprocess.TimeoutExpired:
                 # if app works during 'render_time' - mark test as passed
                 try:
-                    test_report['test_status'] = 'passed'
+                    test_report['test_status'] = 'error'
                     # FIX: region coordinates
-                    app_image = pyautogui.screenshot(os.path.normpath(os.path.join(args.output_dir, test['name'] + test['file_ext'])),
-                                                     region=(50, 50, 1580, 1068))
+                    # app_image = pyautogui.screenshot(os.path.normpath(os.path.join(args.output_dir, test['name'] + test['file_ext'])),
+                    #                                  region=(50, 50, 1580, 1068))
                 except Exception:
                     pass
 
@@ -110,12 +117,16 @@ def main():
                     child.terminate()
                 p.terminate()
             else:
-                test_report['test_status'] = 'error'
+                test_report['test_status'] = 'passed'
             finally:
-                with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
+                shutil.move(os.path.join(args.render_path, 'img0001.png'), os.path.join(args.output_dir, test['name'] + '0.png'))
+                shutil.move(os.path.join(args.render_path, 'img0002.png'), os.path.join(args.output_dir, test['name'] + '.png'))
+                # with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
+                with open(os.path.join(args.output_dir, 'renderTool.log'), 'w') as file:
                     file.write("[STDOUT]\n\n")
                     file.write(stdout.decode("UTF-8"))
-                with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
+                # with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
+                with open(os.path.join(args.output_dir, 'renderTool.log'), 'a') as file:
                     file.write("\n[STDERR]\n\n")
                     file.write(stderr.decode("UTF-8"))
 
