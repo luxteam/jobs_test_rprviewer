@@ -10,7 +10,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.
 from jobs_launcher.core.config import main_logger
 import report_sceleton
 import datetime
-import pyautogui
 
 
 def get_windows_titles():
