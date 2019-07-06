@@ -118,8 +118,14 @@ def main():
             else:
                 test_report['test_status'] = 'passed'
             finally:
-                shutil.move(os.path.join(args.render_path, 'img0001.png'), os.path.join(args.output_dir, test['name'] + '0.png'))
-                shutil.move(os.path.join(args.render_path, 'img0002.png'), os.path.join(args.output_dir, test['name'] + '.png'))
+                try:
+                    shutil.move(os.path.join(args.render_path, 'img0001.png'), os.path.join(args.output_dir, test['name'] + '0.png'))
+                except FileNotFoundError:
+                    main_logger.error("Image not found")
+                try:
+                    shutil.move(os.path.join(args.render_path, 'img0002.png'), os.path.join(args.output_dir, test['name'] + '.png'))
+                except FileNotFoundError:
+                    main_logger.error("Image not found")
                 # with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
                 with open(os.path.join(args.output_dir, 'renderTool.log'), 'w') as file:
                     file.write("[STDOUT]\n\n")
