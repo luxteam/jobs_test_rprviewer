@@ -8,12 +8,6 @@
     <variable name="RenderPath" value="{CWD}/../RprViewer/"/>
 
     <option name="RenderEngine">
-        <configuration name="OpenGL">
-            <value>ogl</value>
-        </configuration>
-        <configuration name="RadeonProRender">
-            <value>rpr</value>
-        </configuration>
         <configuration name="Hybrid">
             <value>hyb</value>
         </configuration>
