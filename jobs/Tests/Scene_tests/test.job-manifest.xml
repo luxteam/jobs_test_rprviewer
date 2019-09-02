@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<job-manifest name="Scene_tests">
+
+    <outpath value="{OutputDir}"/>
+
+    <execute command='python "{ResourcesDir}/simpleRender.py"'>
+        <argument>--tests_list "{Root}\\Tests/Scene_tests/test.cases.json"</argument>
+        <argument>--output_dir "{OutputDir}"</argument>
+        <argument>--render_engine hyb</argument>
+        <argument>--scene_path "{ScenesDir}"</argument>
+        <argument>--render_path "{RenderPath}"</argument>
+    </execute>
+
+    <execute command='python "{CWD}/Scripts/make_report_json.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+    </execute>
+
+    <!--<execute command='python "{CommonDir}/scripts/checkExpected.py"'>-->
+        <!--<argument>&#45;&#45;work_dir "{OutputDir}"</argument>-->
+    <!--</execute>-->
+
+    <execute command='python "{CommonDir}/scripts/ImageComparator/compareByJSON.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+        <argument>--base_dir "{BaselineDir}"</argument>
+    </execute>
+
+</job-manifest>
