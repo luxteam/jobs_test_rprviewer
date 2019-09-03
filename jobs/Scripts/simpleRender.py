@@ -56,6 +56,8 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
     with open(os.path.join(render_path, "config.json"), 'w') as file:
         json.dump(tmp, file, indent=4)
 
+    return frame_exit_after
+
 
 def pre_render(test, args, render_device, suite=None):
     ''' function make json report with '''
@@ -121,7 +123,7 @@ def main():
 
         main_logger.info("Processing test: {}".format(test['name']))
 
-        update_viewer_config(
+        frame_ae = update_viewer_config(
             test=test,
             engine=args.render_engine,
             render_path=args.render_path,
@@ -153,14 +155,9 @@ def main():
         else:
            test_case_status = 'passed'
         finally:
+
             try:
-                shutil.move(os.path.join(args.render_path, 'img0001.png'), os.path.join(args.output_dir, test['name'] + '0.png'))
-            except FileNotFoundError:
-                main_logger.error("Image not found")
-                test_case_status = 'error'
-            
-            try:
-                shutil.move(os.path.join(args.render_path, 'img0002.png'), os.path.join(args.output_dir, test['name'] + '.png'))
+                shutil.move(os.path.join(args.render_path, 'img000{frame_ae}.png'.format(frame_ae)), os.path.join(args.output_dir, 'Color', test['name'] + '.png'))
             except FileNotFoundError:
                 main_logger.error("Image not found")
                 test_case_status = 'error'
