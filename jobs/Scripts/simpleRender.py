@@ -123,13 +123,13 @@ def main():
 
         main_logger.info("Processing test: {}".format(test['name']))
 
-        frame_ae = update_viewer_config(
-            test=test,
-            engine=args.render_engine,
-            render_path=args.render_path,
-            scene_path=args.scene_path,
-            tmp=config_tmp
-        )
+        frame_ae = str(update_viewer_config(
+                    test=test,
+                    engine=args.render_engine,
+                    render_path=args.render_path,
+                    scene_path=args.scene_path,
+                    tmp=config_tmp
+                ))
 
         # Run RPRViewer
         os.chdir(args.render_path)
