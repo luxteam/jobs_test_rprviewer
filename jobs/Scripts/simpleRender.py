@@ -157,7 +157,7 @@ def main():
         finally:
 
             try:
-                shutil.move(os.path.join(args.render_path, 'img000{0}.png'.format(frame_ae)), os.path.join(args.output_dir, 'Color', test['name'] + '.png'))
+                shutil.move(os.path.join(args.render_path, 'img{0}.png'.format('0' * (4-len(frame_ae)) + frame_ae)), os.path.join(args.output_dir, 'Color', test['name'] + '.png'))
             except FileNotFoundError:
                 main_logger.error("Image not found")
                 test_case_status = 'error'
