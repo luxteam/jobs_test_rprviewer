@@ -65,7 +65,7 @@ def pre_render(test, args, render_device, suite=None):
 
     # Create IMG in /Color
     main_logger.info(args.output_dir)
-    shutil.copyfile(os.path.join(args.output_dir, '../../../../../jobs/Tests/{0}.jpg'.format(status)), os.path.join(args.output_dir, 'Color/{0}_RPR.jpg'.format(test["name"])))
+    shutil.copyfile(os.path.join(args.output_dir, '../../../../../jobs/Tests/{0}.jpg'.format(status)), os.path.join(args.output_dir, 'Color/{0}.png'.format(test["name"])))
 
     # Create JSON
     template_report = RENDER_REPORT_BASE
@@ -157,7 +157,7 @@ def main():
         finally:
 
             try:
-                shutil.move(os.path.join(args.render_path, 'img000{frame_ae}.png'.format(frame_ae)), os.path.join(args.output_dir, 'Color', test['name'] + '.png'))
+                shutil.move(os.path.join(args.render_path, 'img000{0}.png'.format(frame_ae)), os.path.join(args.output_dir, 'Color', test['name'] + '.png'))
             except FileNotFoundError:
                 main_logger.error("Image not found")
                 test_case_status = 'error'
