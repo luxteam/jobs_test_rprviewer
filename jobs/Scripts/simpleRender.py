@@ -44,7 +44,21 @@ def create_args_parser():
     return parser.parse_args()
 
 
+def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_after=3, iterations_per_frame=10, save_frames='yes'):
+    # Refresh Viewer config for test case
+    tmp.update(test['config_parameters'])
+    tmp['engine'] = engine
+    tmp['iterations_per_frame'] = iterations_per_frame
+    tmp['save_frames'] = save_frames
+    tmp['frame_exit_after'] = frame_exit_after
+    tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
+
+    with open(os.path.join(render_path, "config.json"), 'w') as file:
+        json.dump(tmp, file, indent=4)
+
+
 def pre_render(test, args, render_device, suite=None):
+    ''' function make json report with '''
     status, r = ("skipped", True) if test["status"] == "skipped" else ("failed", False)
 
     # Create IMG in /Color
@@ -93,7 +107,7 @@ def main():
     if not os.path.exists(os.path.join(args.render_path, 'config.original.json')):
         shutil.copyfile(os.path.join(args.render_path, 'config.json'), os.path.join(args.render_path, 'config.original.json'))
     with open(os.path.join(args.render_path, 'config.original.json'), 'r') as file:
-        config_template = json.loads(file.read())
+        config_tmp = json.loads(file.read())
 
     # imgui_ini = os.path.join(args.render_path, 'imgui.ini')
     # if os.path.exists(imgui_ini):
@@ -101,21 +115,19 @@ def main():
     #     shutil.copyfile(os.path.join(os.path.dirname(__file__), 'imgui.ini'), imgui_ini)
 
     for test in tests_list:
+        # if function pre_render return true, then test case has skipped status
         if pre_render(test, args, render_device):
             continue
 
         main_logger.info("Processing test: {}".format(test['name']))
 
-        # Refresh Viewer config for test case
-        config_template.update(test['config_parameters'])
-        config_template['engine'] = args.render_engine
-        config_template['iterations_per_frame'] = 10
-        config_template['save_frames'] = 'yes'
-        config_template['frame_exit_after'] = 3
-        config_template['scene']['path'] = os.path.normpath(os.path.join(args.scene_path, test['scene_sub_path']))
-
-        with open(os.path.join(args.render_path, "config.json"), 'w') as file:
-            json.dump(config_template, file, indent=4)
+        update_viewer_config(
+            test=test,
+            engine=args.render_engine,
+            render_path=args.render_path,
+            scene_path=args.scene_path,
+            tmp=config_tmp
+        )
 
         # Run RPRViewer
         os.chdir(args.render_path)
@@ -146,6 +158,7 @@ def main():
             except FileNotFoundError:
                 main_logger.error("Image not found")
                 test_case_status = 'error'
+            
             try:
                 shutil.move(os.path.join(args.render_path, 'img0002.png'), os.path.join(args.output_dir, test['name'] + '.png'))
             except FileNotFoundError:
