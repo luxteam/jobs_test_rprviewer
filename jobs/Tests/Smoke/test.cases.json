@@ -2,17 +2,52 @@
     {
         "name": "Duck",
         "status": "active",
-        "scene_sub_path": "Duck/glTF/Duck.gltf",
-        "file_ext": ".jpg",
+        "file_ext": ".png",
         "render_time": 20,
-        "animation": "off"
+        "scene_sub_path": "Duck/glTF/Duck.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "environment_light": {
+                "add": "yes",
+                "source": "sky.hdr",
+                "intensity": 1.5
+            },
+            "textures": {
+                "flip_y": "yes"
+            }
+        }
     },
+
     {
         "name": "Buggy",
         "status": "active",
-        "scene_sub_path": "Buggy/glTF/Buggy.gltf",
         "file_ext": ".png",
         "render_time": 20,
-        "animation": "off"
+        "scene_sub_path": "Buggy/glTF/Buggy.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "environment_light": {
+                "add": "yes",
+                "source": "sky.hdr",
+                "intensity": 1.5
+            },
+            "textures": {
+                "flip_y": "yes"
+            }
+        }
+    },
+
+    {
+        "name": "generic-mike-v19",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 20,
+        "scene_sub_path": "generic-mike-v19/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off"
+        }
     }
 ]
