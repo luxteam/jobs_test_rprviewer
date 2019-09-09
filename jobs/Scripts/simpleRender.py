@@ -40,6 +40,7 @@ def create_args_parser():
     parser.add_argument('--render_engine', required=True)
     parser.add_argument('--scene_path', required=True)
     parser.add_argument('--render_path', required=True, metavar="<path>")
+    parser.add_argument('--test_group', required=True)
     return parser.parse_args()
 
 
@@ -117,7 +118,7 @@ def main():
 
     for test in tests_list:
         # if function pre_render return true, then test case has skipped status
-        if pre_render(test, args, render_device):
+        if pre_render(test, args, render_device, suite=args.test_group):
             continue
 
         main_logger.info("Processing test: {}".format(test['name']))

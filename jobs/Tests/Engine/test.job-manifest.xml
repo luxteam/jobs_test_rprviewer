@@ -9,6 +9,7 @@
         <argument>--render_engine {RenderEngine[value]}</argument>
         <argument>--scene_path "{ScenesDir}"</argument>
         <argument>--render_path "{RenderPath}"</argument>
+        <argument>--test_group Engine</argument>
     </execute>
 
     <execute command='python "{CWD}/Scripts/make_report_json.py"'>
