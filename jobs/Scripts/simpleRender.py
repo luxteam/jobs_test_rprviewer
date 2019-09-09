@@ -8,7 +8,6 @@ import json
 import shutil
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
 from jobs_launcher.core.config import main_logger, RENDER_REPORT_BASE
-import report_sceleton
 import datetime
 
 
@@ -143,9 +142,6 @@ def main():
             # if app works during 'render_time' - mark test as passed
             try:
                 test_case_status = 'error'
-                # FIX: region coordinates
-                # app_image = pyautogui.screenshot(os.path.normpath(os.path.join(args.output_dir, test['name'] + test['file_ext'])),
-                #                                  region=(50, 50, 1580, 1068))
             except Exception:
                 pass
 
@@ -176,6 +172,7 @@ def main():
             with open(os.path.join(args.output_dir, test['name'] + '_RPR.json'), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
                 test_case_report["test_status"] = test_case_status
+                test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
             
             with open(os.path.join(args.output_dir, test['name'] + '_RPR.json'), 'w') as file:
                 json.dump([test_case_report], file, indent=4)
