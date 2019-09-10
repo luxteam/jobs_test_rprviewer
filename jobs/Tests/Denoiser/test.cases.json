@@ -14,7 +14,12 @@
             "denoiser": "none",
          "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - none",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -32,7 +37,12 @@
              "denoiser": "none",
            "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - none",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
     
     {
@@ -50,7 +60,12 @@
              "denoiser": "none",
        "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - none",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -68,7 +83,12 @@
             "denoiser": "none",
         "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - none",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -86,7 +106,12 @@
             "denoiser": "none",
         "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - none",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -104,7 +129,12 @@
             "denoiser": "none",
       "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - none",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -122,7 +152,12 @@
             "denoiser": "none",
        "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - none",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
   {
@@ -140,7 +175,12 @@
             "denoiser": "rpml",
 			"render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -158,7 +198,12 @@
             "denoiser": "rpml",
   			"render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
     
     {
@@ -176,7 +221,12 @@
             "denoiser": "rpml",
          "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -194,7 +244,12 @@
             "denoiser": "rpml",
         "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -212,7 +267,12 @@
             "denoiser": "rpml",
       		"render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -230,7 +290,12 @@
             "denoiser": "rpml",
         "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -248,7 +313,12 @@
            "denoiser": "rpml",
          "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     }, 
     {
         "name": "RS_VIEW_D_015",
@@ -266,7 +336,13 @@
             "denoiser_split_screen": false,
          "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - false"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -285,7 +361,13 @@
             "denoiser_split_screen": false,
         "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - false"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
     
     {
@@ -304,7 +386,13 @@
             "denoiser_split_screen": false,
         "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - false"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -323,7 +411,13 @@
             "denoiser_split_screen": false,
    			"render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - false"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -342,7 +436,13 @@
             "denoiser_split_screen": false,
          "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - false"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -361,7 +461,13 @@
             "denoiser_split_screen": false,
        "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - false"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -380,7 +486,13 @@
             "denoiser_split_screen": false,
       "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - false"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     }, 
 
     {
@@ -399,7 +511,13 @@
             "denoiser_split_screen": true,
           "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - true"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -418,7 +536,13 @@
             "denoiser_split_screen": true,
        "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - true"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
     
     {
@@ -437,7 +561,13 @@
             "denoiser_split_screen": true,
      "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - true"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -456,7 +586,13 @@
             "denoiser_split_screen": true,
           "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - true"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -475,7 +611,13 @@
             "denoiser_split_screen": true,
        "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - true"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -494,7 +636,13 @@
             "denoiser_split_screen": true,
         "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - true"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     },
 
     {
@@ -513,6 +661,12 @@
             "denoiser_split_screen": true,
           "render_quality": 2,
             "draw_engine": "vw_d3d12"
-        }
+        },
+        "script_info": [
+            "denoiser - rpml",
+            "denoiser_split_screen - true"
+            "draw_engine - D3D",
+            "engine - Hybrid"
+        ]
     } 
 ]
