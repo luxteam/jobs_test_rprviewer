@@ -15,7 +15,11 @@
             "draw_engine": "vw_vulkan",
              "height": 720,
             "width": 1280
-        }
+        },
+        "script_info": [
+            "height - 720",
+            "width - 1280"
+        ]
     },
 
     {
@@ -34,7 +38,11 @@
             "draw_engine": "vw_vulkan",
                "height": 720,
             "width": 1280
-        }
+        },
+        "script_info": [
+            "height - 720",
+            "width - 1280"
+        ]
     },
     
     {
@@ -53,7 +61,11 @@
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
-        }
+        },
+        "script_info": [
+            "height - 720",
+            "width - 1280"
+        ]
     },
 
     {
@@ -72,7 +84,11 @@
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
-        }
+        },
+        "script_info": [
+            "height - 720",
+            "width - 1280"
+        ]
     },
 
     {
@@ -91,7 +107,11 @@
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
-        }
+        },
+        "script_info": [
+            "height - 720",
+            "width - 1280"
+        ]
     },
 
     {
@@ -110,7 +130,11 @@
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
-        }
+        },
+        "script_info": [
+            "height - 720",
+            "width - 1280"
+        ]
     },
 
     {
@@ -129,7 +153,11 @@
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
-        }
+        },
+        "script_info": [
+            "height - 720",
+            "width - 1280"
+        ]
     },
 
   {
@@ -148,7 +176,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
-        }
+        },
+        "script_info": [
+            "height - 1080",
+            "width - 1920"
+        ]
     },
 
     {
@@ -167,7 +199,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
-        }
+        },
+        "script_info": [
+            "height - 1080",
+            "width - 1920"
+        ]
     },
     
     {
@@ -186,7 +222,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
-        }
+        },
+        "script_info": [
+            "height - 1080",
+            "width - 1920"
+        ]
     },
 
     {
@@ -205,7 +245,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
-        }
+        },
+        "script_info": [
+            "height - 1080",
+            "width - 1920"
+        ]
     },
 
     {
@@ -224,7 +268,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
-        }
+        },
+        "script_info": [
+            "height - 1080",
+            "width - 1920"
+        ]
     },
 
     {
@@ -243,7 +291,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
-        }
+        },
+        "script_info": [
+            "height - 1080",
+            "width - 1920"
+        ]
     },
 
     {
@@ -262,7 +314,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
-        }
+        },
+        "script_info": [
+            "height - 1080",
+            "width - 1920"
+        ]
     }, 
     {
         "name": "RS_CONF_RES_015",
@@ -280,7 +336,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
-        }
+        },
+        "script_info": [
+            "height - 1",
+            "width - 1"
+        ]
     },
 
     {
@@ -299,7 +359,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
-        }
+        },
+        "script_info": [
+            "height - 1",
+            "width - 1"
+        ]
     },
     
     {
@@ -318,7 +382,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
-        }
+        },
+        "script_info": [
+            "height - 1",
+            "width - 1"
+        ]
     },
 
     {
@@ -337,7 +405,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
-        }
+        },
+        "script_info": [
+            "height - 1",
+            "width - 1"
+        ]
     },
 
     {
@@ -356,7 +428,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
-        }
+        },
+        "script_info": [
+            "height - 1",
+            "width - 1"
+        ]
     },
 
     {
@@ -375,7 +451,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
-        }
+        },
+        "script_info": [
+            "height - 1",
+            "width - 1"
+        ]
     },
 
     {
@@ -394,7 +474,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
-        }
+        },
+        "script_info": [
+            "height - 1",
+            "width - 1"
+        ]
     }, 
 
     {
@@ -413,7 +497,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
-        }
+        },
+        "script_info": [
+            "height - 4000",
+            "width - 4000"
+        ]
     },
 
     {
@@ -432,7 +520,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
-        }
+        },
+        "script_info": [
+            "height - 4000",
+            "width - 4000"
+        ]
     },
     
     {
@@ -451,7 +543,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
-        }
+        },
+        "script_info": [
+            "height - 4000",
+            "width - 4000"
+        ]
     },
 
     {
@@ -470,7 +566,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
-        }
+        },
+        "script_info": [
+            "height - 4000",
+            "width - 4000"
+        ]
     },
 
     {
@@ -489,7 +589,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
-        }
+        },
+        "script_info": [
+            "height - 4000",
+            "width - 4000"
+        ]
     },
 
     {
@@ -508,7 +612,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
-        }
+        },
+        "script_info": [
+            "height - 4000",
+            "width - 4000"
+        ]
     },
 
     {
@@ -527,7 +635,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
-        }
+        },
+        "script_info": [
+            "height - 4000",
+            "width - 4000"
+        ]
     },
 
     {
@@ -546,7 +658,11 @@
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
-        }
+        },
+        "script_info": [
+            "height - 360",
+            "width - 640"
+        ]
     },
 
     {
@@ -565,7 +681,11 @@
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
-        }
+        },
+        "script_info": [
+            "height - 360",
+            "width - 640"
+        ]
     },
     
     {
@@ -584,7 +704,11 @@
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
-        }
+        },
+        "script_info": [
+            "height - 360",
+            "width - 640"
+        ]
     },
 
     {
@@ -603,7 +727,11 @@
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
-        }
+        },
+        "script_info": [
+            "height - 360",
+            "width - 640"
+        ]
     },
 
     {
@@ -622,7 +750,11 @@
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
-        }
+        },
+        "script_info": [
+            "height - 360",
+            "width - 640"
+        ]
     },
 
     {
@@ -641,7 +773,11 @@
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
-        }
+        },
+        "script_info": [
+            "height - 360",
+            "width - 640"
+        ]
     },
 
     {
@@ -660,7 +796,11 @@
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
-        }
+        },
+        "script_info": [
+            "height - 360",
+            "width - 640"
+        ]
     }, 
 
     {
@@ -679,7 +819,11 @@
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
-        }
+        },
+        "script_info": [
+            "height - 540",
+            "width - 960"
+        ]
     },
 
     {
@@ -698,7 +842,11 @@
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
-        }
+        },
+        "script_info": [
+            "height - 540",
+            "width - 960"
+        ]
     },
     
     {
@@ -717,7 +865,11 @@
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
-        }
+        },
+        "script_info": [
+            "height - 540",
+            "width - 960"
+        ]
     },
 
     {
@@ -736,7 +888,11 @@
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
-        }
+        },
+        "script_info": [
+            "height - 540",
+            "width - 960"
+        ]
     },
 
     {
@@ -755,7 +911,11 @@
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
-        }
+        },
+        "script_info": [
+            "height - 540",
+            "width - 960"
+        ]
     },
 
     {
@@ -774,7 +934,11 @@
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
-        }
+        },
+        "script_info": [
+            "height - 540",
+            "width - 960"
+        ]
     },
 
     {
@@ -793,7 +957,11 @@
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
-        }
+        },
+        "script_info": [
+            "height - 540",
+            "width - 960"
+        ]
     },
 
     {
@@ -812,7 +980,11 @@
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
-        }
+        },
+        "script_info": [
+            "height - 900",
+            "width - 1600"
+        ]
     },
 
     {
@@ -831,7 +1003,11 @@
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
-        }
+        },
+        "script_info": [
+            "height - 900",
+            "width - 1600"
+        ]
     },
     
     {
@@ -850,7 +1026,11 @@
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
-        }
+        },
+        "script_info": [
+            "height - 900",
+            "width - 1600"
+        ]
     },
 
     {
@@ -869,7 +1049,11 @@
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
-        }
+        },
+        "script_info": [
+            "height - 900",
+            "width - 1600"
+        ]
     },
 
     {
@@ -888,7 +1072,11 @@
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
-        }
+        },
+        "script_info": [
+            "height - 900",
+            "width - 1600"
+        ]
     },
 
     {
@@ -907,7 +1095,11 @@
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
-        }
+        },
+        "script_info": [
+            "height - 900",
+            "width - 1600"
+        ]
     },
 
     {
@@ -926,7 +1118,11 @@
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
-        }
+        },
+        "script_info": [
+            "height - 900",
+            "width - 1600"
+        ]
     },
 
     {
@@ -945,7 +1141,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
-        }
+        },
+        "script_info": [
+            "height - 1800",
+            "width - 3200"
+        ]
     },
 
     {
@@ -964,7 +1164,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
-        }
+        },
+        "script_info": [
+            "height - 1800",
+            "width - 3200"
+        ]
     },
     
     {
@@ -983,7 +1187,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
-        }
+        },
+        "script_info": [
+            "height - 1800",
+            "width - 3200"
+        ]
     },
 
     {
@@ -1002,7 +1210,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
-        }
+        },
+        "script_info": [
+            "height - 1800",
+            "width - 3200"
+        ]
     },
 
     {
@@ -1021,7 +1233,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
-        }
+        },
+        "script_info": [
+            "height - 1800",
+            "width - 3200"
+        ]
     },
 
     {
@@ -1040,7 +1256,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
-        }
+        },
+        "script_info": [
+            "height - 1800",
+            "width - 3200"
+        ]
     },
 
     {
@@ -1059,7 +1279,11 @@
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
-        }
+        },
+        "script_info": [
+            "height - 1800",
+            "width - 3200"
+        ]
     },
 
     {
@@ -1078,7 +1302,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
-        }
+        },
+        "script_info": [
+            "height - 2160",
+            "width - 3840"
+        ]
     },
 
     {
@@ -1097,7 +1325,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
-        }
+        },
+        "script_info": [
+            "height - 2160",
+            "width - 3840"
+        ]
     },
     
     {
@@ -1116,7 +1348,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
-        }
+        },
+        "script_info": [
+            "height - 2160",
+            "width - 3840"
+        ]
     },
 
     {
@@ -1135,7 +1371,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
-        }
+        },
+        "script_info": [
+            "height - 2160",
+            "width - 3840"
+        ]
     },
 
     {
@@ -1154,7 +1394,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
-        }
+        },
+        "script_info": [
+            "height - 2160",
+            "width - 3840"
+        ]
     },
 
     {
@@ -1173,7 +1417,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
-        }
+        },
+        "script_info": [
+            "height - 2160",
+            "width - 3840"
+        ]
     },
 
     {
@@ -1192,7 +1440,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
-        }
+        },
+        "script_info": [
+            "height - 2160",
+            "width - 3840"
+        ]
     },
 
     {
@@ -1211,7 +1463,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
-        }
+        },
+        "script_info": [
+            "height - 2880",
+            "width - 5120"
+        ]
     },
 
     {
@@ -1230,7 +1486,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
-        }
+        },
+        "script_info": [
+            "height - 2880",
+            "width - 5120"
+        ]
     },
     
     {
@@ -1249,7 +1509,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
-        }
+        },
+        "script_info": [
+            "height - 2880",
+            "width - 5120"
+        ]
     },
 
     {
@@ -1268,7 +1532,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
-        }
+        },
+        "script_info": [
+            "height - 2880",
+            "width - 5120"
+        ]
     },
 
     {
@@ -1287,7 +1555,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
-        }
+        },
+        "script_info": [
+            "height - 2880",
+            "width - 5120"
+        ]
     },
 
     {
@@ -1306,7 +1578,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
-        }
+        },
+        "script_info": [
+            "height - 2880",
+            "width - 5120"
+        ]
     },
 
     {
@@ -1325,7 +1601,11 @@
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
-        }
+        },
+        "script_info": [
+            "height - 2880",
+            "width - 5120"
+        ]
     },
 
  {
@@ -1344,7 +1624,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
-        }
+        },
+        "script_info": [
+            "height - 4320",
+            "width - 7680"
+        ]
     },
 
     {
@@ -1363,7 +1647,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
-        }
+        },
+        "script_info": [
+            "height - 4320",
+            "width - 7680"
+        ]
     },
     
     {
@@ -1382,7 +1670,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
-        }
+        },
+        "script_info": [
+            "height - 4320",
+            "width - 7680"
+        ]
     },
 
     {
@@ -1401,7 +1693,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
-        }
+        },
+        "script_info": [
+            "height - 4320",
+            "width - 7680"
+        ]
     },
 
     {
@@ -1420,7 +1716,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
-        }
+        },
+        "script_info": [
+            "height - 4320",
+            "width - 7680"
+        ]
     },
 
     {
@@ -1439,7 +1739,11 @@
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
-        }
+        },
+        "script_info": [
+            "height - 4320",
+            "width - 7680"
+        ]
     },
 
     {
@@ -1458,6 +1762,10 @@
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
-        }
+        },
+        "script_info": [
+            "height - 4320",
+            "width - 7680"
+        ]
     }   
 ]
