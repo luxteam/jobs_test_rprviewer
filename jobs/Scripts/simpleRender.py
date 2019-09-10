@@ -6,6 +6,7 @@ import psutil
 import ctypes
 import json
 import shutil
+import time
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
 from jobs_launcher.core.config import main_logger, RENDER_REPORT_BASE
 import datetime
@@ -137,6 +138,7 @@ def main():
                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
         stdout, stderr = b"", b""
+        start_time = time.time()
         try:
             stdout, stderr = p.communicate(timeout=test['render_time'])
         except subprocess.TimeoutExpired:
@@ -152,7 +154,7 @@ def main():
         else:
            test_case_status = 'passed'
         finally:
-
+            render_time = time.time() - start_time
             try:
                 shutil.move(os.path.join(args.render_path, 'img{0}.png'.format('0' * (4-len(frame_ae)) + frame_ae)), os.path.join(args.output_dir, 'Color', test['name'] + '.png'))
             except FileNotFoundError:
@@ -173,6 +175,7 @@ def main():
             with open(os.path.join(args.output_dir, test['name'] + '_RPR.json'), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
                 test_case_report["test_status"] = test_case_status
+                test_case_report["render_time"] = render_time
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
             
             with open(os.path.join(args.output_dir, test['name'] + '_RPR.json'), 'w') as file:
