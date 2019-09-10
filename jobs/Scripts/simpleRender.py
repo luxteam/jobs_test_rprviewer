@@ -78,7 +78,7 @@ def pre_render(test, args, render_device, suite=None):
     template_report['date_time'] = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
 
     # TODO: Add script info in json
-    template_report["script_info"] = test["config_parameters"]
+    template_report["script_info"] = test["script_info"]
     # TODO: Add group name
     template_report["test_group"] = suite
 
