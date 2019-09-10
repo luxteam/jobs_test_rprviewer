@@ -14,7 +14,11 @@
          "render_quality": 0,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Low mode"
+        ]
     },
 
     {
@@ -32,7 +36,11 @@
          "render_quality": 0,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Low mode"
+        ]
     },
 
     {
@@ -50,7 +58,11 @@
          "render_quality": 0,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Low mode"
+        ]
     },
 
     {
@@ -68,7 +80,11 @@
          "render_quality": 0,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Low mode"
+        ]
     },
 
     {
@@ -86,7 +102,11 @@
          "render_quality": 0,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Low mode"
+        ]
     },
 
     {
@@ -104,7 +124,11 @@
          "render_quality": 0,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Low mode"
+        ]
     },
 
     {
@@ -122,7 +146,11 @@
          "render_quality": 0,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Low mode"
+        ]
     },
 
     {
@@ -140,7 +168,11 @@
          "render_quality": 1,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Medium mode"
+        ]
     },
 
     {
@@ -158,7 +190,11 @@
          "render_quality": 1,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Medium mode"
+        ]
     },
 
     {
@@ -176,7 +212,11 @@
          "render_quality": 1,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Medium mode"
+        ]
     },
 
     {
@@ -194,7 +234,11 @@
          "render_quality": 1,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Medium mode"
+        ]
     },
 
     {
@@ -212,7 +256,11 @@
          "render_quality": 1,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Medium mode"
+        ]
     },
 
     {
@@ -230,7 +278,11 @@
          "render_quality": 1,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Medium mode"
+        ]
     },
 
     {
@@ -248,7 +300,11 @@
          "render_quality": 1,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "Medium mode"
+        ]
     },
 
     {
@@ -266,7 +322,11 @@
          "render_quality": 2,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "High mode"
+        ]
     },
 
     {
@@ -284,7 +344,11 @@
          "render_quality": 2,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "High mode"
+        ]
     },
 
     {
@@ -302,7 +366,11 @@
          "render_quality": 2,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "High mode"
+        ]
     },
 
     {
@@ -320,7 +388,11 @@
          "render_quality": 2,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "High mode"
+        ]
     },
 
     {
@@ -338,7 +410,11 @@
          "render_quality": 2,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "High mode"
+        ]
     },
 
     {
@@ -356,7 +432,11 @@
          "render_quality": 2,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "High mode"
+        ]
     },
 
     {
@@ -374,6 +454,10 @@
          "render_quality": 2,
             "draw_engine": "vw_vulkan"
             
-        }
+        },
+        "script_info": [
+            "engine - Hybrid",
+            "High mode"
+        ]
     }
 ]
