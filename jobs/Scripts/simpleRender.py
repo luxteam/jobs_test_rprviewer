@@ -85,7 +85,7 @@ def main():
         # TODO: refactor img paths
         try:
             shutil.copyfile(
-                os.path.join(os.pardir, os.pardir, 'jobs_launcher', 'common', 'img', report['status'] + '.jpg'),
+                os.path.join(os.pardir, os.pardir, 'jobs_launcher', 'common', 'img', report['test_status'] + '.jpg'),
                 os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
         except OSError or FileNotFoundError as err:
             main_logger.error("Can't create img stub: {}".format(str(err)))
