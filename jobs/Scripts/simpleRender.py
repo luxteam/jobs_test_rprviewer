@@ -44,13 +44,17 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
 def main():
     args = create_args_parser()
 
-    # TODO: try-catch on file reading
     with open(args.tests_list, 'r') as file:
-        tests_list = json.loads(file.read())
+        try:
+            tests_list = json.loads(file.read())
+        except json.decoder.JSONDecodeError as err:
+            main_logger.error(str(err))
+            exit(1)
 
     if not os.path.exists(os.path.join(args.output_dir, "Color")):
         os.makedirs(os.path.join(args.output_dir, "Color"))
 
+    # TODO: try-catch on file reading
     if not os.path.exists(os.path.join(args.render_path, 'config.original.json')):
         shutil.copyfile(os.path.join(args.render_path, 'config.json'),
                         os.path.join(args.render_path, 'config.original.json'))
