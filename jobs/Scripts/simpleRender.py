@@ -9,7 +9,8 @@ import time
 import datetime
 import platform
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir)))
+ROOT_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
+sys.path.append(ROOT_DIR_PATH)
 from jobs_launcher.core.config import *
 
 
@@ -67,8 +68,9 @@ def main():
     else:
         render_device = "undefined_" + platform.uname()[1]
 
+    main_logger.info("Creating predefined errors json...")
+
     for test in tests_list:
-        main_logger.info("Creating predefined errors json...")
         # TODO: save scene name instead of scene sub path
         report = RENDER_REPORT_BASE.copy()
         report.update({'test_status': TEST_CRASH_STATUS if test['status'] == 'active' else TEST_IGNORE_STATUS,
@@ -85,7 +87,7 @@ def main():
         # TODO: refactor img paths
         try:
             shutil.copyfile(
-                os.path.join(os.pardir, os.pardir, 'jobs_launcher', 'common', 'img', report['test_status'] + '.jpg'),
+                os.path.join(ROOT_DIR_PATH, 'jobs_launcher', 'common', 'img', report['test_status'] + test['file_ext']),
                 os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
         except OSError or FileNotFoundError as err:
             main_logger.error("Can't create img stub: {}".format(str(err)))
@@ -93,7 +95,7 @@ def main():
         with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
             json.dump([report], file, indent=4)
 
-    for test in tests_list:
+    for test in [x for x in tests_list if x['status'] == 'active']:
         main_logger.info("Processing test case: {}".format(test['name']))
 
         frame_ae = str(update_viewer_config(
@@ -104,17 +106,27 @@ def main():
             tmp=config_tmp
         ))
 
-        # Run RPRViewer
-        os.chdir(args.render_path)
-        p = psutil.Popen([os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe"))],
-                         stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        # remove old images
+        main_logger.info(os.listdir(args.render_path))
+        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0')]
+        main_logger.info("Detected old renderers: {}".format(str(old_images)))
+        for img in old_images:
+            try:
+                os.remove(os.path.join(args.render_path, img))
+            except OSError as err:
+                main_logger.error(str(err))
 
-        stdout, stderr = b"", b""
+        os.chdir(args.render_path)
+        p = psutil.Popen(os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe")),
+                         stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        stderr, stdout = b"", b""
         start_time = time.time()
+        test_case_status = TEST_CRASH_STATUS
+
         try:
             stdout, stderr = p.communicate(timeout=test['render_time'])
-        except psutil.TimeoutExpired:
-            test_case_status = TEST_CRASH_STATUS
+        except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
+            main_logger.error("Aborted by timeout. {}".format(str(err)))
             for child in reversed(p.children(recursive=True)):
                 child.terminate()
             p.terminate()
@@ -123,19 +135,17 @@ def main():
         finally:
             render_time = time.time() - start_time
             try:
-                shutil.move(os.path.join(args.render_path, 'img{0}.{1}'.format(('0' * (4 - len(frame_ae)) + frame_ae),
-                                         test['file_ext'])),
+                shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
                             os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
-            except FileNotFoundError:
-                main_logger.error("Image {} not found".format(test['name'] + test['file_ext']))
+            except FileNotFoundError as err:
+                main_logger.error("Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])))
+                main_logger.error(str(err))
                 test_case_status = TEST_CRASH_STATUS
 
             with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
-                # with open(os.path.join(args.output_dir, 'renderTool.log'), 'w') as file:
                 file.write("-----[STDOUT]------\n\n")
                 file.write(stdout.decode("UTF-8"))
             with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
-                # with open(os.path.join(args.output_dir, 'renderTool.log'), 'a') as file:
                 file.write("\n-----[STDERR]-----\n\n")
                 file.write(stderr.decode("UTF-8"))
 
@@ -145,6 +155,7 @@ def main():
                 test_case_report["test_status"] = test_case_status
                 test_case_report["render_time"] = render_time
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
+                test_case_report["render_log"] = test['name'] + '_app.log'
 
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
                 json.dump([test_case_report], file, indent=4)
