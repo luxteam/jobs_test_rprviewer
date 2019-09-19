@@ -7,10 +7,10 @@
     <variable name="BaselineDir" value="{CWD}/../Work/Baseline"/>
     <variable name="RenderPath" value="{CWD}/../RprViewer/"/>
 
-    <option name="RenderEngine">
-        <configuration name="Hybrid">
-            <value>hyb</value>
-        </configuration>
-    </option>
+<!--    <option name="RenderEngine">-->
+<!--        <configuration name="Hybrid">-->
+<!--            <value>hyb</value>-->
+<!--        </configuration>-->
+<!--    </option>-->
 </package-manifest>
 

@@ -3,7 +3,7 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{ResourcesDir}/simpleRender.py"'>
+    <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="1300">
         <argument>--tests_list "{Root}\\Tests/Resolution/test.cases.json"</argument>
         <argument>--output_dir "{OutputDir}"</argument>
         <argument>--render_engine hyb</argument>
@@ -15,10 +15,6 @@
     <execute command='python "{CWD}/Scripts/make_report_json.py"'>
         <argument>--work_dir "{OutputDir}"</argument>
     </execute>
-
-    <!--<execute command='python "{CommonDir}/scripts/checkExpected.py"'>-->
-        <!--<argument>&#45;&#45;work_dir "{OutputDir}"</argument>-->
-    <!--</execute>-->
 
     <execute command='python "{CommonDir}/scripts/ImageComparator/compareByJSON.py"'>
         <argument>--work_dir "{OutputDir}"</argument>
