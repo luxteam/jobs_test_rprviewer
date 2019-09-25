@@ -8,7 +8,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -37,7 +37,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -66,7 +66,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -95,7 +95,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -124,7 +124,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -153,7 +153,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -182,7 +182,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -211,7 +211,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -240,7 +240,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -269,7 +269,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -298,7 +298,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -327,7 +327,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -356,7 +356,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -385,7 +385,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -414,7 +414,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -443,7 +443,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -472,7 +472,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -501,7 +501,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -530,7 +530,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -559,7 +559,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -588,7 +588,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
            "default_light": {
@@ -617,7 +617,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -646,7 +646,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -675,7 +675,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -704,7 +704,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -733,7 +733,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -762,7 +762,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -791,7 +791,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -820,7 +820,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -850,7 +850,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -880,7 +880,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -910,7 +910,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -940,7 +940,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -970,7 +970,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1000,7 +1000,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1030,7 +1030,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1060,7 +1060,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1090,7 +1090,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1120,7 +1120,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1150,7 +1150,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1180,7 +1180,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1210,7 +1210,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1240,7 +1240,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1270,7 +1270,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1300,7 +1300,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1330,7 +1330,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1360,7 +1360,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1390,7 +1390,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1420,7 +1420,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
@@ -1450,7 +1450,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1474,7 +1474,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1498,7 +1498,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1522,7 +1522,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1546,7 +1546,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1570,7 +1570,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1594,7 +1594,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1618,7 +1618,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1642,7 +1642,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1666,7 +1666,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1690,7 +1690,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1714,7 +1714,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1738,7 +1738,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1762,7 +1762,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1786,7 +1786,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1810,7 +1810,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1834,7 +1834,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1858,7 +1858,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1882,7 +1882,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1906,7 +1906,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1930,7 +1930,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1954,7 +1954,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -1978,7 +1978,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2002,7 +2002,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2026,7 +2026,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2050,7 +2050,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2074,7 +2074,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2098,7 +2098,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2122,7 +2122,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2146,7 +2146,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2170,7 +2170,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2194,7 +2194,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2218,7 +2218,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2242,7 +2242,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2266,7 +2266,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2290,7 +2290,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2314,7 +2314,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2338,7 +2338,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2362,7 +2362,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2386,7 +2386,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2410,7 +2410,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
@@ -2434,7 +2434,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {

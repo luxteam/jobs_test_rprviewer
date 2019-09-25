@@ -10,7 +10,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "engine": "hyb",
@@ -37,7 +37,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -63,7 +63,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -89,7 +89,7 @@
        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -115,7 +115,7 @@
        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -141,7 +141,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -167,7 +167,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -193,7 +193,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "engine": "hyb",
@@ -220,7 +220,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -246,7 +246,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -272,7 +272,7 @@
        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -298,7 +298,7 @@
        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -324,7 +324,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -350,7 +350,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -376,7 +376,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "rpml",
             "render_quality": 2,
             "engine": "hyb",
@@ -403,7 +403,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -429,7 +429,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -455,7 +455,7 @@
        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -481,7 +481,7 @@
        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -507,7 +507,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -533,7 +533,7 @@
          "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-            "uiConfig": "scene\\UIConfig.json",
+            "uiConfig": "scene/UIConfig.json",
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
