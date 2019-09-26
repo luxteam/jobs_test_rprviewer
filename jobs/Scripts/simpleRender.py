@@ -121,8 +121,11 @@ def main():
                 main_logger.error(str(err))
 
         os.chdir(args.render_path)
-        p = psutil.Popen(os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe")),
-                         stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        if platform.system() == 'Windows':
+            viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe"))
+        elif platform.system() == 'Linux':
+            os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
+        p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stderr, stdout = b"", b""
         start_time = time.time()
         test_case_status = TEST_CRASH_STATUS
