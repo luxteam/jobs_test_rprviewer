@@ -124,7 +124,7 @@ def main():
         if platform.system() == 'Windows':
             viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe"))
         elif platform.system() == 'Linux':
-            os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
+            viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
         p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stderr, stdout = b"", b""
         start_time = time.time()
