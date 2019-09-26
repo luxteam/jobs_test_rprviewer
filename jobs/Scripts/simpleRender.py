@@ -69,6 +69,14 @@ def main():
         except Exception as err:
             render_device = "undefined_" + platform.uname()[1]
             main_logger.error("Can't define GPU: {}".format(str(err)))
+    elif platform.system() == 'Linux':
+        try:
+            s = subprocess.Popen("""clinfo - -raw | grep CL_DEVICE_BOARD_NAME | awk '{for(i=3;i<=NF;++i) printf "%s ", $i; print ""}'""", stdout=subprocess.PIPE)
+            stdout = s.communicate()
+            render_device = stdout[0].decode("utf-8").split('\n')[1].replace('\r', '').strip(' ')
+        except Exception as err:
+            render_device = "undefined_" + platform.uname()[1]
+            main_logger.error("Can't define GPU: {}".format(str(err)))
     else:
         render_device = "undefined_" + platform.uname()[1]
 
