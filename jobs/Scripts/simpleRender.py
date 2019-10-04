@@ -34,6 +34,8 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
     tmp['save_frames'] = save_frames
     tmp['frame_exit_after'] = frame_exit_after
     tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
+    if 'uiConfig' in test.keys():
+        tmp['uiConfig'] = os.path.normpath(os.path.join(scene_path, test['uiConfig']))
 
     with open(os.path.join(render_path, "config.json"), 'w') as file:
         json.dump(tmp, file, indent=4)
