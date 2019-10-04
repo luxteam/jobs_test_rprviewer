@@ -12,5 +12,11 @@
             <value>hyb</value>
         </configuration>
     </option>
+
+    <option name="RenderQuality">
+        <configuration name="High">
+            <value>2</value>
+        </configuration>
+    </option>
 </package-manifest>
 

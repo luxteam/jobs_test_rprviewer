@@ -3,10 +3,10 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{ResourcesDir}/simpleRender.py"'>
-        <argument>--tests_list "{Root}\\Tests/Benchmarks/test.cases.json"</argument>
+    <execute command='python "{ResourcesDir}/simpleRenderBenchmark.py"'>
+        <argument>--tests_list "{Root}/Tests/Benchmarks/test.cases.json"</argument>
         <argument>--output_dir "{OutputDir}"</argument>
-        <argument>--render_engine hyb</argument>
+        <argument>--render_quality {RenderQuality[value]}</argument>
         <argument>--scene_path "{ScenesDir}"</argument>
         <argument>--render_path "{RenderPath}"</argument>
         <argument>--test_group Benchmarks</argument>
