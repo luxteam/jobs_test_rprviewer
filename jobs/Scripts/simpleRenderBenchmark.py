@@ -19,6 +19,7 @@ def create_args_parser():
     parser.add_argument('--tests_list', required=True, metavar="<path>")
     parser.add_argument('--output_dir', required=True)
     parser.add_argument('--render_engine', required=True)
+    parser.add_argument('--draw_engine', required=True)
     parser.add_argument('--scene_path', required=True)
     parser.add_argument('--render_quality',required=True)
     parser.add_argument('--render_path', required=True, metavar="<path>")
@@ -37,8 +38,6 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
     tmp['frame_exit_after'] = frame_exit_after
     tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
 
-    with open(os.path.join(render_path, "config.json"), 'w') as file:
-        json.dump(tmp, file, indent=4)
 
     return frame_exit_after
 
@@ -99,6 +98,13 @@ def main():
 
         with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
             json.dump([report], file, indent=4)
+
+    #in os.listdir(args.output_dir) if os.path.isfile(bench) and bench.startswith('scene.gltf_')
+    #try:
+       # with open(os.path.join(args.output_dir, bench["name"]), "r") as file:
+
+
+
 
     for test in [x for x in tests_list if x['status'] == 'active']:
         main_logger.info("Processing test case: {}".format(test['name']))

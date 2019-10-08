@@ -12,6 +12,12 @@
             <value>hyb</value>
         </configuration>
     </option>
+    
+    <option name="DrawEngine">
+        <configuration name="Engine">
+            <value>vw_vulkan</value>
+        </configuration>
+    </option>
 
     <option name="RenderQuality">
         <configuration name="High">
