@@ -3,7 +3,7 @@
         "name": "RS_CONF_ENG_001",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -21,7 +21,7 @@
         "name": "RS_CONF_ENG_002",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -39,7 +39,7 @@
         "name": "RS_CONF_ENG_003",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -57,7 +57,7 @@
         "name": "RS_CONF_ENG_004",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -75,7 +75,7 @@
         "name": "RS_CONF_ENG_005",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -93,7 +93,7 @@
         "name": "RS_CONF_ENG_006",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -111,7 +111,7 @@
         "name": "RS_CONF_ENG_007",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -129,7 +129,7 @@
         "name": "RS_CONF_ENG_008",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -147,7 +147,7 @@
         "name": "RS_CONF_ENG_009",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -165,7 +165,7 @@
         "name": "RS_CONF_ENG_010",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -183,7 +183,7 @@
         "name": "RS_CONF_ENG_011",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -201,7 +201,7 @@
         "name": "RS_CONF_ENG_012",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -219,7 +219,7 @@
         "name": "RS_CONF_ENG_013",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -237,7 +237,7 @@
         "name": "RS_CONF_ENG_014",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -255,7 +255,7 @@
         "name": "RS_CONF_ENG_015",
         "status": "skipped",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -273,7 +273,7 @@
         "name": "RS_CONF_ENG_016",
         "status": "skipped",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -291,7 +291,7 @@
         "name": "RS_CONF_ENG_017",
         "status": "skipped",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -309,7 +309,7 @@
         "name": "RS_CONF_ENG_018",
         "status": "skipped",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -327,7 +327,7 @@
         "name": "RS_CONF_ENG_019",
         "status": "skipped",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -345,7 +345,7 @@
         "name": "RS_CONF_ENG_020",
         "status": "skipped",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -363,7 +363,7 @@
         "name": "RS_CONF_ENG_021",
         "status": "skipped",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -381,7 +381,7 @@
         "name": "RS_CONF_ENG_022",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -399,7 +399,7 @@
         "name": "RS_CONF_ENG_023",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -417,7 +417,7 @@
         "name": "RS_CONF_ENG_024",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -435,7 +435,7 @@
         "name": "RS_CONF_ENG_025",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -453,7 +453,7 @@
         "name": "RS_CONF_ENG_026",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -471,7 +471,7 @@
         "name": "RS_CONF_ENG_027",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -489,7 +489,7 @@
         "name": "RS_CONF_ENG_028",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
