@@ -23,14 +23,17 @@ def create_args_parser():
     parser.add_argument('--scene_path', required=True)
     parser.add_argument('--render_quality',required=True)
     parser.add_argument('--render_path', required=True, metavar="<path>")
+    parser.add_argument('--test_group', required=True)
     return parser.parse_args()
 
 
-def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_after=100, iterations_per_frame=1,
-                         save_frames='yes', benchmark_mode='yes', draw_engine):
+def update_viewer_config(test, engine, scene_path, render_quality, render_path, tmp, draw_engine,
+                         frame_exit_after=100, iterations_per_frame=1,
+                         save_frames='yes', benchmark_mode='yes'):
     # Refresh Viewer config for test case
     tmp.update(test['config_parameters'])
     tmp['engine'] = engine
+    tmp['render_quality'] = int(render_quality)
     tmp['iterations_per_frame'] = iterations_per_frame
     tmp['benchmark_mode']=benchmark_mode
     tmp['draw_engine']=draw_engine
@@ -38,6 +41,8 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
     tmp['frame_exit_after'] = frame_exit_after
     tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
 
+    with open(os.path.join(render_path, "config.json"), 'w') as file:
+        json.dump(tmp, file, indent=4)
 
     return frame_exit_after
 
@@ -86,6 +91,7 @@ def main():
                        'file_name': test['name'] + test['file_ext'],
                        'date_time': datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S"),
                        'script_info': test['script_info'],
+                       'test_group': args.test_group,
                        'render_color_path': 'Color/' + test['name'] + test['file_ext']
                        })
         # TODO: refactor img paths
@@ -99,23 +105,17 @@ def main():
         with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
             json.dump([report], file, indent=4)
 
-    #in os.listdir(args.output_dir) if os.path.isfile(bench) and bench.startswith('scene.gltf_')
-    #try:
-       # with open(os.path.join(args.output_dir, bench["name"]), "r") as file:
-
-
-
-
     for test in [x for x in tests_list if x['status'] == 'active']:
         main_logger.info("Processing test case: {}".format(test['name']))
 
         frame_ae = str(update_viewer_config(
             test=test,
             engine=args.render_engine,
+            scene_path=args.scene_path,
             render_quality=args.render_quality,
             render_path=args.render_path,
-            scene_path=args.scene_path,
-            tmp=config_tmp
+            tmp=config_tmp,
+            draw_engine=args.draw_engine
         ))
 
         # remove old images
@@ -160,6 +160,14 @@ def main():
             with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
                 file.write("\n-----[STDERR]-----\n\n")
                 file.write(stderr.decode("UTF-8"))
+
+            try:
+                for bench_txt in os.listdir(args.output_dir):
+                    if os.path.isfile(bench_txt) and bench_txt.startswith('scene.gltf_'):
+                       with open(os.path.join(args.output_dir, bench_txt), "r") as file:
+                        render_time = float(file.readlines()[-1].split(";")[-1])
+            except Exception as err:
+                main_logger.error("Error during bench_txt parsing: {}".format(str(err)))            
 
             # Up to date test case status
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
