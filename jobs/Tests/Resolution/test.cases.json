@@ -4,16 +4,14 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
-             "height": 720,
+            "height": 720,
             "width": 1280
         },
         "script_info": [
@@ -21,22 +19,19 @@
             "width - 1280"
         ]
     },
-
     {
         "name": "RS_CONF_RES_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
-         "config_parameters": {
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
-               "height": 720,
+            "height": 720,
             "width": 1280
         },
         "script_info": [
@@ -44,20 +39,17 @@
             "width - 1280"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
@@ -67,20 +59,17 @@
             "width - 1280"
         ]
     },
-
     {
         "name": "RS_CONF_RES_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
-       "config_parameters": {
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
@@ -90,20 +79,17 @@
             "width - 1280"
         ]
     },
-
     {
         "name": "RS_CONF_RES_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
-       "config_parameters": {
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
@@ -113,20 +99,17 @@
             "width - 1280"
         ]
     },
-
     {
         "name": "RS_CONF_RES_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
-         "config_parameters": {
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
@@ -136,20 +119,17 @@
             "width - 1280"
         ]
     },
-
     {
         "name": "RS_CONF_RES_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
-         "config_parameters": {
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
             "width": 1280
@@ -159,20 +139,17 @@
             "width - 1280"
         ]
     },
-
-  {
+    {
         "name": "RS_CONF_RES_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
-         "config_parameters": {
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
@@ -182,20 +159,17 @@
             "width - 1920"
         ]
     },
-
     {
         "name": "RS_CONF_RES_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
@@ -205,20 +179,17 @@
             "width - 1920"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
@@ -228,20 +199,17 @@
             "width - 1920"
         ]
     },
-
     {
         "name": "RS_CONF_RES_011",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
-       "config_parameters": {
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
@@ -251,20 +219,17 @@
             "width - 1920"
         ]
     },
-
     {
         "name": "RS_CONF_RES_012",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
@@ -274,20 +239,17 @@
             "width - 1920"
         ]
     },
-
     {
         "name": "RS_CONF_RES_013",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
@@ -297,20 +259,17 @@
             "width - 1920"
         ]
     },
-
     {
         "name": "RS_CONF_RES_014",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
-       "config_parameters": {
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
             "width": 1920
@@ -319,20 +278,18 @@
             "height - 1080",
             "width - 1920"
         ]
-    }, 
+    },
     {
         "name": "RS_CONF_RES_015",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
@@ -342,20 +299,17 @@
             "width - 1"
         ]
     },
-
     {
         "name": "RS_CONF_RES_016",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
@@ -365,20 +319,17 @@
             "width - 1"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_017",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
-       "config_parameters": {
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
+        "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
@@ -388,20 +339,17 @@
             "width - 1"
         ]
     },
-
     {
         "name": "RS_CONF_RES_018",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
@@ -411,20 +359,17 @@
             "width - 1"
         ]
     },
-
     {
         "name": "RS_CONF_RES_019",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
@@ -434,20 +379,17 @@
             "width - 1"
         ]
     },
-
     {
         "name": "RS_CONF_RES_020",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
@@ -457,20 +399,17 @@
             "width - 1"
         ]
     },
-
     {
         "name": "RS_CONF_RES_021",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
             "width": 1
@@ -479,21 +418,18 @@
             "height - 1",
             "width - 1"
         ]
-    }, 
-
+    },
     {
         "name": "RS_CONF_RES_022",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
@@ -503,20 +439,17 @@
             "width - 4000"
         ]
     },
-
     {
         "name": "RS_CONF_RES_023",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
@@ -526,20 +459,17 @@
             "width - 4000"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_024",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
@@ -549,20 +479,17 @@
             "width - 4000"
         ]
     },
-
     {
         "name": "RS_CONF_RES_025",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
@@ -572,20 +499,17 @@
             "width - 4000"
         ]
     },
-
     {
         "name": "RS_CONF_RES_026",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
@@ -595,20 +519,17 @@
             "width - 4000"
         ]
     },
-
     {
         "name": "RS_CONF_RES_027",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
@@ -618,20 +539,17 @@
             "width - 4000"
         ]
     },
-
     {
         "name": "RS_CONF_RES_028",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
             "width": 4000
@@ -641,20 +559,17 @@
             "width - 4000"
         ]
     },
-
     {
         "name": "RS_CONF_RES_029",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
@@ -664,20 +579,17 @@
             "width - 640"
         ]
     },
-
     {
         "name": "RS_CONF_RES_030",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
@@ -687,20 +599,17 @@
             "width - 640"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_031",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
@@ -710,20 +619,17 @@
             "width - 640"
         ]
     },
-
     {
         "name": "RS_CONF_RES_032",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
@@ -733,20 +639,17 @@
             "width - 640"
         ]
     },
-
     {
         "name": "RS_CONF_RES_033",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
@@ -756,20 +659,17 @@
             "width - 640"
         ]
     },
-
     {
         "name": "RS_CONF_RES_034",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
@@ -779,20 +679,17 @@
             "width - 640"
         ]
     },
-
     {
         "name": "RS_CONF_RES_035",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
             "width": 640
@@ -801,21 +698,18 @@
             "height - 360",
             "width - 640"
         ]
-    }, 
-
+    },
     {
         "name": "RS_CONF_RES_036",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
@@ -825,20 +719,17 @@
             "width - 960"
         ]
     },
-
     {
         "name": "RS_CONF_RES_037",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
@@ -848,20 +739,17 @@
             "width - 960"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_038",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
@@ -871,20 +759,17 @@
             "width - 960"
         ]
     },
-
     {
         "name": "RS_CONF_RES_039",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
@@ -894,20 +779,17 @@
             "width - 960"
         ]
     },
-
     {
         "name": "RS_CONF_RES_040",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
@@ -917,21 +799,18 @@
             "width - 960"
         ]
     },
-
     {
         "name": "RS_CONF_RES_041",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
             "uiConfig": "scene/UIConfig.json",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
@@ -941,20 +820,17 @@
             "width - 960"
         ]
     },
-
     {
         "name": "RS_CONF_RES_042",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
             "width": 960
@@ -964,20 +840,17 @@
             "width - 960"
         ]
     },
-
     {
         "name": "RS_CONF_RES_043",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
@@ -987,20 +860,17 @@
             "width - 1600"
         ]
     },
-
     {
         "name": "RS_CONF_RES_044",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
@@ -1010,20 +880,17 @@
             "width - 1600"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_045",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
@@ -1033,20 +900,17 @@
             "width - 1600"
         ]
     },
-
     {
         "name": "RS_CONF_RES_046",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
@@ -1056,20 +920,17 @@
             "width - 1600"
         ]
     },
-
     {
         "name": "RS_CONF_RES_047",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
@@ -1079,20 +940,17 @@
             "width - 1600"
         ]
     },
-
     {
         "name": "RS_CONF_RES_048",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
@@ -1102,20 +960,17 @@
             "width - 1600"
         ]
     },
-
     {
         "name": "RS_CONF_RES_049",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
             "width": 1600
@@ -1125,20 +980,17 @@
             "width - 1600"
         ]
     },
-
     {
         "name": "RS_CONF_RES_050",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
@@ -1148,20 +1000,17 @@
             "width - 3200"
         ]
     },
-
     {
         "name": "RS_CONF_RES_051",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
@@ -1171,20 +1020,17 @@
             "width - 3200"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_052",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
@@ -1194,20 +1040,17 @@
             "width - 3200"
         ]
     },
-
     {
         "name": "RS_CONF_RES_053",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
@@ -1217,20 +1060,17 @@
             "width - 3200"
         ]
     },
-
     {
         "name": "RS_CONF_RES_054",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
@@ -1240,20 +1080,17 @@
             "width - 3200"
         ]
     },
-
     {
         "name": "RS_CONF_RES_055",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
@@ -1263,20 +1100,17 @@
             "width - 3200"
         ]
     },
-
     {
         "name": "RS_CONF_RES_056",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
             "width": 3200
@@ -1286,20 +1120,17 @@
             "width - 3200"
         ]
     },
-
     {
         "name": "RS_CONF_RES_057",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
@@ -1309,20 +1140,17 @@
             "width - 3840"
         ]
     },
-
     {
         "name": "RS_CONF_RES_058",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
@@ -1332,20 +1160,17 @@
             "width - 3840"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_059",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
@@ -1355,20 +1180,17 @@
             "width - 3840"
         ]
     },
-
     {
         "name": "RS_CONF_RES_060",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
@@ -1378,20 +1200,17 @@
             "width - 3840"
         ]
     },
-
     {
         "name": "RS_CONF_RES_061",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
@@ -1401,20 +1220,17 @@
             "width - 3840"
         ]
     },
-
     {
         "name": "RS_CONF_RES_062",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
@@ -1424,20 +1240,17 @@
             "width - 3840"
         ]
     },
-
     {
         "name": "RS_CONF_RES_063",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
             "width": 3840
@@ -1447,20 +1260,17 @@
             "width - 3840"
         ]
     },
-
     {
         "name": "RS_CONF_RES_064",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
@@ -1470,20 +1280,17 @@
             "width - 5120"
         ]
     },
-
     {
         "name": "RS_CONF_RES_065",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
@@ -1493,20 +1300,17 @@
             "width - 5120"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_066",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
@@ -1516,20 +1320,17 @@
             "width - 5120"
         ]
     },
-
     {
         "name": "RS_CONF_RES_067",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
@@ -1539,20 +1340,17 @@
             "width - 5120"
         ]
     },
-
     {
         "name": "RS_CONF_RES_068",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
@@ -1562,20 +1360,17 @@
             "width - 5120"
         ]
     },
-
     {
         "name": "RS_CONF_RES_069",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
@@ -1585,20 +1380,17 @@
             "width - 5120"
         ]
     },
-
     {
         "name": "RS_CONF_RES_070",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
             "width": 5120
@@ -1608,20 +1400,17 @@
             "width - 5120"
         ]
     },
-
- {
+    {
         "name": "RS_CONF_RES_071",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
@@ -1631,20 +1420,17 @@
             "width - 7680"
         ]
     },
-
     {
         "name": "RS_CONF_RES_072",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
@@ -1654,20 +1440,17 @@
             "width - 7680"
         ]
     },
-    
     {
         "name": "RS_CONF_RES_073",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
@@ -1677,20 +1460,17 @@
             "width - 7680"
         ]
     },
-
     {
         "name": "RS_CONF_RES_074",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
@@ -1700,20 +1480,17 @@
             "width - 7680"
         ]
     },
-
     {
         "name": "RS_CONF_RES_075",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
@@ -1723,20 +1500,17 @@
             "width - 7680"
         ]
     },
-
     {
         "name": "RS_CONF_RES_076",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
@@ -1746,20 +1520,17 @@
             "width - 7680"
         ]
     },
-
     {
         "name": "RS_CONF_RES_077",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
-         "render_quality": 2,
+            "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
             "width": 7680
@@ -1768,5 +1539,5 @@
             "height - 4320",
             "width - 7680"
         ]
-    }   
+    }
 ]
