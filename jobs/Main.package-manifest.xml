@@ -16,11 +16,13 @@
     <option name="DrawEngine">
         <configuration name="Engine">
             <value>vw_vulkan</value>
+            <value>vw_d3d12</value>
         </configuration>
     </option>
 
     <option name="RenderQuality">
         <configuration name="High">
+            <value>0</value>
             <value>2</value>
         </configuration>
     </option>
