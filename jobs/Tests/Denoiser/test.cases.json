@@ -1,168 +1,7 @@
 [
-    {
-        "name": "RS_VIEW_D_001",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "none",
-         "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - none",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_002",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-             "denoiser": "none",
-           "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - none",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-    
-    {
-        "name": "RS_VIEW_D_003",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-             "denoiser": "none",
-       "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - none",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_004",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "none",
-        "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - none",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_005",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "none",
-        "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - none",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_006",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "none",
-      "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - none",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_007",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "none",
-       "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - none",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
 
   {
-        "name": "RS_VIEW_D_008",
+        "name": "RS_VIEW_D_001",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -185,7 +24,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_009",
+        "name": "RS_VIEW_D_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -208,7 +47,7 @@
     },
     
     {
-        "name": "RS_VIEW_D_010",
+        "name": "RS_VIEW_D_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -231,7 +70,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_011",
+        "name": "RS_VIEW_D_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -254,7 +93,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_012",
+        "name": "RS_VIEW_D_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -277,7 +116,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_013",
+        "name": "RS_VIEW_D_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -300,7 +139,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_014",
+        "name": "RS_VIEW_D_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -320,184 +159,10 @@
             "draw_engine - D3D",
             "engine - Hybrid"
         ]
-    }, 
-    {
-        "name": "RS_VIEW_D_015",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "rpml",
-            "denoiser_split_screen": false,
-         "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - rpml",
-            "denoiser_split_screen - false",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
+    },  
 
     {
-        "name": "RS_VIEW_D_016",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "rpml",
-            "denoiser_split_screen": false,
-        "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - rpml",
-            "denoiser_split_screen - false",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-    
-    {
-        "name": "RS_VIEW_D_017",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "rpml",
-            "denoiser_split_screen": false,
-        "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - rpml",
-            "denoiser_split_screen - false",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_018",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "rpml",
-            "denoiser_split_screen": false,
-   			"render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - rpml",
-            "denoiser_split_screen - false",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_019",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "rpml",
-            "denoiser_split_screen": false,
-         "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - rpml",
-            "denoiser_split_screen - false",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_020",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-            "denoiser": "rpml",
-            "denoiser_split_screen": false,
-       "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - rpml",
-            "denoiser_split_screen - false",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    },
-
-    {
-        "name": "RS_VIEW_D_021",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": "off",
-           "denoiser": "rpml",
-            "denoiser_split_screen": false,
-      "render_quality": 2,
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "denoiser - rpml",
-            "denoiser_split_screen - false",
-            "draw_engine - D3D",
-            "engine - Hybrid"
-        ]
-    }, 
-
-    {
-        "name": "RS_VIEW_D_022",
+        "name": "RS_VIEW_D_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -522,7 +187,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_023",
+        "name": "RS_VIEW_D_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -547,7 +212,7 @@
     },
     
     {
-        "name": "RS_VIEW_D_024",
+        "name": "RS_VIEW_D_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -572,7 +237,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_025",
+        "name": "RS_VIEW_D_011",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -597,7 +262,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_026",
+        "name": "RS_VIEW_D_012",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -622,7 +287,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_027",
+        "name": "RS_VIEW_D_013",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -647,7 +312,7 @@
     },
 
     {
-        "name": "RS_VIEW_D_028",
+        "name": "RS_VIEW_D_014",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
