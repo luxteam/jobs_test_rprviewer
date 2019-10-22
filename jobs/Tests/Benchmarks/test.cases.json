@@ -18,7 +18,9 @@
             
         },
         "script_info": [
-            "Apartment_Directional_v.20"
+            "Apartment_Directional_v.20",
+            "draw_engine: vw_vulkan"
+
         ]
     },
 
@@ -40,7 +42,8 @@
               
         },
         "script_info": [
-            "ChessWaterTest_v.3"
+            "ChessWaterTest_v.3",
+            "draw_engine: vw_vulkan"
         ]
     },
     
@@ -62,7 +65,8 @@
             
         },
         "script_info": [
-            "FalconLight_v.1"
+            "FalconLight_v.1",
+            "draw_engine: vw_vulkan"
         ]
     },
 
@@ -84,7 +88,8 @@
             
         },
         "script_info": [
-            "Ferrari_Victoria_DDS_v.1"
+            "Ferrari_Victoria_DDS_v.1",
+            "draw_engine: vw_vulkan"
         ]
     },
 
@@ -106,7 +111,8 @@
           
         },
         "script_info": [
-            "FuturisticInterior_v.6"
+            "FuturisticInterior_v.6",
+            "draw_engine: vw_vulkan"
         ]
     },
 
@@ -128,7 +134,8 @@
             
         },
         "script_info": [
-            "SG2019_rome_v.2"
+            "SG2019_rome_v.2",
+            "draw_engine: vw_vulkan"
         ]
     },
    
@@ -150,7 +157,8 @@
             
         },
         "script_info": [
-            "Apartment_Directional_v.20"
+            "Apartment_Directional_v.20",
+            "draw_engine: vw_d3d12"
         ]
     },
 
@@ -172,7 +180,8 @@
               
         },
         "script_info": [
-            "ChessWaterTest_v.3"
+            "ChessWaterTest_v.3",
+            "draw_engine: vw_d3d12"
         ]
     },
     
@@ -194,7 +203,8 @@
             
         },
         "script_info": [
-            "FalconLight_v.1"
+            "FalconLight_v.1",
+            "draw_engine: vw_d3d12"
         ]
     },
 
@@ -216,7 +226,8 @@
             
         },
         "script_info": [
-            "Ferrari_Victoria_DDS_v.1"
+            "Ferrari_Victoria_DDS_v.1",
+            "draw_engine: vw_d3d12"
         ]
     },
 
@@ -238,7 +249,8 @@
           
         },
         "script_info": [
-            "FuturisticInterior_v.6"
+            "FuturisticInterior_v.6",
+            "draw_engine: vw_d3d12"
         ]
     },
 
@@ -260,7 +272,8 @@
             
         },
         "script_info": [
-            "SG2019_rome_v.2"
+            "SG2019_rome_v.2",
+            "draw_engine: vw_d3d12"          
         ]
     },
 
@@ -283,7 +296,8 @@
             
         },
         "script_info": [
-            "Apartment_Directional_v.20"
+            "Apartment_Directional_v.20",
+            "draw_engine: vw_d3d12 + ML"
         ]
     },
 
@@ -306,7 +320,8 @@
               
         },
         "script_info": [
-            "ChessWaterTest_v.3"
+            "ChessWaterTest_v.3",
+            "draw_engine: vw_d3d12 + ML"
         ]
     },
     
@@ -329,7 +344,8 @@
             
         },
         "script_info": [
-            "FalconLight_v.1"
+            "FalconLight_v.1",
+            "draw_engine: vw_d3d12 + ML"
         ]
     },
 
@@ -352,7 +368,8 @@
             
         },
         "script_info": [
-            "Ferrari_Victoria_DDS_v.1"
+            "Ferrari_Victoria_DDS_v.1",
+            "draw_engine: vw_d3d12 + ML"
         ]
     },
 
@@ -375,7 +392,8 @@
           
         },
         "script_info": [
-            "FuturisticInterior_v.6"
+            "FuturisticInterior_v.6",
+            "draw_engine: vw_d3d12 + ML"
         ]
     },
 
@@ -398,7 +416,8 @@
             
         },
         "script_info": [
-            "SG2019_rome_v.2"
+            "SG2019_rome_v.2",
+            "draw_engine: vw_d3d12 + ML"
         ]
     }
 
