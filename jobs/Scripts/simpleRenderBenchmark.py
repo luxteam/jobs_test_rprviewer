@@ -19,7 +19,6 @@ def create_args_parser():
     parser.add_argument('--tests_list', required=True, metavar="<path>")
     parser.add_argument('--output_dir', required=True)
     parser.add_argument('--render_engine', required=True)
-    parser.add_argument('--draw_engine', required=True)
     parser.add_argument('--scene_path', required=True)
     parser.add_argument('--render_quality',required=True)
     parser.add_argument('--render_path', required=True, metavar="<path>")
@@ -27,7 +26,7 @@ def create_args_parser():
     return parser.parse_args()
 
 
-def update_viewer_config(test, engine, scene_path, render_quality, render_path, tmp, draw_engine,
+def update_viewer_config(test, engine, scene_path, render_quality, render_path, tmp, 
                          frame_exit_after=100, iterations_per_frame=1,
                          save_frames='yes', benchmark_mode='yes'):
     # Refresh Viewer config for test case
@@ -36,7 +35,6 @@ def update_viewer_config(test, engine, scene_path, render_quality, render_path, 
     tmp['render_quality'] = int(render_quality)
     tmp['iterations_per_frame'] = iterations_per_frame
     tmp['benchmark_mode']=benchmark_mode
-    tmp['draw_engine']=draw_engine
     tmp['save_frames'] = save_frames
     tmp['frame_exit_after'] = frame_exit_after
     tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
@@ -115,12 +113,11 @@ def main():
             render_quality=args.render_quality,
             render_path=args.render_path,
             tmp=config_tmp,
-            draw_engine=args.draw_engine
         ))
 
         # remove old images
         main_logger.info(os.listdir(args.render_path))
-        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0')]
+        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0') or x.endswith('.txt')]
         main_logger.info("Detected old renderers: {}".format(str(old_images)))
         for img in old_images:
             try:
