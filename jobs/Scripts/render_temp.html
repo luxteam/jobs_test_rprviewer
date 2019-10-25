@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	
+
+	
+	<script type="text/javascript">
+		google.charts.load('current', {packages: ['corechart', 'bar']});
+		google.charts.setOnLoadCallback(drawAnnotations);
+
+		function drawAnnotations() {
+		      var data = google.visualization.arrayToDataTable([['Scene name', 'Radeon RX Vega Windows (64bit)', 'Raaaaaaadeon RX Vega Windows (64bit)'], ['Apartment_Directional_v.20/scene/scene.gltf', 256.495, 256.495], ['ChessWaterTest_v.3/scene/scene.gltf', 240.005, 240.005], ['FalconLight_v.1/scene/scene.gltf', 342.357, 342.357], ['Ferrari_Victoria_DDS_v.1/scene/scene.gltf', 266.501, 266.501], ['FuturisticInterior_v.6/scene/scene.gltf', 303.133, 303.133], ['SG2019_rome_v.2/scene/scene.gltf', 415.371, 415.371], ['Apartment_Directional_v.20/scene/scene.gltf', 188.688, 188.688], ['ChessWaterTest_v.3/scene/scene.gltf', 142.879, 142.879], ['FalconLight_v.1/scene/scene.gltf', 244.262, 244.262], ['Ferrari_Victoria_DDS_v.1/scene/scene.gltf', 170.473, 170.473], ['FuturisticInterior_v.6/scene/scene.gltf', 207.935, 207.935], ['SG2019_rome_v.2/scene/scene.gltf', 268.77, 268.77], ['Apartment_Directional_v.20/scene/scene.gltf', 298.729, 298.729], ['ChessWaterTest_v.3/scene/scene.gltf', 223.145, 223.145], ['FalconLight_v.1/scene/scene.gltf', 234.234, 234.234], ['Ferrari_Victoria_DDS_v.1/scene/scene.gltf', 186.358, 186.358], ['FuturisticInterior_v.6/scene/scene.gltf', 222.784, 222.784], ['SG2019_rome_v.2/scene/scene.gltf', 361.882, 361.882]]);
+
+		      // var data = google.visualization.arrayToDataTable([
+		      //   ['City', '2010 Population', {type: 'string', role: 'annotation'},
+		      //    '2000 Population', {type: 'string', role: 'annotation'}],
+		      //   ['New York City, NY', 8175000, '8.1M', 8008000, '8M'],
+		      //   ['Los Angeles, CA', 3792000, '3.8M', 3694000, '3.7M'],
+		      //   ['Chicago, IL', 2695000, '2.7M', 2896000, '2.9M'],
+		      //   ['Houston, TX', 2099000, '2.1M', 1953000, '2.0M'],
+		      //   ['Philadelphia, PA', 1526000, '1.5M', 1517000, '1.5M']
+		      // ]);
+
+		      var options = {
+		        title: 'Hybrid High',
+		        chartArea: {width: '50%'},
+		        annotations: {
+		          alwaysOutside: true,
+		          textStyle: {
+		            fontSize: 12,
+		            auraColor: 'none',
+		            color: '#555'
+		          },
+		          boxStyle: {
+		            stroke: '#ccc',
+		            strokeWidth: 1,
+		            gradient: {
+		              color1: '#f3e5f5',
+		              color2: '#f3e5f5',
+		              x1: '0%', y1: '0%',
+		              x2: '100%', y2: '100%'
+		            }
+		          }
+		        },
+		        hAxis: {
+		          title: 'Time, ms',
+		          minValue: 0,
+		        },
+		        vAxis: {
+		          title: 'Scene name'
+		        }
+		      };
+		      var chart = new google.visualization.BarChart(document.getElementById('chart_div_Hybrid High'));
+		      chart.draw(data, options);
+		    }
+	</script>
+	
+	<script type="text/javascript">
+		google.charts.load('current', {packages: ['corechart', 'bar']});
+		google.charts.setOnLoadCallback(drawAnnotations);
+
+		function drawAnnotations() {
+		      var data = google.visualization.arrayToDataTable([['Scene name', 'Radeon RX Vega Windows (64bit)', 'Raaaaaaadeon RX Vega Windows (64bit)'], ['Apartment_Directional_v.20/scene/scene.gltf', 235.484, 235.484], ['ChessWaterTest_v.3/scene/scene.gltf', 217.879, 217.879], ['FalconLight_v.1/scene/scene.gltf', 239.274, 239.274], ['Ferrari_Victoria_DDS_v.1/scene/scene.gltf', 233.896, 233.896], ['FuturisticInterior_v.6/scene/scene.gltf', 222.091, 222.091], ['SG2019_rome_v.2/scene/scene.gltf', 256.943, 256.943], ['Apartment_Directional_v.20/scene/scene.gltf', 145.968, 145.968], ['ChessWaterTest_v.3/scene/scene.gltf', 125.805, 125.805], ['FalconLight_v.1/scene/scene.gltf', 149.314, 149.314], ['Ferrari_Victoria_DDS_v.1/scene/scene.gltf', 145.191, 145.191], ['FuturisticInterior_v.6/scene/scene.gltf', 151.316, 151.316], ['SG2019_rome_v.2/scene/scene.gltf', 144.744, 144.744], ['Apartment_Directional_v.20/scene/scene.gltf', 144.744, 144.744], ['ChessWaterTest_v.3/scene/scene.gltf', 144.744, 144.744], ['FalconLight_v.1/scene/scene.gltf', 170.988, 170.988], ['Ferrari_Victoria_DDS_v.1/scene/scene.gltf', 165.345, 165.345], ['FuturisticInterior_v.6/scene/scene.gltf', 165.345, 165.345], ['SG2019_rome_v.2/scene/scene.gltf', 165.345, 165.345]]);
+
+		      // var data = google.visualization.arrayToDataTable([
+		      //   ['City', '2010 Population', {type: 'string', role: 'annotation'},
+		      //    '2000 Population', {type: 'string', role: 'annotation'}],
+		      //   ['New York City, NY', 8175000, '8.1M', 8008000, '8M'],
+		      //   ['Los Angeles, CA', 3792000, '3.8M', 3694000, '3.7M'],
+		      //   ['Chicago, IL', 2695000, '2.7M', 2896000, '2.9M'],
+		      //   ['Houston, TX', 2099000, '2.1M', 1953000, '2.0M'],
+		      //   ['Philadelphia, PA', 1526000, '1.5M', 1517000, '1.5M']
+		      // ]);
+
+		      var options = {
+		        title: 'Hybrid Low',
+		        chartArea: {width: '50%'},
+		        annotations: {
+		          alwaysOutside: true,
+		          textStyle: {
+		            fontSize: 12,
+		            auraColor: 'none',
+		            color: '#555'
+		          },
+		          boxStyle: {
+		            stroke: '#ccc',
+		            strokeWidth: 1,
+		            gradient: {
+		              color1: '#f3e5f5',
+		              color2: '#f3e5f5',
+		              x1: '0%', y1: '0%',
+		              x2: '100%', y2: '100%'
+		            }
+		          }
+		        },
+		        hAxis: {
+		          title: 'Time, ms',
+		          minValue: 0,
+		        },
+		        vAxis: {
+		          title: 'Scene name'
+		        }
+		      };
+		      var chart = new google.visualization.BarChart(document.getElementById('chart_div_Hybrid Low'));
+		      chart.draw(data, options);
+		    }
+	</script>
+	
+
+	<title>Benchmarks Report</title>
+</head>
+
+<body>
+	
+	<div id="chart_div_Hybrid High"></div>
+	
+	<div id="chart_div_Hybrid Low"></div>
+	
+
+	
+	
+</body>
+</html>

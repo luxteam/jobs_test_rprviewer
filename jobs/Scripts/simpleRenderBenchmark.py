@@ -20,19 +20,21 @@ def create_args_parser():
     parser.add_argument('--output_dir', required=True)
     parser.add_argument('--render_engine', required=True)
     parser.add_argument('--scene_path', required=True)
-    parser.add_argument('--render_quality',required=True)
+    parser.add_argument('--render_quality', required=True)
+    parser.add_argument('--draw_engine', required=True)
     parser.add_argument('--render_path', required=True, metavar="<path>")
     parser.add_argument('--test_group', required=True)
     return parser.parse_args()
 
 
-def update_viewer_config(test, engine, scene_path, render_quality, render_path, tmp, 
-                         frame_exit_after=100, iterations_per_frame=1,
+def update_viewer_config(test, engine, scene_path, render_quality, draw_engine, render_path, tmp, 
+                         frame_exit_after=5, iterations_per_frame=1,
                          save_frames='yes', benchmark_mode='yes'):
     # Refresh Viewer config for test case
     tmp.update(test['config_parameters'])
     tmp['engine'] = engine
     tmp['render_quality'] = int(render_quality)
+    tmp['draw_engine'] = draw_engine
     tmp['iterations_per_frame'] = iterations_per_frame
     tmp['benchmark_mode']=benchmark_mode
     tmp['save_frames'] = save_frames
@@ -111,13 +113,14 @@ def main():
             engine=args.render_engine,
             scene_path=args.scene_path,
             render_quality=args.render_quality,
+            draw_engine=args.draw_engine,
             render_path=args.render_path,
             tmp=config_tmp,
         ))
 
         # remove old images
         main_logger.info(os.listdir(args.render_path))
-        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0') or x.endswith('.txt')]
+        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and (x.startswith('img0') or x.endswith('.txt'))]
         main_logger.info("Detected old renderers: {}".format(str(old_images)))
         for img in old_images:
             try:
@@ -143,6 +146,7 @@ def main():
             test_case_status = TEST_SUCCESS_STATUS
         finally:
             render_time = time.time() - start_time
+            main_logger.info(render_time)
             try:
                 shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
                             os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
@@ -159,10 +163,12 @@ def main():
                 file.write(stderr.decode("UTF-8"))
 
             try:
-                for bench_txt in os.listdir(args.output_dir):
+                for bench_txt in os.listdir(args.render_path):
                     if os.path.isfile(bench_txt) and bench_txt.startswith('scene.gltf_'):
-                       with open(os.path.join(args.output_dir, bench_txt), "r") as file:
-                        render_time = float(file.readlines()[-1].split(";")[-1])
+                        with open(os.path.join(args.render_path, bench_txt), "r") as file:
+                            main_logger.info("render_time pasrsed")
+                            render_time_bench = float(file.readlines()[-1].split(";")[-1])
+                            main_logger.info(render_time)
             except Exception as err:
                 main_logger.error("Error during bench_txt parsing: {}".format(str(err)))            
 
@@ -171,6 +177,7 @@ def main():
                 test_case_report = json.loads(file.read())[0]
                 test_case_report["test_status"] = test_case_status
                 test_case_report["render_time"] = render_time
+                test_case_report["render_time_bench"] = render_time_bench
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
                 test_case_report["render_log"] = test['name'] + '_app.log'
 
