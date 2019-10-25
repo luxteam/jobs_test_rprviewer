@@ -10,6 +10,7 @@
         <argument>--scene_path "{ScenesDir}"</argument>
         <argument>--render_path "{RenderPath}"</argument>
         <argument>--render_quality {RenderQuality[value]}</argument>
+        <argument>--draw_engine {DrawEngine[value]}</argument>
         <argument>--test_group Benchmarks</argument>
     </execute>
 
