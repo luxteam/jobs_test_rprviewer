@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import subprocess
@@ -7,13 +8,18 @@ from jinja2 import PackageLoader
 
 def main():
 
+	parser=argparse.ArgumentParser()
+	parser.add_argument('--work_dir',required=True)
+	args = parser.parse_args()
+
 	env = Environment(
 			loader=PackageLoader('import_tmp', 'template base'),
 			autoescape=True
 			)
 	template = env.get_template('base.html')
 
-	with open("C:\\Users\\user\\RprViewerAuto\\jobs_test_rprviewer\\Work\\summary_report.json", 'r') as file:
+	#with open("C:\\Users\\user\\RprViewerAuto\\jobs_test_rprviewer\\Work\\summary_report.json", 'r') as file:
+	with open(os.path.join(args.work_dir, "summary_report.json"), 'r') as file:
 		summary_report_data = json.loads(file.read())
 
 	platforms = []
@@ -55,5 +61,5 @@ def main():
 		fh.write(output_temp)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":	
 	main()
