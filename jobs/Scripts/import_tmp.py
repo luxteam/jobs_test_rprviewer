@@ -6,16 +6,29 @@ import sys
 from jinja2 import Environment
 from jinja2 import PackageLoader
 
+
+def get_jobs_launcher_version(value):
+    # os.chdir(os.path.dirname(__file__))
+    return subprocess.check_output("git describe --tags --abbrev=0", shell=True).decode("utf-8")
+
+
+def env_override(value, key):
+    return os.getenv(key, value)
+
+
 def main():
 
 	parser=argparse.ArgumentParser()
-	parser.add_argument('--work_dir',required=True)
+	parser.add_argument('--work_dir', required=True)
+	parser.add_argument('--output_dir', required=True)
 	args = parser.parse_args()
 
 	env = Environment(
 			loader=PackageLoader('import_tmp', 'template base'),
 			autoescape=True
 			)
+	env.filters['env_override'] = env_override
+	env.filters['get_jobs_launcher_version'] = get_jobs_launcher_version
 	template = env.get_template('base.html')
 
 	#with open("C:\\Users\\user\\RprViewerAuto\\jobs_test_rprviewer\\Work\\summary_report.json", 'r') as file:
@@ -40,7 +53,7 @@ def main():
 				try:
 					graph_data[test_case_id + 1].append(test_case['render_time_bench'])
 				except IndexError:
-					graph_data.append([test_case["scene_name"]])
+					graph_data.append([test_case["scene_name"].split('/')[0]])
 					graph_data[test_case_id + 1].append(test_case['render_time_bench'])
 				
 		# graph_data =[ ['Scene name', 'GPU 1', 'GPU 2'],
@@ -52,12 +65,18 @@ def main():
 
 		configurations.update({ conf: graph_data })
 		
-	print(json.dumps(configurations, indent=4))	
+	# print(json.dumps(configurations, indent=4))	
+
+	with open(os.path.join(args.output_dir, "bench.json"), 'w') as file:
+		json.dump(configurations, file, indent=4)
+
+	common_info = {"reporting_date": "date", "branch_name": "master", "commit_sha": "fsoei", "commit_message": "HI"}
 
 	output_temp = template.render(title="Benchmarks Report",
-		configurations=configurations)
+		configurations=configurations,
+		common_info=common_info)
 
-	with open("render_temp.html", "w") as fh:
+	with open(os.path.join(args.output_dir, "render_temp.html"), "w") as fh:
 		fh.write(output_temp)
 
 
