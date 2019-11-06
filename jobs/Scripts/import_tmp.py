@@ -5,6 +5,7 @@ import subprocess
 import sys
 from jinja2 import Environment
 from jinja2 import PackageLoader
+#from operator import itemgetter
 
 
 def get_jobs_launcher_version(value):
@@ -62,11 +63,17 @@ def main():
 		 #        ['Chicago, IL', 2695000, 2896000],
 		 #        ['Houston, TX', 2099000, 1953000],
 		 #        ['Philadelphia, PA', 1526000, 1517000] ]
+		 # confs = sorted(summary_report_data, key=lambda conf: conf['Benchmarks'])
 
 		configurations.update({ conf: graph_data })
 		
 	# print(json.dumps(configurations, indent=4))	
-
+	
+	# print(sorted(configurations))
+	# print(configurations.keys())
+	# print("------")
+	# configurations = {x:configurations[x] for x in sorted(configurations)}
+	
 	with open(os.path.join(args.output_dir, "bench.json"), 'w') as file:
 		json.dump(configurations, file, indent=4)
 
