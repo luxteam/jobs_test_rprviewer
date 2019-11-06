@@ -14,15 +14,15 @@
     </option>
 
     <option name="RenderQuality">
-        <configuration name="Low">
+        <configuration name="1 - Low">
             <value>0</value>
         </configuration>
 
-        <configuration name="Medium">
+        <configuration name="2 - Medium">
             <value>1</value>
         </configuration>
 
-        <configuration name="High">
+        <configuration name="3 - High">
             <value>2</value>
         </configuration>
     </option>
