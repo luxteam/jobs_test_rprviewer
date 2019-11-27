@@ -502,5 +502,132 @@
         "script_info": [
             "Vulkan+RPR"
         ]
+    },
+    {
+        "name": "RS_CONF_ENG_029",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 30,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "rpr",
+            "draw_engine": "ogl"
+        },
+        "script_info": [
+            "OGL+RPR"
+        ]
+    },
+    {
+        "name": "RS_CONF_ENG_030",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 30,
+        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "rpr",
+            "draw_engine": "ogl"
+        },
+        "script_info": [
+            "OGL+RPR"
+        ]
+    },
+    {
+        "name": "RS_CONF_ENG_031",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 30,
+        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "rpr",
+            "draw_engine": "ogl"
+        },
+        "script_info": [
+            "OGL+RPR"
+        ]
+    },
+    {
+        "name": "RS_CONF_ENG_032",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 30,
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "rpr",
+            "draw_engine": "ogl"
+        },
+        "script_info": [
+            "OGL+RPR"
+        ]
+    },
+    {
+        "name": "RS_CONF_ENG_033",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 30,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "rpr",
+            "draw_engine": "ogl"
+        },
+        "script_info": [
+            "OGL+RPR"
+        ]
+    },
+    {
+        "name": "RS_CONF_ENG_034",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 30,
+        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "rpr",
+            "draw_engine": "ogl"
+        },
+        "script_info": [
+            "OGL+RPR"
+        ]
+    },
+    {
+        "name": "RS_CONF_ENG_035",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 30,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "rpr",
+            "draw_engine": "ogl"
+        },
+        "script_info": [
+            "OGL+RPR"
+        ]
     }
+
 ]
