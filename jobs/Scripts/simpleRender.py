@@ -116,7 +116,7 @@ def main():
         ))
 
         # remove old images
-        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0')]
+        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(os.path.join(args.render_path, x)) and x.startswith('img0')]
         main_logger.info(os.listdir(args.render_path))
         if old_images:
             main_logger.info("Detected old renderer: {}".format(str(old_images)))
