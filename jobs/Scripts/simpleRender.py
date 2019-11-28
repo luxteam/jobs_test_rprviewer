@@ -8,6 +8,7 @@ import shutil
 import time
 import datetime
 import platform
+import copy
 
 ROOT_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 sys.path.append(ROOT_DIR_PATH)
@@ -107,7 +108,7 @@ def main():
             shutil.copyfile(
                 os.path.join(ROOT_DIR_PATH, 'jobs_launcher', 'common', 'img', report['test_status'] + test['file_ext']),
                 os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
-        except OSError or FileNotFoundError as err:
+        except (OSError, FileNotFoundError) as err:
             main_logger.error("Can't create img stub: {}".format(str(err)))
 
         with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
@@ -121,7 +122,7 @@ def main():
             engine=engine,
             render_path=args.render_path,
             scene_path=args.scene_path,
-            tmp=config_tmp
+            tmp=copy.deepcopy(config_tmp)
         ))
 
         # remove old images
