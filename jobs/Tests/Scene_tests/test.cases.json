@@ -159,8 +159,7 @@
         ]
     },
 
-
-    {
+     {
         "name": "RS_VIEW_ST_008",
         "status": "active",
         "file_ext": ".png",
@@ -294,7 +293,6 @@
             "Render Quality: High"
         ]
     },
-
     {
         "name": "RS_VIEW_ST_014",
         "status": "active",
@@ -310,7 +308,7 @@
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_d3d12",
-            "upscaler": "true"
+            "upscaler": true
         },
         "script_info": [
             "Hyb + D3D + Upscaler",
@@ -320,7 +318,7 @@
 
   {
         "name": "RS_VIEW_ST_015",
-        "status": "skipped",
+        "status": "active",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -338,7 +336,7 @@
     },
     {
         "name": "RS_VIEW_ST_016",
-        "status": "skipped",
+        "status": "active",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -356,7 +354,7 @@
     },
     {
         "name": "RS_VIEW_ST_017",
-        "status": "skipped",
+        "status": "active",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -374,7 +372,7 @@
     },
     {
         "name": "RS_VIEW_ST_018",
-        "status": "skipped",
+        "status": "active",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -392,7 +390,7 @@
     },
     {
         "name": "RS_VIEW_ST_019",
-        "status": "skipped",
+        "status": "active",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -410,7 +408,7 @@
     },
     {
         "name": "RS_VIEW_ST_020",
-        "status": "skipped",
+        "status": "active",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -428,7 +426,7 @@
     },
     {
         "name": "RS_VIEW_ST_021",
-        "status": "skipped",
+        "status": "active",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
