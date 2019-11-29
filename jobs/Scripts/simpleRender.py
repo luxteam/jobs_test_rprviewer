@@ -13,7 +13,7 @@ import copy
 ROOT_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 sys.path.append(ROOT_DIR_PATH)
 from jobs_launcher.core.config import *
-
+from jobs_launcher.core.system_info import get_gpu
 
 def create_args_parser():
     parser = argparse.ArgumentParser()
@@ -54,6 +54,18 @@ def main():
             main_logger.error(str(err))
             exit(1)
 
+    # TODO: remove code duplicate
+    # remove old images
+    old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0')]
+    main_logger.info(os.listdir(args.render_path))
+    if old_images:
+        main_logger.info("Detected old renderer: {}".format(str(old_images)))
+    for img in old_images:
+        try:
+            os.remove(os.path.join(args.render_path, img))
+        except OSError as err:
+            main_logger.error(str(err))
+
     if not os.path.exists(os.path.join(args.output_dir, "Color")):
         os.makedirs(os.path.join(args.output_dir, "Color"))
 
@@ -64,24 +76,7 @@ def main():
     with open(os.path.join(args.render_path, 'config.original.json'), 'r') as file:
         config_tmp = json.loads(file.read())
 
-    if platform.system() == 'Windows':
-        try:
-            s = subprocess.Popen("wmic path win32_VideoController get name", stdout=subprocess.PIPE)
-            stdout = s.communicate()
-            render_device = stdout[0].decode("utf-8").split('\n')[1].replace('\r', '').strip(' ')
-        except Exception as err:
-            render_device = "undefined_" + platform.uname()[1]
-            main_logger.error("Can't define GPU: {}".format(str(err)))
-    elif platform.system() == 'Linux':
-        try:
-            s = subprocess.Popen("""clinfo --raw | grep CL_DEVICE_BOARD_NAME | awk '{for(i=3;i<=NF;++i) printf "%s ", $i; print ""}'""", stdout=subprocess.PIPE, shell=True)
-            stdout = s.communicate()
-            render_device = stdout[0].decode("utf-8").split('\n')[0].replace('\r', '').strip(' ')
-        except Exception as err:
-            render_device = "undefined_" + platform.uname()[1]
-            main_logger.error("Can't define GPU: {}".format(str(err)))
-    else:
-        render_device = "undefined_" + platform.uname()[1]
+    render_device = get_gpu()
 
     main_logger.info("Creating predefined errors json...")
 
@@ -126,9 +121,10 @@ def main():
         ))
 
         # remove old images
+        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(os.path.join(args.render_path, x)) and x.startswith('img0')]
         main_logger.info(os.listdir(args.render_path))
-        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0')]
-        main_logger.info("Detected old renderers: {}".format(str(old_images)))
+        if old_images:
+            main_logger.info("Detected old renderer: {}".format(str(old_images)))
         for img in old_images:
             try:
                 os.remove(os.path.join(args.render_path, img))
