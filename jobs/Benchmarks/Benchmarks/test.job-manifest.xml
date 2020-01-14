@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<job-manifest name="Benchmarks">
+
+    <outpath value="{OutputDir}"/>
+
+    <execute command='python "{ResourcesDir}/simpleRenderBenchmark.py"'>
+        <argument>--tests_list "{Root}/Benchmarks/test.cases.json"</argument>
+        <argument>--output_dir "{OutputDir}"</argument>
+        <argument>--render_engine hyb</argument>
+        <argument>--scene_path "{ScenesDir}"</argument>
+        <argument>--render_path "{RenderPath}"</argument>
+        <argument>--render_quality {RenderQuality[value]}</argument>
+        <argument>--draw_engine {DrawEngine[value]}</argument>
+        <argument>--test_group Benchmarks</argument>
+    </execute>
+
+    <execute command='python "{ResourcesDir}/make_report_json.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+    </execute>
+
+    <execute command='python "{CommonDir}/scripts/ImageComparator/compareByJSON.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+        <argument>--base_dir "{BaselineDir}"</argument>
+    </execute>
+
+</job-manifest>

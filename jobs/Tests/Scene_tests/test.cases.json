@@ -140,14 +140,14 @@
 
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        
+
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
             "render_quality": 1,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_vulkan"
-            
+
         },
         "script_info": [
             "Hyb + Vulkan",
@@ -163,14 +163,14 @@
 
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        
+
         "config_parameters": {
             "file_ext": ".png",
             "animation": "off",
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_vulkan"
-            
+
         },
         "script_info": [
             "Hyb + Vulkan",
@@ -198,6 +198,9 @@
         "script_info": [
             "Hyb + D3D",
             "Render Quality: Low"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
 
@@ -220,6 +223,9 @@
         "script_info": [
             "Hyb + D3D",
             "Render Quality: Medium"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
     {
@@ -241,6 +247,9 @@
         "script_info": [
             "Hyb + D3D",
             "Render Quality: High"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
 
@@ -264,6 +273,9 @@
         "script_info": [
             "Hyb + D3D + ML",
             "Render Quality: High"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
     {
@@ -286,6 +298,9 @@
         "script_info": [
             "Hyb + D3D + Upscaler",
             "Render Quality: High"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
 
@@ -305,6 +320,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
     {
@@ -323,6 +341,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
     {
@@ -341,6 +362,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
     {
@@ -359,6 +383,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
     {
@@ -377,6 +404,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
     {
@@ -395,6 +425,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     },
     {
@@ -413,6 +446,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+           ["Ubuntu"]
         ]
     }
 ]

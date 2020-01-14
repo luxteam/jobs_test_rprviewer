@@ -8,7 +8,6 @@ import shutil
 import time
 import datetime
 import platform
-import copy
 
 ROOT_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 sys.path.append(ROOT_DIR_PATH)
@@ -22,22 +21,26 @@ def create_args_parser():
     parser.add_argument('--output_dir', required=True)
     parser.add_argument('--render_engine', required=True)
     parser.add_argument('--scene_path', required=True)
+    parser.add_argument('--render_quality', required=True)
+    parser.add_argument('--draw_engine', required=True)
     parser.add_argument('--render_path', required=True, metavar="<path>")
     parser.add_argument('--test_group', required=True)
     return parser.parse_args()
 
 
-def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_after=3, iterations_per_frame=10,
-                         save_frames='yes'):
+def update_viewer_config(test, engine, scene_path, render_quality, draw_engine, render_path, tmp, 
+                         frame_exit_after=5, iterations_per_frame=1,
+                         save_frames='yes', benchmark_mode='yes'):
     # Refresh Viewer config for test case
     tmp.update(test['config_parameters'])
     tmp['engine'] = engine
+    tmp['render_quality'] = int(render_quality)
+    tmp['draw_engine'] = draw_engine
     tmp['iterations_per_frame'] = iterations_per_frame
+    tmp['benchmark_mode']=benchmark_mode
     tmp['save_frames'] = save_frames
     tmp['frame_exit_after'] = frame_exit_after
     tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
-    if 'uiConfig' in test.keys():
-        tmp['uiConfig'] = os.path.normpath(os.path.join(scene_path, test['uiConfig']))
 
     with open(os.path.join(render_path, "config.json"), 'w') as file:
         json.dump(tmp, file, indent=4)
@@ -55,53 +58,27 @@ def main():
             main_logger.error(str(err))
             exit(1)
 
-    # TODO: remove code duplicate
-    # remove old images
-    old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0')]
-    main_logger.info(os.listdir(args.render_path))
-    if old_images:
-        main_logger.info("Detected old renderer: {}".format(str(old_images)))
-    for img in old_images:
-        try:
-            os.remove(os.path.join(args.render_path, img))
-        except OSError as err:
-            main_logger.error(str(err))
-
     if not os.path.exists(os.path.join(args.output_dir, "Color")):
         os.makedirs(os.path.join(args.output_dir, "Color"))
 
     # TODO: try-catch on file reading
     if not os.path.exists(os.path.join(args.render_path, 'config.original.json')):
-        main_logger.info("First execution - create copy of config.json")
         shutil.copyfile(os.path.join(args.render_path, 'config.json'),
                         os.path.join(args.render_path, 'config.original.json'))
+    with open(os.path.join(args.render_path, 'config.original.json'), 'r') as file:
+        config_tmp = json.loads(file.read())
 
     render_device = get_gpu()
-    current_conf = set(platform.system()) if not render_device else {platform.system(), render_device}
-    main_logger.info("Detected GPUs: {}".format(render_device))
-    main_logger.info("PC conf: {}".format(current_conf))
     main_logger.info("Creating predefined errors json...")
 
     for test in tests_list:
-        # for each case create config from default
-        with open(os.path.join(args.render_path, 'config.original.json'), 'r') as file:
-            config_tmp = json.loads(file.read())
-
         # TODO: save scene name instead of scene sub path
-        report = copy.deepcopy(RENDER_REPORT_BASE)
-        # if 'engine' exist in case.json - set it; else - engine from xml
-        engine = test['config_parameters'].get('engine', args.render_engine)
-        skip_on_it = sum([current_conf & set(x) == set(x) for x in test.get('skip_on', '')])
-        test_status = TEST_IGNORE_STATUS if test['status'] == 'skipped' or skip_on_it else TEST_CRASH_STATUS
-
-        main_logger.info("Case: {}; Engine: {}; Skip here: {}; Predefined status: {};".format(
-            test['name'], engine, bool(skip_on_it), test_status
-        ))
-        report.update({'test_status': test_status,
+        report = RENDER_REPORT_BASE.copy()
+        report.update({'test_status': TEST_CRASH_STATUS if test['status'] == 'active' else TEST_IGNORE_STATUS,
                        'render_device': render_device,
                        'test_case': test['name'],
                        'scene_name': test['scene_sub_path'],
-                       'tool': engine,
+                       'tool': args.render_engine,
                        'file_name': test['name'] + test['file_ext'],
                        'date_time': datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S"),
                        'script_info': test['script_info'],
@@ -119,22 +96,23 @@ def main():
         with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
             json.dump([report], file, indent=4)
 
-    for test in [x for x in tests_list if x['status'] == 'active' and not sum([current_conf & set(y) == set(y) for y in x.get('skip_on', '')])]:
+    for test in [x for x in tests_list if x['status'] == 'active']:
         main_logger.info("Processing test case: {}".format(test['name']))
-        engine = test['config_parameters'].get('engine', args.render_engine)
+
         frame_ae = str(update_viewer_config(
             test=test,
-            engine=engine,
-            render_path=args.render_path,
+            engine=args.render_engine,
             scene_path=args.scene_path,
-            tmp=copy.deepcopy(config_tmp)
+            render_quality=args.render_quality,
+            draw_engine=args.draw_engine,
+            render_path=args.render_path,
+            tmp=config_tmp,
         ))
 
         # remove old images
-        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(os.path.join(args.render_path, x)) and x.startswith('img0')]
         main_logger.info(os.listdir(args.render_path))
-        if old_images:
-            main_logger.info("Detected old renderer: {}".format(str(old_images)))
+        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and (x.startswith('img0') or x.endswith('.txt'))]
+        main_logger.info("Detected old renderers: {}".format(str(old_images)))
         for img in old_images:
             try:
                 os.remove(os.path.join(args.render_path, img))
@@ -165,6 +143,7 @@ def main():
             test_case_status = TEST_SUCCESS_STATUS
         finally:
             render_time = time.time() - start_time
+            main_logger.info(render_time)
             try:
                 shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
                             os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
@@ -180,11 +159,23 @@ def main():
                 file.write("\n-----[STDERR]-----\n\n")
                 file.write(stderr.decode("UTF-8"))
 
+            render_time_bench = -0.0
+            try:
+                for bench_txt in os.listdir(args.render_path):
+                    if os.path.isfile(bench_txt) and bench_txt.startswith('scene.gltf_'):
+                        with open(os.path.join(args.render_path, bench_txt), "r") as file:
+                            main_logger.info("render_time has been parsed")
+                            render_time_bench = float(file.readlines()[-1].split(";")[-1])
+                            main_logger.info(render_time)
+            except Exception as err:
+                main_logger.error("Error during bench_txt parsing: {}".format(str(err)))
+
             # Up to date test case status
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
                 test_case_report["test_status"] = test_case_status
                 test_case_report["render_time"] = render_time
+                test_case_report["render_time_bench"] = render_time_bench
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
                 test_case_report["render_log"] = test['name'] + '_app.log'
 

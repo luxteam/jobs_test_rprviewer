@@ -141,6 +141,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -159,6 +162,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -177,6 +183,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -195,6 +204,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -213,6 +225,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -231,6 +246,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -249,9 +267,11 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
-    
     {
         "name": "RS_CONF_ENG_015",
         "status": "active",
@@ -262,12 +282,15 @@
             "file_ext": ".png",
             "animation": "off",
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": 0,
             "engine": "rpr",
             "draw_engine": "ogl"
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -280,12 +303,15 @@
             "file_ext": ".png",
             "animation": "off",
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": 0,
             "engine": "rpr",
             "draw_engine": "ogl"
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -298,12 +324,15 @@
             "file_ext": ".png",
             "animation": "off",
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": 0,
             "engine": "rpr",
             "draw_engine": "ogl"
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -316,12 +345,15 @@
             "file_ext": ".png",
             "animation": "off",
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": 0,
             "engine": "rpr",
             "draw_engine": "ogl"
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -334,12 +366,15 @@
             "file_ext": ".png",
             "animation": "off",
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": 0,
             "engine": "rpr",
             "draw_engine": "ogl"
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -352,12 +387,15 @@
             "file_ext": ".png",
             "animation": "off",
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": 0,
             "engine": "rpr",
             "draw_engine": "ogl"
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -370,7 +408,7 @@
             "file_ext": ".png",
             "animation": "off",
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": 0,
             "engine": "rpr",
             "draw_engine": "ogl"
         },

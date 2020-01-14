@@ -20,6 +20,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - false"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -42,6 +45,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - false"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -64,6 +70,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - false"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -86,6 +95,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - false"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -108,6 +120,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - false"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -130,6 +145,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - false"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -152,6 +170,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - false"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -175,6 +196,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -197,6 +221,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -219,6 +246,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -241,6 +271,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -263,6 +296,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -285,6 +321,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -307,6 +346,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -330,6 +372,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -352,6 +397,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -374,6 +422,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -396,6 +447,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -418,6 +472,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
@@ -440,6 +497,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Ubuntu"]
         ]
     },
     {
