@@ -19,7 +19,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -42,7 +42,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -65,7 +65,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -88,7 +88,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -111,7 +111,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -134,7 +134,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -157,7 +157,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -182,7 +182,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -207,7 +207,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -232,7 +232,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -257,7 +257,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -282,7 +282,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -307,7 +307,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     },
     {
@@ -332,7 +332,7 @@
             "engine - Hybrid"
         ],
         "skip_on": [
-            ["Ubuntu"]
+            ["Linux"]
         ]
     }
 ]
