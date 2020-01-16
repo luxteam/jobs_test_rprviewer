@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<package-manifest name="Benchmarks">
+    <variable name="Root" value="{CWD}"/>
+    <variable name="ResourcesDir" value = "{CWD}/../Scripts"/>
+    <variable name="ScenesDir" value="{ResPath}"/>
+    <variable name="CommonDir" value="{CWD}/../../jobs_launcher/common"/>
+    <variable name="BaselineDir" value="{CWD}/../../Work/Baseline"/>
+    <variable name="RenderPath" value="{CWD}/../../RprViewer/"/>
+
+    <option name="RenderEngine">
+        <configuration name="Hybrid">
+            <value>hyb</value>
+        </configuration>
+    </option>
+
+    <option name="RenderQuality">
+        <configuration name="1 - Low">
+            <value>0</value>
+        </configuration>
+
+        <configuration name="2 - Medium">
+            <value>1</value>
+        </configuration>
+
+        <configuration name="3 - High">
+            <value>2</value>
+        </configuration>
+    </option>
+
+    <option name="DrawEngine">
+        <configuration name="Vulkan">
+            <value>vw_vulkan</value>
+        </configuration>
+
+        <configuration name="D3D">
+            <value>vw_d3d12</value>
+        </configuration>
+    </option>
+
+</package-manifest>
+

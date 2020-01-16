@@ -1,0 +1,136 @@
+[
+    {
+        "name": "RS_VIEW_B_001",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 100,
+
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
+
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+            "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "benchmark_mode": "yes"
+
+            
+        },
+        "script_info": [
+            "Apartment_Directional_v.20"
+
+        ]
+    },
+
+    {
+        "name": "RS_VIEW_B_002",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+
+        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig":"ChessWaterTest_v.3/scene/scene/UIConfig.json",
+
+         "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+         "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "benchmark_mode": "yes"
+              
+        },
+        "script_info": [
+            "ChessWaterTest_v.3"
+        ]
+    },
+    
+    {
+        "name": "RS_VIEW_B_003",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+
+        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
+        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
+
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+         "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "benchmark_mode": "yes"
+            
+        },
+        "script_info": [
+            "FalconLight_v.1"
+        ]
+    },
+
+    {
+        "name": "RS_VIEW_B_004",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+
+       "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+         "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "benchmark_mode": "yes"
+            
+        },
+        "script_info": [
+            "Ferrari_Victoria_DDS_v.1"
+        ]
+    },
+
+    {
+        "name": "RS_VIEW_B_005",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+
+        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
+        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
+
+         "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+         "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "benchmark_mode": "yes"
+          
+        },
+        "script_info": [
+            "FuturisticInterior_v.6"
+        ]
+    },
+
+    {
+        "name": "RS_VIEW_B_006",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
+
+         "config_parameters": {
+            "file_ext": ".png",
+            "animation": "off",
+         "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "benchmark_mode": "yes"
+            
+        },
+        "script_info": [
+            "SG2019_rome_v.2"
+          
+        ]
+    }
+]

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="report_resources/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="report_resources/css/bootstrap-table.css"/>
+    <link rel="stylesheet" type="text/css" href="report_resources/css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="report_resources/css/test-statuses.css"/>
+
+    <script src="report_resources/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="report_resources/js/bootstrap.js" type="text/javascript"></script>
+    <script src="report_resources/js/bootstrap-table.js" type="text/javascript"></script>
+    <script src="report_resources/js/scripts.js" type="text/javascript"></script>
+    <script src="report_resources/js/extensions/multiple-sort/bootstrap-table-multiple-sort.js"></script>
+    <script src="report_resources/js/extensions/toolbar/bootstrap-table-toolbar.js"></script>
+
+    <script src="report_resources/js/pixelmatch.js"></script>
+    <script src="report_resources/js/images-substr.js"></script>
+    <script src="report_resources/js/bootstrap-table-custom.js"></script>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	{% for conf in configurations %}
+
+	<script type="text/javascript">
+ 
+		google.charts.load('current', {packages: ['corechart', 'bar']});
+		google.charts.setOnLoadCallback(drawAnnotations);
+
+		function drawAnnotations() {
+		      var data = google.visualization.arrayToDataTable({{ configurations[conf]|safe }});
+
+		      var options = {
+		        title: '{{ conf }}',
+		        chartArea: {
+		        	width: '70%',
+		    	  	height: '60%',
+	    		},
+	          	annotations: {
+	          		alwaysOutside: true,
+		          	textStyle: {
+		            	fontSize: 22,
+		            	auraColor: 'none',
+		            	color: '#555'
+		          	},
+		          	boxStyle: {
+		            	stroke: '#ccc',
+		            	strokeWidth: 1,
+		            	gradient: {
+		              		color1: '#f3e5f5',
+		              		color2: '#f3e5f5',
+		              		x1: '0%', y1: '0%',
+		              		x2: '100%', y2: '100%'
+		            	}
+			        }
+		    	},
+		        hAxis: {
+		          title: 'Time, ms',
+		          minValue: 0,
+		        },
+		        vAxis: {
+		          title: 'Scene name'
+		        }
+		      };
+		      var chart = new google.visualization.BarChart(document.getElementById('chart_div_{{ conf }}'));
+		      chart.draw(data, options);
+		    }
+	</script>
+	{% endfor %}
+
+	<style type="text/css">
+		.columnchart_bench {
+			width: 80hw;
+		}
+	</style>
+	<title>{{ title }}</title>
+</head>
+
+<body>
+	<a name="#top"/>
+    <a id="goTop" href="#top" title="Go top"><span class="glyphicon glyphicon-arrow-up" aria-hidden="true" aria-label="Go top"></span></a>
+     <div id="infoBox"></div>
+
+    <div id="header">
+        <img src="report_resources/img/logo.png"/>
+
+    </div>
+
+    <table class="baseTable">
+        <tr>
+            <th>Testing start</th>
+            <th>Branch name</th>
+            <th>Commit SHA</th>
+            <th>Commit message</th>
+        </tr>
+        <tr>
+            <td>{{ common_info.reporting_date | env_override("JOB_STARTED_TIME") }}</td>
+            <td>{{ common_info.branch_name }}</td>
+            <td>{{ common_info.commit_sha }}</td>
+            <td>{{ common_info.commit_message }}</td>
+        </tr>
+    </table>
+
+	<hr>
+	
+	{% for conf in configurations %}
+	<div id="chart_div_{{ conf }}" class="columnchart_bench"></div>
+	<br/>
+	<hr>
+	{% endfor %}
+
+    <div id="footer">
+        Luxoft RPR CIS
+        <br>
+        2017-2019
+        <br>
+        jobs_launcher v{{ "alfa 0.1"  }}
+    </div>
+
+</body>
+</html>

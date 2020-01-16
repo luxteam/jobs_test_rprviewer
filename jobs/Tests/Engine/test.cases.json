@@ -141,6 +141,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -159,6 +162,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -177,6 +183,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -195,6 +204,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -213,6 +225,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -231,6 +246,9 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -249,9 +267,11 @@
         },
         "script_info": [
             "D3D+Hybrid"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
-    
     {
         "name": "RS_CONF_ENG_015",
         "status": "active",
@@ -268,6 +288,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -286,6 +309,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -304,6 +330,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -322,6 +351,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -340,6 +372,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -358,6 +393,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
