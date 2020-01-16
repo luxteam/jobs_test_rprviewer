@@ -161,6 +161,7 @@ def main():
             for child in reversed(p.children(recursive=True)):
                 child.terminate()
             p.terminate()
+            stdout, stderr = p.communicate()
         else:
             test_case_status = TEST_SUCCESS_STATUS
         finally:
