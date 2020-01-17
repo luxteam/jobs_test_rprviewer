@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<job-manifest name="Animation">
+
+    <outpath value="{OutputDir}"/>
+
+    <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="2400">
+        <argument>--tests_list "{Root}/Tests/Animation/test.cases.json"</argument>
+        <argument>--output_dir "{OutputDir}"</argument>
+        <argument>--render_engine hyb</argument>
+        <argument>--scene_path "{ScenesDir}"</argument>
+        <argument>--render_path "{RenderPath}"</argument>
+        <argument>--test_group Animation</argument>
+    </execute>
+
+    <execute command='python "{CWD}/Scripts/make_report_json.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+    </execute>
+
+    <execute command='python "{CommonDir}/scripts/ImageComparator/compareByJSON.py"'>
+        <argument>--work_dir "{OutputDir}"</argument>
+        <argument>--base_dir "{BaselineDir}"</argument>
+    </execute>
+
+</job-manifest>
