@@ -30,19 +30,20 @@ def create_args_parser():
 def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_after=3, iterations_per_frame=10,
                          save_frames='yes'):
     # Refresh Viewer config for test case
-    tmp.update(test['config_parameters'])
     tmp['engine'] = engine
     tmp['iterations_per_frame'] = iterations_per_frame
     tmp['save_frames'] = save_frames
     tmp['frame_exit_after'] = frame_exit_after
     tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
+
+    tmp.update(test['config_parameters'])
     if 'uiConfig' in test.keys():
         tmp['uiConfig'] = os.path.normpath(os.path.join(scene_path, test['uiConfig']))
 
     with open(os.path.join(render_path, "config.json"), 'w') as file:
         json.dump(tmp, file, indent=4)
 
-    return frame_exit_after
+    return tmp['frame_exit_after']
 
 
 def main():
