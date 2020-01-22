@@ -1012,7 +1012,7 @@
         "name": "RS_VIEW_A_043",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -1039,7 +1039,7 @@
         "name": "RS_VIEW_A_044",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -1066,7 +1066,7 @@
         "name": "RS_VIEW_A_045",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -1093,7 +1093,7 @@
         "name": "RS_VIEW_A_046",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -1120,7 +1120,7 @@
         "name": "RS_VIEW_A_047",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 120,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -1147,7 +1147,7 @@
         "name": "RS_VIEW_A_048",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 120,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -1174,7 +1174,7 @@
         "name": "RS_VIEW_A_049",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -1201,7 +1201,7 @@
         "name": "RS_VIEW_A_050",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
