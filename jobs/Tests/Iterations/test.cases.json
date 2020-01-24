@@ -3,7 +3,7 @@
         "name": "RS_CONF_IT_001",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -21,7 +21,7 @@
         "name": "RS_CONF_IT_002",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
@@ -39,7 +39,7 @@
         "name": "RS_CONF_IT_003",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -57,7 +57,7 @@
         "name": "RS_CONF_IT_004",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -75,7 +75,7 @@
         "name": "RS_CONF_IT_005",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -93,7 +93,7 @@
         "name": "RS_CONF_IT_006",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
@@ -111,7 +111,7 @@
         "name": "RS_CONF_IT_007",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -129,7 +129,7 @@
         "name": "RS_CONF_IT_008",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -147,7 +147,7 @@
         "name": "RS_CONF_IT_009",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
@@ -165,7 +165,7 @@
         "name": "RS_CONF_IT_010",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -183,7 +183,7 @@
         "name": "RS_CONF_IT_011",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -201,7 +201,7 @@
         "name": "RS_CONF_IT_012",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -219,7 +219,7 @@
         "name": "RS_CONF_IT_013",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
@@ -237,7 +237,7 @@
         "name": "RS_CONF_IT_014",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -255,7 +255,7 @@
         "name": "RS_CONF_IT_015",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -273,7 +273,7 @@
         "name": "RS_CONF_IT_016",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
@@ -291,7 +291,7 @@
         "name": "RS_CONF_IT_017",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -309,7 +309,7 @@
         "name": "RS_CONF_IT_018",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -327,7 +327,7 @@
         "name": "RS_CONF_IT_019",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -345,7 +345,7 @@
         "name": "RS_CONF_IT_020",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
@@ -363,7 +363,7 @@
         "name": "RS_CONF_IT_021",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -381,7 +381,7 @@
         "name": "RS_CONF_IT_022",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -401,7 +401,7 @@
         "name": "RS_CONF_IT_023",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
@@ -421,7 +421,7 @@
         "name": "RS_CONF_IT_024",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -441,7 +441,7 @@
         "name": "RS_CONF_IT_025",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -461,7 +461,7 @@
         "name": "RS_CONF_IT_026",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -481,7 +481,7 @@
         "name": "RS_CONF_IT_027",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
@@ -501,7 +501,7 @@
         "name": "RS_CONF_IT_028",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -521,7 +521,7 @@
         "name": "RS_CONF_IT_029",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -541,7 +541,7 @@
         "name": "RS_CONF_IT_030",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
@@ -561,7 +561,7 @@
         "name": "RS_CONF_IT_031",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -581,7 +581,7 @@
         "name": "RS_CONF_IT_032",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -601,7 +601,7 @@
         "name": "RS_CONF_IT_033",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -621,7 +621,7 @@
         "name": "RS_CONF_IT_034",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
@@ -641,7 +641,7 @@
         "name": "RS_CONF_IT_035",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -661,7 +661,7 @@
         "name": "RS_CONF_IT_036",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -681,7 +681,7 @@
         "name": "RS_CONF_IT_037",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
@@ -701,7 +701,7 @@
         "name": "RS_CONF_IT_038",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -721,7 +721,7 @@
         "name": "RS_CONF_IT_039",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -741,7 +741,7 @@
         "name": "RS_CONF_IT_040",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -761,7 +761,7 @@
         "name": "RS_CONF_IT_041",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
@@ -781,7 +781,7 @@
         "name": "RS_CONF_IT_042",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -801,7 +801,7 @@
         "name": "RS_CONF_IT_043",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -821,7 +821,7 @@
         "name": "RS_CONF_IT_044",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
@@ -841,7 +841,7 @@
         "name": "RS_CONF_IT_045",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -861,7 +861,7 @@
         "name": "RS_CONF_IT_046",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
@@ -881,7 +881,7 @@
         "name": "RS_CONF_IT_047",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -901,7 +901,7 @@
         "name": "RS_CONF_IT_048",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
@@ -921,7 +921,7 @@
         "name": "RS_CONF_IT_049",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
