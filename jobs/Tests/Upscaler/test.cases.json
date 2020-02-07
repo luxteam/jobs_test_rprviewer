@@ -522,6 +522,9 @@
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     }
 ]
