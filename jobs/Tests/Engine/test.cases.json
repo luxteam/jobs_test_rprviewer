@@ -414,6 +414,9 @@
         },
         "script_info": [
             "OGL+RPR"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     }
 ]
