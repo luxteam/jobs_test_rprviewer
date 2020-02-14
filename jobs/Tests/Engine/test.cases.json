@@ -276,7 +276,7 @@
         "name": "RS_CONF_ENG_015",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
