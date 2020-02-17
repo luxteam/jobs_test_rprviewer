@@ -8,7 +8,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "engine": "hyb",
@@ -34,7 +34,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -59,7 +59,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -84,7 +84,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -109,7 +109,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -134,7 +134,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -159,7 +159,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -184,7 +184,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "engine": "hyb",
@@ -210,7 +210,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -235,7 +235,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -260,7 +260,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -285,7 +285,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -310,7 +310,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -335,7 +335,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "none",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -360,7 +360,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "rpml",
             "render_quality": 2,
             "engine": "hyb",
@@ -386,7 +386,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -411,7 +411,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -436,7 +436,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -461,7 +461,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -486,7 +486,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
@@ -511,7 +511,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "denoiser": "rpml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",

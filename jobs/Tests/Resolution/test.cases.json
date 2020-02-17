@@ -8,7 +8,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
@@ -28,7 +28,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
@@ -48,7 +48,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
@@ -68,7 +68,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
@@ -88,7 +88,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
@@ -108,7 +108,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
@@ -128,7 +128,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 720,
@@ -148,7 +148,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
@@ -168,7 +168,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
@@ -188,7 +188,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
@@ -208,7 +208,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
@@ -228,7 +228,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
@@ -248,7 +248,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
@@ -268,7 +268,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1080,
@@ -288,7 +288,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
@@ -308,7 +308,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
@@ -328,7 +328,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
@@ -348,7 +348,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
@@ -368,7 +368,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
@@ -388,7 +388,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
@@ -408,7 +408,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1,
@@ -428,7 +428,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
@@ -448,7 +448,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
@@ -468,7 +468,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
@@ -488,7 +488,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
@@ -508,7 +508,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
@@ -528,7 +528,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
@@ -548,7 +548,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4000,
@@ -568,7 +568,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
@@ -588,7 +588,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
@@ -608,7 +608,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
@@ -628,7 +628,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
@@ -648,7 +648,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
@@ -668,7 +668,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
@@ -688,7 +688,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 360,
@@ -708,7 +708,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
@@ -728,7 +728,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
@@ -748,7 +748,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
@@ -768,7 +768,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
@@ -788,7 +788,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
@@ -808,7 +808,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
@@ -829,7 +829,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 540,
@@ -849,7 +849,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
@@ -869,7 +869,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
@@ -889,7 +889,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
@@ -909,7 +909,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
@@ -929,7 +929,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
@@ -949,7 +949,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
@@ -969,7 +969,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 900,
@@ -989,7 +989,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
@@ -1009,7 +1009,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
@@ -1029,7 +1029,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
@@ -1049,7 +1049,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
@@ -1069,7 +1069,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
@@ -1089,7 +1089,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
@@ -1109,7 +1109,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 1800,
@@ -1129,7 +1129,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
@@ -1149,7 +1149,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
@@ -1169,7 +1169,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
@@ -1189,7 +1189,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
@@ -1209,7 +1209,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
@@ -1229,7 +1229,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
@@ -1249,7 +1249,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2160,
@@ -1269,7 +1269,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
@@ -1289,7 +1289,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
@@ -1309,7 +1309,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
@@ -1329,7 +1329,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
@@ -1349,7 +1349,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
@@ -1369,7 +1369,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
@@ -1389,7 +1389,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 2880,
@@ -1409,7 +1409,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
@@ -1429,7 +1429,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
@@ -1449,7 +1449,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
@@ -1469,7 +1469,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
@@ -1489,7 +1489,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
@@ -1509,7 +1509,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
@@ -1529,7 +1529,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "height": 4320,
