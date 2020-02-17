@@ -8,7 +8,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "camera": 0,
             "render_quality": 2,
             "draw_engine": "vw_vulkan"
@@ -27,7 +27,7 @@
         "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "camera": 0,
             "render_quality": 2,
             "draw_engine": "vw_vulkan"
@@ -46,7 +46,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 0
@@ -65,7 +65,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 0
@@ -84,7 +84,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 0
@@ -103,7 +103,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 0
@@ -122,7 +122,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 0
@@ -141,7 +141,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 1
@@ -160,7 +160,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 1
@@ -179,7 +179,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 1
@@ -198,7 +198,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 1
@@ -217,7 +217,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 1
@@ -236,7 +236,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 1
@@ -255,7 +255,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 2
@@ -274,7 +274,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 2
@@ -293,7 +293,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 2
@@ -312,7 +312,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 2
@@ -331,7 +331,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 2
@@ -350,7 +350,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 2
@@ -369,7 +369,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 3
@@ -388,7 +388,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 3
@@ -407,7 +407,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 3
@@ -426,7 +426,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 3
@@ -445,7 +445,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 4
@@ -464,7 +464,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 4
@@ -483,7 +483,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 4
@@ -502,7 +502,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 5
@@ -521,7 +521,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 5
@@ -540,7 +540,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 5
@@ -559,7 +559,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 6
@@ -578,7 +578,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera": 7
@@ -597,7 +597,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 6
@@ -616,7 +616,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 6
@@ -635,7 +635,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 6
@@ -654,7 +654,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 6
@@ -673,7 +673,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 6
@@ -692,7 +692,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 6
@@ -711,7 +711,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 0
@@ -730,7 +730,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 0
@@ -749,7 +749,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 0
@@ -768,7 +768,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 0
@@ -787,7 +787,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 0
@@ -806,7 +806,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 0
@@ -825,7 +825,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 3
@@ -844,7 +844,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 3
@@ -863,7 +863,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 3
@@ -882,7 +882,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 3
@@ -901,7 +901,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 3
@@ -920,7 +920,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 3
@@ -938,7 +938,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 10
@@ -957,7 +957,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 10
@@ -976,7 +976,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 10
@@ -995,7 +995,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 10
@@ -1014,7 +1014,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 10
@@ -1033,7 +1033,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_acceleration": 10
@@ -1052,7 +1052,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.1
@@ -1071,7 +1071,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.1
@@ -1090,7 +1090,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.1
@@ -1109,7 +1109,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.1
@@ -1128,7 +1128,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.1
@@ -1147,7 +1147,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.1
@@ -1166,7 +1166,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.5
@@ -1185,7 +1185,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.5
@@ -1204,7 +1204,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.5
@@ -1223,7 +1223,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.5
@@ -1242,7 +1242,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.5
@@ -1261,7 +1261,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 0.5
@@ -1280,7 +1280,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 1
@@ -1299,7 +1299,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 1
@@ -1318,7 +1318,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 1
@@ -1337,7 +1337,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 1
@@ -1356,7 +1356,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 1
@@ -1393,7 +1393,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 10
@@ -1412,7 +1412,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 10
@@ -1431,7 +1431,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 10
@@ -1450,7 +1450,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 10
@@ -1469,7 +1469,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 10
@@ -1488,7 +1488,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_fov_step": 10
@@ -1507,7 +1507,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 2
@@ -1526,7 +1526,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 2
@@ -1545,7 +1545,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 2
@@ -1564,7 +1564,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 2
@@ -1583,7 +1583,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 2
@@ -1602,7 +1602,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 2
@@ -1621,7 +1621,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.1
@@ -1640,7 +1640,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.1
@@ -1659,7 +1659,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.1
@@ -1678,7 +1678,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.1
@@ -1697,7 +1697,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.1
@@ -1716,7 +1716,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.1
@@ -1735,7 +1735,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.5
@@ -1754,7 +1754,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.5
@@ -1773,7 +1773,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.5
@@ -1792,7 +1792,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.5
@@ -1811,7 +1811,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.5
@@ -1830,7 +1830,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 0.5
@@ -1849,7 +1849,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 5
@@ -1868,7 +1868,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 5
@@ -1887,7 +1887,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 5
@@ -1906,7 +1906,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 5
@@ -1925,7 +1925,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 5
@@ -1944,7 +1944,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 5
@@ -1963,7 +1963,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 10
@@ -1982,7 +1982,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 10
@@ -2001,7 +2001,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 10
@@ -2020,7 +2020,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 10
@@ -2039,7 +2039,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 10
@@ -2058,7 +2058,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_roll_step": 10
@@ -2077,7 +2077,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.1
@@ -2096,7 +2096,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.1
@@ -2115,7 +2115,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.1
@@ -2134,7 +2134,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.1
@@ -2153,7 +2153,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.1
@@ -2172,7 +2172,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.1
@@ -2191,7 +2191,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.5
@@ -2210,7 +2210,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.5
@@ -2229,7 +2229,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.5
@@ -2248,7 +2248,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.5
@@ -2267,7 +2267,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.5
@@ -2286,7 +2286,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 0.5
@@ -2305,7 +2305,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 1
@@ -2324,7 +2324,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 1
@@ -2343,7 +2343,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 1
@@ -2362,7 +2362,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 1
@@ -2381,7 +2381,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 1
@@ -2400,7 +2400,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_stop_time": 1
@@ -2419,7 +2419,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 10
@@ -2438,7 +2438,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 10
@@ -2457,7 +2457,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 10
@@ -2476,7 +2476,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 10
@@ -2495,7 +2495,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 10
@@ -2514,7 +2514,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 10
@@ -2533,7 +2533,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 1
@@ -2552,7 +2552,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 1
@@ -2571,7 +2571,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 1
@@ -2590,7 +2590,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 1
@@ -2609,7 +2609,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 1
@@ -2628,7 +2628,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 1
@@ -2647,7 +2647,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 5
@@ -2666,7 +2666,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 5
@@ -2685,7 +2685,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 5
@@ -2704,7 +2704,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 5
@@ -2723,7 +2723,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 5
@@ -2742,7 +2742,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 5
@@ -2761,7 +2761,7 @@
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 15
@@ -2780,7 +2780,7 @@
         "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 15
@@ -2799,7 +2799,7 @@
         "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 15
@@ -2818,7 +2818,7 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 15
@@ -2837,7 +2837,7 @@
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 15
@@ -2856,7 +2856,7 @@
         "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "camera_v0_": 15

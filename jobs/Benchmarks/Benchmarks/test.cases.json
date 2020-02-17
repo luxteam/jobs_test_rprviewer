@@ -10,10 +10,10 @@
 
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
             "render_quality": 0,
             "draw_engine": "vw_vulkan",
-            "benchmark_mode": "yes"
+            "benchmark_mode": true
 
             
         },
@@ -34,10 +34,10 @@
 
          "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
          "render_quality": 0,
             "draw_engine": "vw_vulkan",
-            "benchmark_mode": "yes"
+            "benchmark_mode": true
               
         },
         "script_info": [
@@ -56,10 +56,10 @@
 
         "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
          "render_quality": 0,
             "draw_engine": "vw_vulkan",
-            "benchmark_mode": "yes"
+            "benchmark_mode": true
             
         },
         "script_info": [
@@ -78,10 +78,10 @@
 
        "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
          "render_quality": 0,
             "draw_engine": "vw_vulkan",
-            "benchmark_mode": "yes"
+            "benchmark_mode": true
             
         },
         "script_info": [
@@ -100,10 +100,10 @@
 
          "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
          "render_quality": 0,
             "draw_engine": "vw_vulkan",
-            "benchmark_mode": "yes"
+            "benchmark_mode": true
           
         },
         "script_info": [
@@ -122,10 +122,10 @@
 
          "config_parameters": {
             "file_ext": ".png",
-            "animation": "off",
+            "animation": false,
          "render_quality": 0,
             "draw_engine": "vw_vulkan",
-            "benchmark_mode": "yes"
+            "benchmark_mode": true
             
         },
         "script_info": [
