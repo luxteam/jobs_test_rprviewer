@@ -28,7 +28,7 @@ def create_args_parser():
 
 
 def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_after=3, iterations_per_frame=10,
-                         save_frames='yes'):
+                         save_frames=True):
     # Refresh Viewer config for test case
     tmp['engine'] = engine
     tmp['iterations_per_frame'] = iterations_per_frame

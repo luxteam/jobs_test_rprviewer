@@ -46,8 +46,8 @@ def define_primary_device_number(test, engine, scene_path, render_path, tmp, fra
         tmp['engine'] = engine
         tmp['primary_device'] = i  #added
         tmp['iterations_per_frame'] = iterations_per_frame
-        tmp['benchmark_mode'] = 'yes'
-        tmp['save_frames'] = 'yes'
+        tmp['benchmark_mode'] = True
+        tmp['save_frames'] = True
         tmp['frame_exit_after'] = frame_exit_after
         tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
         if 'uiConfig' in test.keys():
@@ -104,7 +104,7 @@ def define_primary_device_number(test, engine, scene_path, render_path, tmp, fra
 
 
 def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_after=100, iterations_per_frame=1,
-                         save_frames='yes', benchmark_mode='yes', primary_device=0):  #added
+                         save_frames=True, benchmark_mode=True, primary_device=0):  #added
     # Refresh Viewer config for test case
     tmp.update(test['config_parameters'])
     tmp['engine'] = engine
@@ -113,7 +113,7 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
     tmp['benchmark_mode']=benchmark_mode  #added
     tmp['save_frames'] = save_frames
     tmp['frame_exit_after'] = frame_exit_after
-    tmp['use_mgpu'] = 'yes'
+    tmp['use_mgpu'] = True
     tmp['scene']['path'] = os.path.normpath(os.path.join(scene_path, test['scene_sub_path']))
     if 'uiConfig' in test.keys():
         tmp['uiConfig'] = os.path.normpath(os.path.join(scene_path, test['uiConfig']))

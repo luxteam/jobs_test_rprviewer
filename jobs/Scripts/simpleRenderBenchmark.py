@@ -30,7 +30,7 @@ def create_args_parser():
 
 def update_viewer_config(test, engine, scene_path, render_quality, draw_engine, render_path, tmp, 
                          frame_exit_after=5, iterations_per_frame=1,
-                         save_frames='yes', benchmark_mode='yes'):
+                         save_frames=True, benchmark_mode=True):
     # Refresh Viewer config for test case
     tmp.update(test['config_parameters'])
     tmp['engine'] = engine
