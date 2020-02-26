@@ -83,6 +83,7 @@ def main():
     main_logger.info("PC conf: {}".format(current_conf))
     main_logger.info("Creating predefined errors json...")
 
+    # save pre-defined reports with error status
     for test in tests_list:
         # for each case create config from default
         with open(os.path.join(args.render_path, 'config.original.json'), 'r') as file:
@@ -109,7 +110,6 @@ def main():
                        'test_group': args.test_group,
                        'render_color_path': 'Color/' + test['name'] + test['file_ext']
                        })
-        # TODO: refactor img paths
         try:
             shutil.copyfile(
                 os.path.join(ROOT_DIR_PATH, 'jobs_launcher', 'common', 'img', report['test_status'] + test['file_ext']),
@@ -120,8 +120,9 @@ def main():
         with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
             json.dump([report], file, indent=4)
 
+    # run cases
     for test in [x for x in tests_list if x['status'] == 'active' and not sum([current_conf & set(y) == set(y) for y in x.get('skip_on', '')])]:
-        main_logger.info("Processing test case: {}".format(test['name']))
+        main_logger.info("\nProcessing test case: {}".format(test['name']))
         engine = test['config_parameters'].get('engine', args.render_engine)
         frame_ae = str(update_viewer_config(
             test=test,
@@ -130,6 +131,9 @@ def main():
             scene_path=args.scene_path,
             tmp=copy.deepcopy(config_tmp)
         ))
+
+        if frame_ae == '0':
+            main_logger.info("Case with infinity loop. Abort by timeout is expected. Will save 5th frame")
 
         # remove old images
         old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(os.path.join(args.render_path, x)) and x.startswith('img0')]
@@ -159,6 +163,12 @@ def main():
             stdout, stderr = p.communicate(timeout=test['render_time'])
         except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
             main_logger.error("Aborted by timeout. {}".format(str(err)))
+
+            # RS_CONF_IT_022 - RS_CONF_IT_028
+            if frame_ae == '0':
+                test_case_status = TEST_SUCCESS_STATUS
+                frame_ae = '50'
+
             for child in reversed(p.children(recursive=True)):
                 child.terminate()
             p.terminate()
