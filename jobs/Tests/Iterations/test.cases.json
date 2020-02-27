@@ -379,7 +379,7 @@
     },
     {
         "name": "RS_CONF_IT_022",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -399,7 +399,7 @@
     },
     {
         "name": "RS_CONF_IT_023",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -419,7 +419,7 @@
     },
     {
         "name": "RS_CONF_IT_024",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -439,7 +439,7 @@
     },
     {
         "name": "RS_CONF_IT_025",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -459,7 +459,7 @@
     },
     {
         "name": "RS_CONF_IT_026",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -479,7 +479,7 @@
     },
     {
         "name": "RS_CONF_IT_027",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -499,7 +499,7 @@
     },
     {
         "name": "RS_CONF_IT_028",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -619,7 +619,7 @@
     },
     {
         "name": "RS_CONF_IT_034",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -639,7 +639,7 @@
     },
     {
         "name": "RS_CONF_IT_035",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -659,7 +659,7 @@
     },
     {
         "name": "RS_CONF_IT_036",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -679,7 +679,7 @@
     },
     {
         "name": "RS_CONF_IT_037",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -699,7 +699,7 @@
     },
     {
         "name": "RS_CONF_IT_038",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -719,7 +719,7 @@
     },
     {
         "name": "RS_CONF_IT_039",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -739,7 +739,7 @@
     },
     {
         "name": "RS_CONF_IT_040",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -759,7 +759,7 @@
     },
     {
         "name": "RS_CONF_IT_041",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -779,7 +779,7 @@
     },
     {
         "name": "RS_CONF_IT_042",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -799,7 +799,7 @@
     },
     {
         "name": "RS_CONF_IT_043",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -819,7 +819,7 @@
     },
     {
         "name": "RS_CONF_IT_044",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -839,7 +839,7 @@
     },
     {
         "name": "RS_CONF_IT_045",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -859,7 +859,7 @@
     },
     {
         "name": "RS_CONF_IT_046",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -879,7 +879,7 @@
     },
     {
         "name": "RS_CONF_IT_047",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -899,7 +899,7 @@
     },
     {
         "name": "RS_CONF_IT_048",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -919,7 +919,7 @@
     },
     {
         "name": "RS_CONF_IT_049",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 90,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
