@@ -3,7 +3,7 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{ResourcesDir}/simpleRender.py"'>
+    <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="1800">
         <argument>--tests_list "{Root}/Tests/Iterations/test.cases.json"</argument>
         <argument>--output_dir "{OutputDir}"</argument>
         <argument>--render_engine hyb</argument>
