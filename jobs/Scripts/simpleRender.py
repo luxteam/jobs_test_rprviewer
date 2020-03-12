@@ -180,6 +180,7 @@ def main():
             try:
                 shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
                             os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                test_case_status = TEST_SUCCESS_STATUS
             except FileNotFoundError as err:
                 main_logger.error("Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])))
                 main_logger.error(str(err))
