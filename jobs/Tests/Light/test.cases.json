@@ -216,7 +216,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 2500.0,
+            "intensity": 100.0,
             "position": [
                    0.0,
                    20.0,
@@ -228,7 +228,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 2500"
+            "intesity - 100"
         ]
     },
     {
@@ -245,7 +245,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 2500.0,
+            "intensity": 100.0,
             "position": [
                    0.0,
                    20.0,
@@ -257,7 +257,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 2500"
+            "intesity - 100"
         ]
     },
     {
@@ -274,7 +274,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 2500.0,
+            "intensity": 100.0,
             "position": [
                    0.0,
                    20.0,
@@ -286,7 +286,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 2500"
+            "intesity - 100"
         ]
     },
     {
@@ -303,7 +303,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 2500.0,
+            "intensity": 100.0,
             "position": [
                    0.0,
                    20.0,
@@ -315,7 +315,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 2500"
+            "intesity - 100"
         ]
     },
     {
@@ -332,7 +332,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 2500.0,
+            "intensity": 100.0,
             "position": [
                    0.0,
                    20.0,
@@ -344,7 +344,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 2500"
+            "intesity - 500"
         ]
     },
     {
@@ -361,7 +361,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 2500.0,
+            "intensity": 100.0,
             "position": [
                    0.0,
                    20.0,
@@ -373,7 +373,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 2500"
+            "intesity - 100"
         ]
     },
     {
@@ -390,7 +390,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 2500.0,
+            "intensity": 100.0,
             "position": [
                    0.0,
                    20.0,
@@ -402,7 +402,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 2500"
+            "intesity - 100"
         ]
         },
         {
@@ -419,7 +419,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 1000.0,
+            "intensity": 1.0,
             "position": [
                    0.0,
                    20.0,
@@ -431,7 +431,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 1000"
+            "intesity - 1"
         ]
     },
     {
@@ -448,7 +448,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 1000.0,
+            "intensity": 1.0,
             "position": [
                    0.0,
                    20.0,
@@ -460,7 +460,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 1000"
+            "intesity - 1"
         ]
     },
     {
@@ -477,7 +477,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 1000.0,
+            "intensity": 1.0,
             "position": [
                    0.0,
                    20.0,
@@ -489,7 +489,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 1000"
+            "intesity - 1"
         ]
     },
     {
@@ -506,7 +506,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 1000.0,
+            "intensity": 1.0,
             "position": [
                    0.0,
                    20.0,
@@ -518,7 +518,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 1000"
+            "intesity - 1"
         ]
     },
     {
@@ -535,7 +535,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 1000.0,
+            "intensity": 1.0,
             "position": [
                    0.0,
                    20.0,
@@ -547,7 +547,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 1000"
+            "intesity - 1"
         ]
     },
     {
@@ -564,7 +564,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 1000.0,
+            "intensity": 1.0,
             "position": [
                    0.0,
                    20.0,
@@ -576,7 +576,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 1000"
+            "intesity - 1"
         ]
     },
     {
@@ -593,7 +593,7 @@
             "draw_engine": "vw_vulkan",
            "default_light": {
             "add": true,
-            "intensity": 1000.0,
+            "intensity": 1.0,
             "position": [
                    0.0,
                    20.0,
@@ -605,7 +605,7 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 1000"
+            "intesity - 1"
         ]
     },
     {
@@ -622,10 +622,10 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 100.0,
+            "intensity": 5000.0,
             "position": [
-                   0.0,
-                   20.0,
+                   100.0,
+                   100.0,
                    20.0,
                    1.0
                   ]
@@ -634,7 +634,8 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 100"
+            "intesity - 5000",
+            "position: 100.0; 100.0; 20.0; 1.0"
         ]
     },
     {
@@ -651,10 +652,10 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 100.0,
+            "intensity": 5000.0,
             "position": [
-                   0.0,
-                   20.0,
+                   100.0,
+                   100.0,
                    20.0,
                    1.0
                   ]
@@ -663,7 +664,8 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 100"
+            "intesity - 5000",
+            "position: 100.0; 100.0; 20.0; 1.0"
         ]
     },
     {
@@ -680,10 +682,10 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 100.0,
+            "intensity": 5000.0,
             "position": [
-                   0.0,
-                   20.0,
+                   100.0,
+                   100.0,
                    20.0,
                    1.0
                   ]
@@ -692,7 +694,8 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 100"
+            "intesity - 5000",
+            "position: 100.0; 100.0; 20.0; 1.0"
         ]
     },
     {
@@ -709,10 +712,10 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 100.0,
+            "intensity": 5000.0,
             "position": [
-                   0.0,
-                   20.0,
+                   100.0,
+                   100.0,
                    20.0,
                    1.0
                   ]
@@ -721,7 +724,8 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 100"
+            "intesity - 5000",
+            "position: 100.0; 100.0; 20.0; 1.0"
         ]
     },
     {
@@ -738,10 +742,10 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 100.0,
+            "intensity": 5000.0,
             "position": [
-                   0.0,
-                   20.0,
+                   100.0,
+                   100.0,
                    20.0,
                    1.0
                   ]
@@ -750,7 +754,8 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 100"
+            "intesity - 5000",
+            "position: 100.0; 100.0; 20.0; 1.0"
         ]
     },
     {
@@ -767,10 +772,10 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 100.0,
+            "intensity": 5000.0,
             "position": [
-                   0.0,
-                   20.0,
+                   100.0,
+                   100.0,
                    20.0,
                    1.0
                   ]
@@ -779,7 +784,8 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 100"
+            "intesity - 5000",
+            "position: 100.0; 100.0; 20.0; 1.0"
         ]
     },
     {
@@ -796,10 +802,10 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 100.0,
+            "intensity": 5000.0,
             "position": [
-                   0.0,
-                   20.0,
+                   100.0,
+                   100.0,
                    20.0,
                    1.0
                   ]
@@ -808,7 +814,8 @@
         },
         "script_info": [
             "default light:",
-            "intesity - 100"
+            "intesity - 5000",
+            "position: 100.0; 100.0; 20.0; 1.0"
         ]
     },
     {
@@ -828,9 +835,9 @@
             "intensity": 5000.0,
             "position": [
                    0.0,
-                   20.0,
-                   20.0,
-                   1.0
+                   0.0,
+                   0.0,
+                   0.0
                   ]
         }
 
@@ -838,7 +845,7 @@
         "script_info": [
             "default light:",
             "intesity - 5000",
-            "position: 0.0; 20.0; 20.0; 1.0"
+            "position: 0.0; 0.0; 0.0; 0.0"
         ]
     },
     {
@@ -858,9 +865,9 @@
             "intensity": 5000.0,
             "position": [
                    0.0,
-                   20.0,
-                   20.0,
-                   1.0
+                   0.0,
+                   0.0,
+                   0.0
                   ]
         }
 
@@ -868,7 +875,7 @@
         "script_info": [
             "default light:",
             "intesity - 5000",
-            "position: 0.0; 20.0; 20.0; 1.0"
+            "position: 0.0; 0.0; 0.0; 0.0"
         ]
     },
     {
@@ -888,9 +895,9 @@
             "intensity": 5000.0,
             "position": [
                    0.0,
-                   20.0,
-                   20.0,
-                   1.0
+                   0.0,
+                   0.0,
+                   0.0
                   ]
         }
 
@@ -898,7 +905,7 @@
         "script_info": [
             "default light:",
             "intesity - 5000",
-            "position: 0.0; 20.0; 20.0; 1.0"
+            "position: 0.0; 0.0; 0.0; 0.0"
         ]
     },
     {
@@ -918,9 +925,9 @@
             "intensity": 5000.0,
             "position": [
                    0.0,
-                   20.0,
-                   20.0,
-                   1.0
+                   0.0,
+                   0.0,
+                   0.0
                   ]
         }
 
@@ -928,7 +935,7 @@
         "script_info": [
             "default light:",
             "intesity - 5000",
-            "position: 0.0; 20.0; 20.0; 1.0"
+            "position: 0.0; 0.0; 0.0; 0.0"
         ]
     },
     {
@@ -948,9 +955,9 @@
             "intensity": 5000.0,
             "position": [
                    0.0,
-                   20.0,
-                   20.0,
-                   1.0
+                   0.0,
+                   0.0,
+                   0.0
                   ]
         }
 
@@ -958,7 +965,7 @@
         "script_info": [
             "default light:",
             "intesity - 5000",
-            "position: 0.0; 20.0; 20.0; 1.0"
+            "position: 0.0; 0.0; 0.0; 0.0"
         ]
     },
     {
@@ -978,9 +985,9 @@
             "intensity": 5000.0,
             "position": [
                    0.0,
-                   20.0,
-                   20.0,
-                   1.0
+                   0.0,
+                   0.0,
+                   0.0
                   ]
         }
 
@@ -988,7 +995,7 @@
         "script_info": [
             "default light:",
             "intesity - 5000",
-            "position: 0.0; 20.0; 20.0; 1.0"
+            "position: 0.0; 0.0; 0.0; 0.0"
         ]
     },
     {
@@ -1008,246 +1015,6 @@
             "intensity": 5000.0,
             "position": [
                    0.0,
-                   20.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 0.0; 20.0; 20.0; 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_036",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   100.0,
-                   100.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 100.0; 100.0; 20.0; 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_037",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   100.0,
-                   100.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 100.0; 100.0; 20.0; 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_038",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   100.0,
-                   100.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 100.0; 100.0; 20.0; 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_039",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   100.0,
-                   100.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 100.0; 100.0; 20.0; 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_040",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   100.0,
-                   100.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 100.0; 100.0; 20.0; 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_041",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   100.0,
-                   100.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 100.0; 100.0; 20.0; 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_042",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   100.0,
-                   100.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 100.0; 100.0; 20.0; 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_043",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   0.0,
                    0.0,
                    0.0,
                    0.0
@@ -1259,6 +1026,199 @@
             "default light:",
             "intesity - 5000",
             "position: 0.0; 0.0; 0.0; 0.0"
+        ]
+    },
+    
+    {
+        "name": "RS_VIEW_L_036",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 1.5,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 1.5"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_037",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 1.5,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 1.5"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_038",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 1.5,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 1.5"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_039",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 1.5,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 1.5"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_040",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 0.1,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 0.1"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_041",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 0.1,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 0.1"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_042",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 0.1,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 0.1"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_043",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 0.1,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 0.1"
         ]
     },
     {
@@ -1273,56 +1233,21 @@
             "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
-            "default_light": {
+            "environment_light": {
             "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   0.0,
-                   0.0,
-                   0.0,
-                   0.0
-                  ]
+            "intensity": 1.5,
+            "source": "sky.exr"
         }
 
         },
         "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 0.0; 0.0; 0.0; 0.0"
+            "environment light:",
+            "intensity - 1.5",
+            "sky.exr"
         ]
     },
     {
         "name": "RS_VIEW_L_045",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   0.0,
-                   0.0,
-                   0.0,
-                   0.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 0.0; 0.0; 0.0; 0.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_046",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -1333,26 +1258,21 @@
             "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
-            "default_light": {
+            "environment_light": {
             "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   0.0,
-                   0.0,
-                   0.0,
-                   0.0
-                  ]
+            "intensity": 1.5,
+            "source": "sky.exr"
         }
 
         },
         "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 0.0; 0.0; 0.0; 0.0"
+            "environment light:",
+            "intensity - 1.5",
+            "sky.exr"
         ]
     },
     {
-        "name": "RS_VIEW_L_047",
+        "name": "RS_VIEW_L_046",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -1363,56 +1283,21 @@
             "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
-            "default_light": {
+            "environment_light": {
             "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   0.0,
-                   0.0,
-                   0.0,
-                   0.0
-                  ]
+            "intensity": 1.5,
+            "source": "sky.exr"
         }
 
         },
         "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 0.0; 0.0; 0.0; 0.0"
+            "environment light:",
+            "intensity - 1.5",
+            "sky.exr"
         ]
     },
     {
-        "name": "RS_VIEW_L_048",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   0.0,
-                   0.0,
-                   0.0,
-                   0.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 0.0; 0.0; 0.0; 0.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_049",
+        "name": "RS_VIEW_L_047",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -1423,31 +1308,26 @@
             "animation": false,
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
-            "default_light": {
+            "environment_light": {
             "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   0.0,
-                   0.0,
-                   0.0,
-                   0.0
-                  ]
+            "intensity": 1.5,
+            "source": "sky.exr"
         }
 
         },
         "script_info": [
-            "default light:",
-            "intesity - 5000",
-            "position: 0.0; 0.0; 0.0; 0.0"
+            "environment light:",
+            "intensity - 1.5",
+            "sky.exr"
         ]
     },
     {
-        "name": "RS_VIEW_L_050",
+        "name": "RS_VIEW_L_048",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
+        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -1455,18 +1335,94 @@
             "draw_engine": "vw_vulkan",
             "environment_light": {
             "add": true,
-            "intensity": 1.5,
-            "source": "sky.hdr"
+            "intensity": 10.0,
+            "source": "sky.exr"
         }
 
         },
         "script_info": [
             "environment light:",
-            "intensity - 1.5"
+            "intensity - 10.0",
+            "sky.exr"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_049",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 10.0,
+            "source": "sky.exr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 10.0",
+            "sky.exr"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_050",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 10.0,
+            "source": "sky.exr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 10.0",
+            "sky.exr"
         ]
     },
     {
         "name": "RS_VIEW_L_051",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 10.0,
+            "source": "sky.exr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 10.0",
+            "sky.exr"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_052",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -1481,36 +1437,21 @@
             "add": true,
             "intensity": 1.5,
             "source": "sky.hdr"
-        }
-
         },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_052",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
+            "default_light": {
             "add": true,
-            "intensity": 1.5,
-            "source": "sky.hdr"
-        }
+            "position": [ 0.0, 20.0, 20.0, 1.0 ],
+            "intensity": 5000.0
+        },
+
 
         },
         "script_info": [
             "environment light:",
-            "intensity - 1.5"
+            "intensity - 1.5",
+            "sky.hdr",
+            "default light:",
+            "intensity - 5000"
         ]
     },
     {
@@ -1529,12 +1470,21 @@
             "add": true,
             "intensity": 1.5,
             "source": "sky.hdr"
-        }
+        },
+            "default_light": {
+            "add": true,
+            "position": [ 0.0, 20.0, 20.0, 1.0 ],
+            "intensity": 5000.0
+        },
+
 
         },
         "script_info": [
             "environment light:",
-            "intensity - 1.5"
+            "intensity - 1.5",
+            "sky.hdr",
+            "default light:",
+            "intensity - 5000"
         ]
     },
     {
@@ -1553,12 +1503,21 @@
             "add": true,
             "intensity": 1.5,
             "source": "sky.hdr"
-        }
+        },
+            "default_light": {
+            "add": true,
+            "position": [ 0.0, 20.0, 20.0, 1.0 ],
+            "intensity": 5000.0
+        },
+
 
         },
         "script_info": [
             "environment light:",
-            "intensity - 1.5"
+            "intensity - 1.5",
+            "sky.hdr",
+            "default light:",
+            "intensity - 5000"
         ]
     },
     {
@@ -1566,8 +1525,8 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -1577,12 +1536,21 @@
             "add": true,
             "intensity": 1.5,
             "source": "sky.hdr"
-        }
+        },
+            "default_light": {
+            "add": true,
+            "position": [ 0.0, 20.0, 20.0, 1.0 ],
+            "intensity": 5000.0
+        },
+
 
         },
         "script_info": [
             "environment light:",
-            "intensity - 1.5"
+            "intensity - 1.5",
+            "sky.hdr",
+            "default light:",
+            "intensity - 5000"
         ]
     },
     {
@@ -1590,6 +1558,105 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
+        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 1.5,
+            "source": "sky.exr"
+        },
+            "default_light": {
+            "add": true,
+            "position": [ 0.0, 20.0, 20.0, 1.0 ],
+            "intensity": 5000.0
+        },
+
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 1.5",
+            "sky.exr",
+            "default light:",
+            "intensity - 5000"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_057",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 1.5,
+            "source": "sky.exr"
+        },
+            "default_light": {
+            "add": true,
+            "position": [ 0.0, 20.0, 20.0, 1.0 ],
+            "intensity": 5000.0
+        },
+
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 1.5",
+            "sky.exr",
+            "default light:",
+            "intensity - 5000"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_058",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 1.5,
+            "source": "sky.exr"
+        },
+            "default_light": {
+            "add": true,
+            "position": [ 0.0, 20.0, 20.0, 1.0 ],
+            "intensity": 5000.0
+        },
+
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 1.5",
+            "sky.exr",
+            "default light:",
+            "intensity - 5000"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_059",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -1600,853 +1667,22 @@
             "environment_light": {
             "add": true,
             "intensity": 1.5,
-            "source": "sky.hdr"
-        }
-
+            "source": "sky.exr"
         },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_057",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
+            "default_light": {
             "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
+            "position": [ 0.0, 20.0, 20.0, 1.0 ],
+            "intensity": 5000.0
+        },
+
 
         },
         "script_info": [
             "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_058",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_059",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_060",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_061",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_062",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_063",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_064",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.5,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_065",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.5,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_066",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.5,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_067",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.5,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_068",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.5,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_069",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.5,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_070",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.5,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.5"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_071",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 1.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_072",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 1.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_073",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 1.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_074",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 1.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_075",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 1.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_076",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 1.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_077",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 1.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 1.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_078",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 2.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 2.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_079",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 2.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 2.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_080",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 2.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 2.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_081",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 2.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 2.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_082",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 2.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 2.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_083",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 2.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 2.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_084",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 2.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 2.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_085",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 10.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 10.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_086",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 10.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 10.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_087",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 10.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 10.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_088",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 10.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 10.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_089",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 10.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 10.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_090",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 10.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 10.0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_091",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": 2,
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 10.0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 10.0"
+            "intensity - 1.5",
+            "sky.exr",
+            "default light:",
+            "intensity - 5000"
         ]
     }
 ]
