@@ -104,13 +104,13 @@ def define_primary_device_number(test, engine, scene_path, render_path, tmp, fra
 
 
 def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_after=100, iterations_per_frame=1,
-                         save_frames=True, benchmark_mode=True, primary_device=0):  #added
+                         save_frames=True, benchmark_mode=True, primary_device=0):
     # Refresh Viewer config for test case
     tmp.update(test['config_parameters'])
     tmp['engine'] = engine
-    tmp['primary_device'] = primary_device  #added
+    tmp['primary_device'] = primary_device
     tmp['iterations_per_frame'] = iterations_per_frame
-    tmp['benchmark_mode']=benchmark_mode  #added
+    tmp['benchmark_mode']=benchmark_mode
     tmp['save_frames'] = save_frames
     tmp['frame_exit_after'] = frame_exit_after
     tmp['use_mgpu'] = True
@@ -206,7 +206,6 @@ def main():
             test=test,
             engine=args.render_engine,
             primary_device=primary_device, 
-            #added
             render_path=args.render_path,
             scene_path=args.scene_path,
             tmp=config_tmp
