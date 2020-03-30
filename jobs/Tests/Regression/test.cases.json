@@ -131,29 +131,28 @@
         "name": "VW_REG_007",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 15,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_vulkan",
+            "frame_exit_after": 0,
+            "iterations_per_frame": 2
         },
         "script_info": [
-            "D3D + Hybrid"
-        ],
-        "skip_on": [
-            ["Linux"]
+            "Iterations:",
+            "Iterations per frame = 2",
+            "Frame exit after = 0"
         ]
     },
     {
         "name": "VW_REG_008",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 100,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -162,13 +161,21 @@
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 2,
             "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "hybrid_": {
+                "acc_size": 512,
+                "vbuf_size": 300,
+                "ibuf_size": 40,
+                "sbuf_size": 256,
+                "vct_": 256,
+                "maxRecursion": 10,
+                "xflip": true,
+                "yflip": true,
+                "directional_light.depth_bias": 0.0010
+            }
         },
         "script_info": [
-            "D3D + Hybrid"
-        ],
-        "skip_on": [
-            ["Linux"]
+            "Hybrid settings"
         ]
     },
     {
@@ -180,17 +187,212 @@
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "animation": true,
+            "render_quality": 0,
             "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_vulkan",
+            "camera": 0,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
         },
         "script_info": [
-            "D3D + Hybrid"
+            "Animation"
+        ]
+    },
+    {
+        "name": "VW_REG_009",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": 0,
+            "engine": "hyb",
+            "draw_engine": "vw_d3d12",
+            "camera": 0,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+        },
+        "script_info": [
+            "Animation D3D + Hybrid"
         ],
         "skip_on": [
             ["Linux"]
+        ]
+    },
+    {
+        "name": "VW_REG_010",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": 0,
+            "engine": "rpr",
+            "draw_engine": "ogl",
+            "camera": 0,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+        },
+        "script_info": [
+            "Animation RPR + OGL"
+        ],
+        "skip_on": [
+            ["Linux"]
+        ]
+    },
+    {
+        "name": "VW_REG_011",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "denoiser": "rpml",
+            "render_quality": 2,
+            "draw_engine": "vw_d3d12"
+        },
+        "script_info": [
+            "RPML denoiser"
+        ]
+    },
+    {
+        "name": "VW_REG_012",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "denoiser": "rif",
+            "render_quality": 2,
+            "draw_engine": "vw_d3d12"
+        },
+        "script_info": [
+            "RIF denoiser"
+        ]
+    },
+    {
+        "name": "VW_REG_013",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "default_light": {
+            "add": true,
+            "intensity": 100.0,
+            "position": [
+                   0.0,
+                   20.0,
+                   20.0,
+                   1.0
+                  ]
+        }
+        },
+        "script_info": [
+            "Default light"
+        ]
+    },
+    {
+        "name": "VW_REG_014",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 0.1,
+            "source": "sky.hdr"
+        }
+        },
+        "script_info": [
+            "Enviroment light HDR"
+        ]
+    },
+    {
+        "name": "VW_REG_015",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 2.5,
+            "source": "sky.exr"
+            }
+        },
+        "script_info": [
+            "Enviroment light EXR"
+        ]
+    },
+    {
+        "name": "VW_REG_016",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "camera": 3
+        },
+        "script_info": [
+            "Camera"
+        ]
+    },
+    {
+        "name": "VW_REG_017",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "denoiser": "none",
+            "render_quality": 2,
+            "engine": "hyb",
+            "draw_engine": "vw_d3d12",
+            "upscaler": false
+        },
+        "script_info": [
+            "Upscaler"
         ]
     }
 ]

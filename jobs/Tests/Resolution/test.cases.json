@@ -243,13 +243,13 @@
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
-                "height": 2160,
-                "width": 3840
+                "height": 600,
+                "width": 800
                 }
         },
         "script_info": [
-            "height - 2160",
-            "width - 3840"
+            "height - 600",
+            "width - 800"
         ]
     },
     {
@@ -342,6 +342,52 @@
         "script_info": [
             "height - 900",
             "width - 1440"
+        ]
+    },
+    {
+        "name": "RS_CONF_RES_016",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "screen": {
+                "full_screen": false,
+                "height": 1200,
+                "width": 1600 
+                }
+        },
+        "script_info": [
+            "height - 1200",
+            "width - 1600"
+        ]
+    },
+    {
+        "name": "RS_CONF_RES_017",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "screen": {
+                "full_screen": false,
+                "height": 480,
+                "width": 640 
+                }
+        },
+        "script_info": [
+            "height - 480",
+            "width - 640"
         ]
     }
 ]
