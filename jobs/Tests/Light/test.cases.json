@@ -1684,5 +1684,166 @@
             "default light:",
             "intensity - 5000"
         ]
+    },
+     {
+        "name": "RS_VIEW_L_060",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 1,
+            "draw_engine": "vw_vulkan",
+            "hybrid": {
+            "vct": 128
+            },
+        }
+
+        },
+        "script_info": [
+            "vct - 128",
+            "Render quality - Medium"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_061",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "hybrid": {
+            "vct": 128
+            },
+        }
+
+        },
+        "script_info": [
+            "vct - 128",
+            "Render quality - Low"
+        ]    
+    },
+    {
+        "name": "RS_VIEW_L_062",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
+        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "hybrid": {
+            "vct": 256
+            },
+        }
+
+        },
+        "script_info": [
+            "vct - 256",
+            "Render quality - Low"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_063",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig":"Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 0,
+            "draw_engine": "vw_vulkan",
+            "hybrid": {
+            "vct": 256
+            },
+        }
+
+        },
+        "script_info": [
+            "vct - 256",
+            "Render quality - Low"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_064",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 1,
+            "draw_engine": "vw_vulkan",
+            "hybrid": {
+            "vct": 256
+            },
+        }
+
+        },
+        "script_info": [
+            "vct - 256",
+            "Render quality - Medium"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_065",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
+        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 1,
+            "draw_engine": "vw_vulkan",
+            "hybrid": {
+            "vct": 256
+            },
+        }
+
+        },
+        "script_info": [
+            "vct - 256",
+            "Render quality - Medium"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_066",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 1,
+            "draw_engine": "vw_vulkan",
+           "hybrid": {
+            "vct": 256
+            },
+        }
+
+        },
+        "script_info": [
+           "vct - 256",
+           "Render quality - Medium"
+        ]
     }
 ]
