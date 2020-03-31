@@ -1368,7 +1368,7 @@
     },
     {
         "name": "RS_VIEW_CT_073",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
