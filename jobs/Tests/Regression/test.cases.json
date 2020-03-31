@@ -109,7 +109,7 @@
         "name": "VW_REG_006",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -162,7 +162,7 @@
             "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
-            "hybrid_": {
+            "hybrid": {
                 "acc_size": 512,
                 "vbuf_size": 300,
                 "ibuf_size": 40,
@@ -229,7 +229,7 @@
         "name": "VW_REG_010",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
