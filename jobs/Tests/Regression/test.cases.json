@@ -131,7 +131,7 @@
         "name": "VW_REG_007",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 15,
+        "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -151,7 +151,7 @@
     },
     {
         "name": "VW_REG_008",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 100,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -328,7 +328,7 @@
             "draw_engine": "vw_vulkan",
             "environment_light": {
             "add": true,
-            "intensity": 0.1,
+            "intensity": 1,
             "source": "sky.hdr"
         }
         },
@@ -350,7 +350,7 @@
             "draw_engine": "vw_vulkan",
             "environment_light": {
             "add": true,
-            "intensity": 2.5,
+            "intensity": 1,
             "source": "sky.exr"
             }
         },

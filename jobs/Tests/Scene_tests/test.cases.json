@@ -762,5 +762,97 @@
         "skip_on": [
            ["Linux"]
         ]
+    },
+    {
+        "name": "RS_VIEW_ST_034",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "hyb",
+            "draw_engine": "vw_vulkan",
+            "displaygamma": 1.2
+        },
+        "script_info": [
+            "display gamma - 1.2",
+            "Hyb + Vulkan"
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_035",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "hyb",
+            "draw_engine": "vw_d3d12",
+            "displaygamma": 1.2
+        },
+        "script_info": [
+            "display gamma - 1.2",
+            "Hyb + D3D"
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_036",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "hyb",
+            "draw_engine": "vw_vulkan",
+            "hybrid": {
+                "maxRecursion": 5,
+                "xflip": true,
+                "yflip": true,
+                "directional_light.depth_bias": 0.0015
+            }
+        },
+        "script_info": [
+            "maxRecursion - 5",
+            "xflip/yflip true",
+            "directional_light.depth_bias 0.0015"
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_037",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": 2,
+            "engine": "hyb",
+            "draw_engine": "vw_vulkan",
+            "hybrid": {
+            "maxRecursion": 3,
+            "xflip": true,
+            "yflip": true,
+            "directional_light.depth_bias": 0.0010
+            }
+        },
+        "script_info": [
+            "maxRecursion - 3",
+            "xflip/yflip true",
+            "directional_light.depth_bias 0.0010"
+        ]
     }
 ]
