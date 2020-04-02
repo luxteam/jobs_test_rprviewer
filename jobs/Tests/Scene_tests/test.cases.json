@@ -801,6 +801,9 @@
         "script_info": [
             "display gamma - 1.2",
             "Hyb + D3D"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {

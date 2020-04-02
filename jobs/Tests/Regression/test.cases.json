@@ -267,6 +267,9 @@
         },
         "script_info": [
             "RPML denoiser"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     },
     {
@@ -394,6 +397,9 @@
         },
         "script_info": [
             "Upscaler"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     }
 ]
