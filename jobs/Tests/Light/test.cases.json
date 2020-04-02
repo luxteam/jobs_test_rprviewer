@@ -12,20 +12,20 @@
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "default_light": {
-            "add": true,
-            "intensity": 5000.0,
-            "position": [
-                   0.0,
-                   20.0,
-                   20.0,
-                   1.0
-                  ]
-        }
+                "add": true,
+                "intensity": 2000.0,
+                "position": [
+                    0.0,
+                    20.0,
+                    20.0,
+                    1.0
+                    ]
+            }
 
         },
         "script_info": [
             "default light:",
-            "intensity - 5000"
+            "intensity - 2000"
         ]
     },
     {
@@ -42,7 +42,7 @@
             "draw_engine": "vw_vulkan",
             "default_light": {
             "add": true,
-            "intensity": 1.5,
+            "intensity": 100,
             "position": [
                    0.0,
                    20.0,
@@ -54,7 +54,7 @@
         },
         "script_info": [
             "default light:",
-            "intensity - 1.5"
+            "intensity - 100"
         ]
     },
     {
@@ -99,10 +99,10 @@
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
+                "add": true,
+                "intensity": 0.1,
+                "source": "sky.hdr"
+            }
 
         },
         "script_info": [
@@ -123,10 +123,10 @@
             "render_quality": 2,
             "draw_engine": "vw_vulkan",
             "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
+                "add": true,
+                "intensity": 0.1,
+                "source": "sky.hdr"
+            }
 
         },
         "script_info": [
@@ -252,6 +252,88 @@
         "script_info": [
             "environment light:",
             "intensity - 0.1"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_011",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+                "add": true,
+                "intensity": 2.5,
+                "source": "sky.hdr"
+            }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 2.5"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_012",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+            "add": true,
+            "intensity": 0,
+            "source": "sky.hdr"
+        }
+
+        },
+        "script_info": [
+            "environment light:",
+            "intensity - 0"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_013",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": 2,
+            "draw_engine": "vw_vulkan",
+            "environment_light": {
+                "add": true,
+                "intensity": 5,
+                "source": "sky.hdr"
+            },
+            "default_light": {
+                "add": true,
+                "intensity": 2000.0,
+                "position": [
+                    0.0,
+                    20.0,
+                    20.0,
+                    1.0
+                    ]
+            }
+        },
+        "script_info": [
+            "default + environment lights:",
+            "default int - 2000",
+            "env int - 5"
         ]
     }
 ]
