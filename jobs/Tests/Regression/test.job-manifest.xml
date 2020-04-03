@@ -3,8 +3,8 @@
 
     <outpath value="{OutputDir}"/>
 
-    <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="600">
-        <argument>--tests_list "{Root}/Tests/Resolution/test.cases.json"</argument>
+    <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="1300">
+        <argument>--tests_list "{Root}/Tests/Regression/test.cases.json"</argument>
         <argument>--output_dir "{OutputDir}"</argument>
         <argument>--render_engine hyb</argument>
         <argument>--scene_path "{ScenesDir}"</argument>
