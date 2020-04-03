@@ -256,7 +256,7 @@
         "name": "RS_CONF_RES_012",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -279,7 +279,7 @@
         "name": "RS_CONF_RES_013",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -302,7 +302,7 @@
         "name": "RS_CONF_RES_014",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -325,7 +325,7 @@
         "name": "RS_CONF_RES_015",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -348,7 +348,7 @@
         "name": "RS_CONF_RES_016",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -371,7 +371,7 @@
         "name": "RS_CONF_RES_017",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
