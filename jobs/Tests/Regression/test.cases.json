@@ -354,7 +354,7 @@
             "environment_light": {
             "add": true,
             "intensity": 1,
-            "source": "sky.exr"
+            "source": "FuturisticCity_SG2019_v.2/scene/sky.exr"
             }
         },
         "script_info": [
