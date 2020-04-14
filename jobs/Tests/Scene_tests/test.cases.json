@@ -335,6 +335,9 @@
         "script_info": [
             "OGL+RPR",
             "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -354,6 +357,9 @@
         "script_info": [
             "OGL+RPR",
             "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -373,6 +379,9 @@
         "script_info": [
             "OGL+RPR",
             "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -392,6 +401,9 @@
         "script_info": [
             "OGL+RPR",
             "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -411,6 +423,9 @@
         "script_info": [
             "OGL+RPR",
             "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -430,6 +445,9 @@
         "script_info": [
             "OGL+RPR",
             "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -449,6 +467,9 @@
         "script_info": [
             "OGL+RPR",
             "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -686,6 +707,9 @@
             "OGL+RPR",
             "Frame 25",
             "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -711,6 +735,9 @@
             "OGL+RPR",
             "Frame 50",
             "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -736,6 +763,9 @@
             "OGL+RPR",
             "Frame 25",
             "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -761,6 +791,9 @@
             "OGL+RPR",
             "Frame 50",
             "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
