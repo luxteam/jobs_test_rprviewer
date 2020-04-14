@@ -14,7 +14,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: Low"
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
         ]
     },
     {
@@ -33,7 +34,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: Low"
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
         ]
     },
     {
@@ -52,7 +54,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: Low"
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
         ]
     },
     {
@@ -71,7 +74,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: Low"
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
         ]
     },
     {
@@ -90,7 +94,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: Low"
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
         ]
     },
     {
@@ -109,7 +114,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: Low"
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
         ]
     },
     {
@@ -128,7 +134,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: Low"
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
         ]
     },
 
@@ -151,7 +158,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: Medium"
+            "Render Quality: Medium",
+            "Iterations_per_frame - 10"
         ]
     },
 
@@ -174,7 +182,8 @@
         },
         "script_info": [
             "Hyb + Vulkan",
-            "Render Quality: High"
+            "Render Quality: High",
+            "Iterations_per_frame - 10"
         ]
     },
 
@@ -197,7 +206,8 @@
         },
         "script_info": [
             "Hyb + D3D",
-            "Render Quality: Low"
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -222,7 +232,8 @@
         },
         "script_info": [
             "Hyb + D3D",
-            "Render Quality: Medium"
+            "Render Quality: Medium",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -246,7 +257,8 @@
         },
         "script_info": [
             "Hyb + D3D",
-            "Render Quality: High"
+            "Render Quality: High",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -272,7 +284,8 @@
         },
         "script_info": [
             "Hyb + D3D + ML",
-            "Render Quality: High"
+            "Render Quality: High",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -297,7 +310,8 @@
         },
         "script_info": [
             "Hyb + D3D + Upscaler",
-            "Render Quality: High"
+            "Render Quality: High",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -319,7 +333,8 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR"
+            "OGL+RPR",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -340,7 +355,8 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR"
+            "OGL+RPR",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -361,7 +377,8 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR"
+            "OGL+RPR",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -382,7 +399,8 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR"
+            "OGL+RPR",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -403,7 +421,8 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR"
+            "OGL+RPR",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -424,7 +443,8 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR"
+            "OGL+RPR",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -445,7 +465,8 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR"
+            "OGL+RPR",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
@@ -472,7 +493,8 @@
         },
         "script_info": [
             "Vulkan+ Hybrid",
-            "Frame 25"
+            "Frame 25",
+            "Iterations_per_frame - 1"
         ]
     },
     {
@@ -496,7 +518,8 @@
         },
         "script_info": [
             "Vulkan+ Hybrid",
-            "Frame 50"
+            "Frame 50",
+            "Iterations_per_frame - 1"
         ]
     },
     {
@@ -520,7 +543,8 @@
         },
         "script_info": [
             "Vulkan+ Hybrid",
-            "Frame 25"
+            "Frame 25",
+            "Iterations_per_frame - 1"
         ]
     },
     {
@@ -544,7 +568,8 @@
         },
         "script_info": [
             "Vulkan+ Hybrid",
-            "Frame 50"
+            "Frame 50",
+            "Iterations_per_frame - 1"
         ]
     },
     {
@@ -568,7 +593,8 @@
         },
         "script_info": [
             "Hyb+D3D",
-            "Frame 25"
+            "Frame 25",
+            "Iterations_per_frame - 1"
         ],
         "skip_on": [
            ["Linux"]
@@ -595,7 +621,8 @@
         },
         "script_info": [
             "Hyb+D3D",
-            "Frame 50"
+            "Frame 50",
+            "Iterations_per_frame - 1"
         ],
         "skip_on": [
            ["Linux"]
@@ -622,7 +649,8 @@
         },
         "script_info": [
             "Hyb+D3D",
-            "Frame 25"
+            "Frame 25",
+            "Iterations_per_frame - 1"
         ],
         "skip_on": [
            ["Linux"]
@@ -649,7 +677,8 @@
         },
         "script_info": [
             "Hyb+D3D",
-            "Frame 50"
+            "Frame 50",
+            "Iterations_per_frame - 1"
         ],
         "skip_on": [
            ["Linux"]
@@ -676,7 +705,8 @@
         },
         "script_info": [
             "OGL+RPR",
-            "Frame 25"
+            "Frame 25",
+            "Iterations_per_frame - 1"
         ],
         "skip_on": [
            ["Linux"]
@@ -703,7 +733,8 @@
         },
         "script_info": [
             "OGL+RPR",
-            "Frame 50"
+            "Frame 50",
+            "Iterations_per_frame - 1"
         ],
         "skip_on": [
            ["Linux"]
@@ -730,7 +761,8 @@
         },
         "script_info": [
             "OGL+RPR",
-            "Frame 25"
+            "Frame 25",
+            "Iterations_per_frame - 1"
         ],
         "skip_on": [
            ["Linux"]
@@ -757,7 +789,8 @@
         },
         "script_info": [
             "OGL+RPR",
-            "Frame 50"
+            "Frame 50",
+            "Iterations_per_frame - 1"
         ],
         "skip_on": [
            ["Linux"]
@@ -780,7 +813,8 @@
         },
         "script_info": [
             "display gamma - 1.2",
-            "Hyb + Vulkan"
+            "Hyb + Vulkan",
+            "Iterations_per_frame - 10"
         ]
     },
     {
@@ -800,7 +834,8 @@
         },
         "script_info": [
             "display gamma - 1.2",
-            "Hyb + D3D"
+            "Hyb + D3D",
+            "Iterations_per_frame - 10"
         ],
         "skip_on": [
             ["Linux"]
@@ -829,7 +864,8 @@
         "script_info": [
             "maxRecursion - 5",
             "xflip/yflip true",
-            "directional_light.depth_bias 0.0015"
+            "directional_light.depth_bias 0.0015",
+            "Iterations_per_frame - 10"
         ]
     },
     {
@@ -855,7 +891,8 @@
         "script_info": [
             "maxRecursion - 3",
             "xflip/yflip true",
-            "directional_light.depth_bias 0.0010"
+            "directional_light.depth_bias 0.0010",
+            "Iterations_per_frame - 10"
         ]
     }
 ]
