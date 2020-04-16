@@ -19,7 +19,9 @@
         },
         "script_info": [
             "height - 1080",
-            "width - 1920"
+            "width - 1920",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -42,20 +44,23 @@
         },
         "script_info": [
             "height - 1080",
-            "width - 1920"
+            "width - 1920",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
         "name": "RS_CONF_RES_003",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 180,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
             "render_quality": 2,
+            "iterations_per_frame": 200,
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -65,7 +70,9 @@
         },
         "script_info": [
             "height - 1080",
-            "width - 1920"
+            "width - 1920",
+            "iterations_per_frame - 200",
+            "Render quality - high"
         ]
     },
     {
@@ -88,7 +95,9 @@
         },
         "script_info": [
             "height - 1080",
-            "width - 1920"
+            "width - 1920",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -111,20 +120,23 @@
         },
         "script_info": [
             "height - 1080",
-            "width - 1920"
+            "width - 1920",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
         "name": "RS_CONF_RES_006",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 180,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
             "render_quality": 2,
+            "iterations_per_frame": 200,
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -134,7 +146,9 @@
         },
         "script_info": [
             "height - 1080",
-            "width - 1920"
+            "width - 1920",
+            "iterations_per_frame - 200",
+            "Render quality - high"
         ]
     },
     {
@@ -157,7 +171,9 @@
         },
         "script_info": [
             "height - 1080",
-            "width - 1920"
+            "width - 1920",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -180,7 +196,9 @@
         },
         "script_info": [
             "height - 288",
-            "width - 512"
+            "width - 512",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -203,8 +221,9 @@
         },
         "script_info": [
             "height - 600",
-            "width - 600"
-        ]
+            "width - 600",
+            "iterations_per_frame - 10",
+            "Render quality - high"
     },
     {
         "name": "RS_CONF_RES_010",
@@ -226,7 +245,9 @@
         },
         "script_info": [
             "height - 1280",
-            "width - 720"
+            "width - 720",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -249,7 +270,9 @@
         },
         "script_info": [
             "height - 600",
-            "width - 800"
+            "width - 800",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -272,7 +295,9 @@
         },
         "script_info": [
             "height - 2160",
-            "width - 4096"
+            "width - 4096",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -295,7 +320,9 @@
         },
         "script_info": [
             "height - 400",
-            "width - 1800"
+            "width - 1800",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -318,7 +345,9 @@
         },
         "script_info": [
             "height - 2160",
-            "width - 3840 "
+            "width - 3840 ",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -341,7 +370,9 @@
         },
         "script_info": [
             "height - 900",
-            "width - 1440"
+            "width - 1440",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -364,7 +395,9 @@
         },
         "script_info": [
             "height - 1200",
-            "width - 1600"
+            "width - 1600",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     },
     {
@@ -387,7 +420,9 @@
         },
         "script_info": [
             "height - 480",
-            "width - 640"
+            "width - 640",
+            "iterations_per_frame - 10",
+            "Render quality - high"
         ]
     }
 ]
