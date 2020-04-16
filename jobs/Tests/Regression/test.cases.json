@@ -99,7 +99,8 @@
             "draw_engine": "vw_d3d12"
         },
         "script_info": [
-            "D3D + Hybrid"
+            "D3D + Hybrid",
+            "High"
         ],
         "skip_on": [
             ["Linux"]
@@ -146,7 +147,8 @@
         "script_info": [
             "Iterations:",
             "Iterations per frame = 1",
-            "Frame exit after = 0"
+            "Frame exit after = 0",
+            "High"
         ]
     },
     {
