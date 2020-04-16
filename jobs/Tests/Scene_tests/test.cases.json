@@ -11,6 +11,7 @@
             "render_quality": 0,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_vulkan"
+
         },
         "script_info": [
             "Hyb + Vulkan",
@@ -167,7 +168,7 @@
         "name": "RS_VIEW_ST_009",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 200,
 
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
@@ -177,13 +178,14 @@
             "animation": false,
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
-            "draw_engine": "vw_vulkan"
+            "draw_engine": "vw_vulkan",
+            "iterations_per_frame": 500
 
         },
         "script_info": [
             "Hyb + Vulkan",
             "Render Quality: High",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 500"
         ]
     },
 
@@ -243,7 +245,7 @@
         "name": "RS_VIEW_ST_012",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 200,
 
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
@@ -253,12 +255,13 @@
             "animation": false,
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "iterations_per_frame": 500
         },
         "script_info": [
             "Hyb + D3D",
             "Render Quality: High",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 500"
         ],
         "skip_on": [
            ["Linux"]
@@ -269,7 +272,7 @@
         "name": "RS_VIEW_ST_013",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 200,
 
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
@@ -280,12 +283,13 @@
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_d3d12",
-            "denoiser": "rpml"
+            "denoiser": "rpml",
+            "iterations_per_frame": 500
         },
         "script_info": [
             "Hyb + D3D + ML",
             "Render Quality: High",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 500"
         ],
         "skip_on": [
            ["Linux"]
@@ -295,7 +299,7 @@
         "name": "RS_VIEW_ST_014",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 200,
 
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
@@ -306,12 +310,13 @@
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "upscaler": true,
+            "iterations_per_frame": 500
         },
         "script_info": [
             "Hyb + D3D + Upscaler",
             "Render Quality: High",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 500"
         ],
         "skip_on": [
            ["Linux"]
@@ -322,7 +327,7 @@
         "name": "RS_VIEW_ST_015",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 220,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -330,11 +335,12 @@
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 0,
             "engine": "rpr",
-            "draw_engine": "ogl"
+            "draw_engine": "ogl",
+            "iterations_per_frame": 50
         },
         "script_info": [
             "OGL+RPR",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ],
         "skip_on": [
            ["Linux"]
@@ -344,7 +350,7 @@
         "name": "RS_VIEW_ST_016",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 220,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -352,11 +358,12 @@
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 0,
             "engine": "rpr",
-            "draw_engine": "ogl"
+            "draw_engine": "ogl",
+            "iterations_per_frame": 50
         },
         "script_info": [
             "OGL+RPR",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ],
         "skip_on": [
            ["Linux"]
@@ -366,7 +373,7 @@
         "name": "RS_VIEW_ST_017",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 220,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -374,11 +381,12 @@
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 0,
             "engine": "rpr",
-            "draw_engine": "ogl"
+            "draw_engine": "ogl",
+            "iterations_per_frame": 50
         },
         "script_info": [
             "OGL+RPR",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ],
         "skip_on": [
            ["Linux"]
@@ -388,7 +396,7 @@
         "name": "RS_VIEW_ST_018",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 220,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -396,11 +404,12 @@
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 0,
             "engine": "rpr",
-            "draw_engine": "ogl"
+            "draw_engine": "ogl",
+            "iterations_per_frame": 50
         },
         "script_info": [
             "OGL+RPR",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ],
         "skip_on": [
            ["Linux"]
@@ -410,7 +419,7 @@
         "name": "RS_VIEW_ST_019",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 220,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -418,11 +427,12 @@
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 0,
             "engine": "rpr",
-            "draw_engine": "ogl"
+            "draw_engine": "ogl",
+            "iterations_per_frame": 50
         },
         "script_info": [
             "OGL+RPR",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ],
         "skip_on": [
            ["Linux"]
@@ -432,7 +442,7 @@
         "name": "RS_VIEW_ST_020",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 120,
+        "render_time": 220,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -440,11 +450,12 @@
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 0,
             "engine": "rpr",
-            "draw_engine": "ogl"
+            "draw_engine": "ogl",
+            "iterations_per_frame": 50
         },
         "script_info": [
             "OGL+RPR",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ],
         "skip_on": [
            ["Linux"]
@@ -454,7 +465,7 @@
         "name": "RS_VIEW_ST_021",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
+        "render_time": 220,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -462,11 +473,12 @@
             "uiConfig": "scene/UIConfig.json",
             "render_quality": 0,
             "engine": "rpr",
-            "draw_engine": "ogl"
+            "draw_engine": "ogl",
+            "iterations_per_frame": 50
         },
         "script_info": [
             "OGL+RPR",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ],
         "skip_on": [
            ["Linux"]
@@ -532,7 +544,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": 20,
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -543,6 +555,7 @@
         },
         "script_info": [
             "Vulkan+ Hybrid",
+            "Render mode - High",
             "Frame 25",
             "Iterations_per_frame - 1"
         ]
@@ -568,6 +581,7 @@
         },
         "script_info": [
             "Vulkan+ Hybrid",
+            "Render mode - High",
             "Frame 50",
             "Iterations_per_frame - 1"
         ]
@@ -582,7 +596,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": 1,
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "camera": 0,
@@ -593,6 +607,7 @@
         },
         "script_info": [
             "Hyb+D3D",
+            "Render mode - Medium",
             "Frame 25",
             "Iterations_per_frame - 1"
         ],
@@ -610,7 +625,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": 1,
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "camera": 0,
@@ -621,6 +636,7 @@
         },
         "script_info": [
             "Hyb+D3D",
+            "Render mode - Medium",
             "Frame 50",
             "Iterations_per_frame - 1"
         ],
@@ -638,7 +654,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "camera": 2,
@@ -649,6 +665,7 @@
         },
         "script_info": [
             "Hyb+D3D",
+            "Render mode - High",
             "Frame 25",
             "Iterations_per_frame - 1"
         ],
@@ -666,7 +683,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "camera": 2,
@@ -677,6 +694,7 @@
         },
         "script_info": [
             "Hyb+D3D",
+            "Render mode - High",
             "Frame 50",
             "Iterations_per_frame - 1"
         ],
@@ -800,7 +818,7 @@
         "name": "RS_VIEW_ST_034",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 200,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -809,19 +827,20 @@
             "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
-            "displaygamma": 1.2
+            "displaygamma": 1.2,
+            "iterations_per_frame": 500
         },
         "script_info": [
             "display gamma - 1.2",
             "Hyb + Vulkan",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ]
     },
     {
         "name": "RS_VIEW_ST_035",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 200,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -830,12 +849,13 @@
             "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
-            "displaygamma": 1.2
+            "displaygamma": 1.2,
+            "iterations_per_frame": 500
         },
         "script_info": [
             "display gamma - 1.2",
             "Hyb + D3D",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 50"
         ],
         "skip_on": [
             ["Linux"]
@@ -845,7 +865,7 @@
         "name": "RS_VIEW_ST_036",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 200,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -854,6 +874,7 @@
             "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
+            "iterations_per_frame": 500,
             "hybrid": {
                 "maxRecursion": 5,
                 "xflip": true,
@@ -865,14 +886,14 @@
             "maxRecursion - 5",
             "xflip/yflip true",
             "directional_light.depth_bias 0.0015",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 500"
         ]
     },
     {
         "name": "RS_VIEW_ST_037",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 200,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -881,6 +902,7 @@
             "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
+            "iterations_per_frame": 500,
             "hybrid": {
             "maxRecursion": 3,
             "xflip": true,
@@ -892,7 +914,7 @@
             "maxRecursion - 3",
             "xflip/yflip true",
             "directional_light.depth_bias 0.0010",
-            "Iterations_per_frame - 10"
+            "Iterations_per_frame - 500"
         ]
     }
 ]
