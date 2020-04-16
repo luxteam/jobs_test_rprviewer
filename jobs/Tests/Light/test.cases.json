@@ -90,13 +90,14 @@
         "name": "RS_VIEW_L_004",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
+        "render_time": 180,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
             "render_quality": 2,
+            "iterations_per_frame":200,
             "draw_engine": "vw_vulkan",
             "environment_light": {
                 "add": true,
@@ -107,7 +108,8 @@
         },
         "script_info": [
             "environment light:",
-            "intensity - 0.1"
+            "intensity - 0.1",
+            "iterations_per_frame - 200"
         ]
     },
     {
