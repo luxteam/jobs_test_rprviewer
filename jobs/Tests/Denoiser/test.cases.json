@@ -3,7 +3,7 @@
         "name": "RS_VIEW_D_001",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 180,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -11,12 +11,14 @@
             "animation": false,
             "denoiser": "rpml",
             "render_quality": 2,
+            "iterations_per_frame":200,
             "draw_engine": "vw_d3d12"
         },
         "script_info": [
             "denoiser - rpml",
             "draw_engine - D3D",
-            "engine - Hybrid"
+            "engine - Hybrid",
+            "iterations_per_frame - 200"
         ],
         "skip_on": [
             ["Linux"]
@@ -164,7 +166,7 @@
         "name": "RS_VIEW_D_008",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 180,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
@@ -173,13 +175,15 @@
             "denoiser": "rpml",
             "denoiser_split_screen": true,
             "render_quality": 2,
+            "iterations_per_frame":200,
             "draw_engine": "vw_d3d12"
         },
         "script_info": [
             "denoiser - rpml",
             "denoiser_split_screen - true",
             "draw_engine - D3D",
-            "engine - Hybrid"
+            "engine - Hybrid",
+            "iterations_per_frame - 200"
         ],
         "skip_on": [
             ["Linux"]
