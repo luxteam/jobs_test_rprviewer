@@ -828,7 +828,7 @@
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "displaygamma": 1.2,
-            "iterations_per_frame": 500
+            "iterations_per_frame": 50
         },
         "script_info": [
             "display gamma - 1.2",
@@ -850,7 +850,7 @@
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "displaygamma": 1.2,
-            "iterations_per_frame": 500
+            "iterations_per_frame": 50
         },
         "script_info": [
             "display gamma - 1.2",
@@ -874,7 +874,7 @@
             "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
-            "iterations_per_frame": 500,
+            "iterations_per_frame": 50,
             "hybrid": {
                 "maxRecursion": 5,
                 "xflip": true,
@@ -886,7 +886,7 @@
             "maxRecursion - 5",
             "xflip/yflip true",
             "directional_light.depth_bias 0.0015",
-            "Iterations_per_frame - 500"
+            "Iterations_per_frame - 50"
         ]
     },
     {
@@ -902,7 +902,7 @@
             "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
-            "iterations_per_frame": 500,
+            "iterations_per_frame": 50,
             "hybrid": {
             "maxRecursion": 3,
             "xflip": true,
@@ -914,7 +914,7 @@
             "maxRecursion - 3",
             "xflip/yflip true",
             "directional_light.depth_bias 0.0010",
-            "Iterations_per_frame - 500"
+            "Iterations_per_frame - 50"
         ]
     }
 ]
