@@ -224,6 +224,7 @@
             "width - 600",
             "iterations_per_frame - 10",
             "Render quality - high"
+        ]
     },
     {
         "name": "RS_CONF_RES_010",
