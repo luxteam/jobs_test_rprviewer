@@ -538,7 +538,7 @@
         "name": "RS_VIEW_ST_024",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 120,
+        "render_time": 180,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
