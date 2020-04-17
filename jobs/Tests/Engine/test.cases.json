@@ -77,7 +77,7 @@
         "name": "RS_CONF_ENG_005",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
