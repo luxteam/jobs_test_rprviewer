@@ -378,7 +378,7 @@
         ]
     },
     {
-        "name": "RS_CONF_IT_028",
+        "name": "RS_CONF_IT_022",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -398,7 +398,7 @@
         ]
     },
     {
-        "name": "RS_CONF_IT_029",
+        "name": "RS_CONF_IT_023",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -418,7 +418,7 @@
         ]
     },
     {
-        "name": "RS_CONF_IT_030",
+        "name": "RS_CONF_IT_024",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -438,7 +438,7 @@
         ]
     },
     {
-        "name": "RS_CONF_IT_031",
+        "name": "RS_CONF_IT_025",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -458,7 +458,7 @@
         ]
     },
     {
-        "name": "RS_CONF_IT_032",
+        "name": "RS_CONF_IT_026",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -478,7 +478,7 @@
         ]
     },
     {
-        "name": "RS_CONF_IT_033",
+        "name": "RS_CONF_IT_027",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
