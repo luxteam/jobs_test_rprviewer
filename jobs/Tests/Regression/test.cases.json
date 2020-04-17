@@ -204,7 +204,7 @@
         ]
     },
     {
-        "name": "VW_REG_009",
+        "name": "VW_REG_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -229,7 +229,7 @@
         ]
     },
     {
-        "name": "VW_REG_010",
+        "name": "VW_REG_011",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -254,7 +254,7 @@
         ]
     },
     {
-        "name": "VW_REG_011",
+        "name": "VW_REG_012",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -275,7 +275,7 @@
         ]
     },
     {
-        "name": "VW_REG_012",
+        "name": "VW_REG_013",
         "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
@@ -293,7 +293,7 @@
         ]
     },
     {
-        "name": "VW_REG_013",
+        "name": "VW_REG_014",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -320,7 +320,7 @@
         ]
     },
     {
-        "name": "VW_REG_014",
+        "name": "VW_REG_015",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -342,7 +342,7 @@
         ]
     },
     {
-        "name": "VW_REG_015",
+        "name": "VW_REG_016",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -364,7 +364,7 @@
         ]
     },
     {
-        "name": "VW_REG_016",
+        "name": "VW_REG_017",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -382,7 +382,7 @@
         ]
     },
     {
-        "name": "VW_REG_017",
+        "name": "VW_REG_018",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
