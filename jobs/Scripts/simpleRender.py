@@ -41,7 +41,9 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
         tmp['uiConfig'] = os.path.normpath(os.path.join(scene_path, test['uiConfig']))
     if 'upscaler' in test['config_parameters'].keys():
         if tmp['upscaler']:
-            tmp['rml_postprocessing'][1]['disabled'] = False
+            if "rml_postprocessing" in test.keys():
+                tmp['rml_postprocessing'][1]['disabled'] = False
+                del tmp['upscaler']
 
     with open(os.path.join(render_path, "config.json"), 'w') as file:
         json.dump(tmp, file, indent=4)
