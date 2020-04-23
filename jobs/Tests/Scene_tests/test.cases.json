@@ -306,7 +306,10 @@
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_d3d12",
-            "rml_postprocessing[0][\"disabled\"]": "false",
+            "rml_postprocessing": [
+                { "description": "Denoise", "model_path": "rif/models/denoise_c3_190530_3.pb", "disabled": true },
+                { "description": "Upscale", "model_path": "rif/models/upscale2x_c3_rt_20190719_1.pb", "scaling": 2.0, "disabled": false }
+            ]
         },
         "script_info": [
             "Hyb + D3D + Upscaler",
