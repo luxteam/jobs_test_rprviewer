@@ -40,7 +40,7 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
     if 'uiConfig' in test.keys():
         tmp['uiConfig'] = os.path.normpath(os.path.join(scene_path, test['uiConfig']))
     if 'upscaler' in test['config_parameters'].keys():
-        if tmp['upscaler']:
+        if test['config_parameters']['upscaler']:
             if "rml_postprocessing" in tmp.keys():
                 tmp['rml_postprocessing'][1]['disabled'] = False
                 del tmp['upscaler']
