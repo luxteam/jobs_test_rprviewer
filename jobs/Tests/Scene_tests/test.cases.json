@@ -306,7 +306,7 @@
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing[0][\"disabled\"]": "false",
         },
         "script_info": [
             "Hyb + D3D + Upscaler",
