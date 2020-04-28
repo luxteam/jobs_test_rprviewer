@@ -151,8 +151,10 @@ def main():
             viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe"))
         elif platform.system() == 'Linux':
             viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
+            os.system('chmod +x {}'.format(viewer_run_path))
         else:
             viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
+            os.system('chmod +x {}'.format(viewer_run_path))
 
         p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
         stderr, stdout = b"", b""
