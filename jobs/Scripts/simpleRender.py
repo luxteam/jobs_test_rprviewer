@@ -246,9 +246,9 @@ def main():
 
             for case in tests_list:
                 case_info = json.load(open(os.path.realpath(
-                    os.path.join(os.path.abspath(args.output), '{}_RPR.json'.format(case['name'])))))
+                    os.path.join(os.path.abspath(args.output_dir), '{}_RPR.json'.format(case['name'])))))
                 image_id = is_client.send_image(os.path.realpath(
-                    os.path.join(os.path.abspath(args.output), case_info[0]['render_color_path'])))
+                    os.path.join(os.path.abspath(args.output_dir), case_info[0]['render_color_path'])))
                 res.append({
                     'name': case['name'],
                     'status': case_info[0]['test_status'],
