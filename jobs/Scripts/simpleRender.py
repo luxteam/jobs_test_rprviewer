@@ -243,6 +243,7 @@ def main():
     if rbs_client:
         try:
             main_logger.info('Try to send results to RBS')
+            res = []
 
             for case in tests_list:
                 case_info = json.load(open(os.path.realpath(
