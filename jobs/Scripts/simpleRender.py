@@ -257,9 +257,7 @@ def main():
                         'render_time': case_info[0]['render_time']
                     },
                     "artefacts": {
-                        "rendered_image": {
-                            "id": image_id
-                        }
+                        "rendered_image": str(image_id)
                     }
                 })
 
