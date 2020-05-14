@@ -361,14 +361,14 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rpml",
+            "denoiser": "rml",
             "render_quality": 2,
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "upscaler": true
         },
         "script_info": [
-            "denoiser - rpml",
+            "denoiser - rml",
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
@@ -387,13 +387,13 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rpml",
+            "denoiser": "rml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
             "upscaler": true
         },
         "script_info": [
-            "denoiser - rpml",
+            "denoiser - rml",
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
@@ -412,13 +412,13 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rpml",
+            "denoiser": "rml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
             "upscaler": true
         },
         "script_info": [
-            "denoiser - rpml",
+            "denoiser - rml",
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
@@ -437,13 +437,13 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rpml",
+            "denoiser": "rml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
             "upscaler": true
         },
         "script_info": [
-            "denoiser - rpml",
+            "denoiser - rml",
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
@@ -462,13 +462,13 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rpml",
+            "denoiser": "rml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
             "upscaler": true
         },
         "script_info": [
-            "denoiser - rpml",
+            "denoiser - rml",
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
@@ -487,13 +487,13 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rpml",
+            "denoiser": "rml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
             "upscaler": true
         },
         "script_info": [
-            "denoiser - rpml",
+            "denoiser - rml",
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
@@ -512,13 +512,13 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rpml",
+            "denoiser": "rml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12",
             "upscaler": true
         },
         "script_info": [
-            "denoiser - rpml",
+            "denoiser - rml",
             "draw_engine - D3D",
             "engine - Hybrid",
             "upscaler - true"
