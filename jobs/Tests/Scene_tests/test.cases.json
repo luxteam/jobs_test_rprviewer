@@ -280,7 +280,7 @@
             "render_quality": 2,
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_d3d12",
-            "denoiser": "rpml"
+            "denoiser": "rml"
         },
         "script_info": [
             "Hyb + D3D + ML",
