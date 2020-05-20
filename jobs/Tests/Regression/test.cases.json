@@ -261,12 +261,12 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rpml",
+            "denoiser": "rml",
             "render_quality": 2,
             "draw_engine": "vw_d3d12"
         },
         "script_info": [
-            "RPML denoiser"
+            "RML denoiser"
         ],
         "skip_on": [
             ["Linux"]
