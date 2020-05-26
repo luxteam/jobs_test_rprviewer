@@ -267,6 +267,7 @@ def main():
             env.pop('os')
             env.update({'hostname': env.pop('host'), 'cpu_count': int(env['cpu_count'])})
             main_logger.info(env)
+            main_logger.info(res)
 
             response = rbs_client.send_test_suite(res=res, env=env)
             main_logger.info('Test suite results sent with code {}'.format(response.status_code))
