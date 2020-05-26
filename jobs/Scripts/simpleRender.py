@@ -260,8 +260,10 @@ def main():
                         "rendered_image": str(image_id)
                     }
                 })
+            main_logger.info('try to get suite id by name {}'.format(case_info[0]['test_group']));
 
             rbs_client.get_suite_id_by_name(case_info[0]['test_group'])
+            main_logger.info('Got suite id {}'.format(rbs_client.suite_id))
             # send machine info to rbs
             env = {"gpu": get_gpu(), **get_machine_info()}
             env.pop('os')
