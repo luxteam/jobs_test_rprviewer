@@ -260,9 +260,12 @@ def main():
                         "rendered_image": str(image_id)
                     }
                 })
-            main_logger.info('try to get suite id by name {}'.format(case_info[0]['test_group']));
+            suite_name = case_info[0]['test_group']
+            if 'regression' in str(args.tests_list).lower():
+                suite_name = 'Regression'
+            main_logger.info('try to get suite id by name {}'.format(suite_name))
 
-            rbs_client.get_suite_id_by_name(args.test_group)
+            rbs_client.get_suite_id_by_name(suite_name)
             main_logger.info('Got suite id {}'.format(rbs_client.suite_id))
             # send machine info to rbs
             env = {"gpu": get_gpu(), **get_machine_info()}
