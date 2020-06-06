@@ -13,9 +13,7 @@ import copy
 ROOT_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 sys.path.append(ROOT_DIR_PATH)
 from jobs_launcher.core.config import *
-from jobs_launcher.core.system_info import get_gpu, get_machine_info
-from jobs_launcher.image_service_client import ISClient
-from jobs_launcher.rbs_client import RBS_Client, str2bool
+from jobs_launcher.core.system_info import get_gpu
 
 
 def create_args_parser():
@@ -54,33 +52,6 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
 
 
 def main():
-    is_client = None
-    rbs_client = None
-    rbs_use = None
-
-    try:
-        rbs_use = str2bool(os.getenv('RBS_USE'))
-    except Exception as e:
-        main_logger.warning('Exception when getenv RBS USE: {}'.format(str(e)))
-
-    if rbs_use:
-        try:
-            is_client = ISClient(os.getenv("IMAGE_SERVICE_URL"))
-            main_logger.info("Image Service client created")
-        except Exception as e:
-            main_logger.info("Image Service client creation error: {}".format(str(e)))
-
-        try:
-            rbs_client = RBS_Client(
-                job_id=os.getenv("RBS_JOB_ID"),
-                url=os.getenv("RBS_URL"),
-                build_id=os.getenv("RBS_BUILD_ID"),
-                env_label=os.getenv("RBS_ENV_LABEL"),
-                suite_id=None)
-            main_logger.info("RBS Client created")
-        except Exception as e:
-            main_logger.info(" RBS Client creation error: {}".format(str(e)))
-
     args = create_args_parser()
 
     with open(args.tests_list, 'r') as file:
@@ -239,47 +210,6 @@ def main():
 
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
                 json.dump([test_case_report], file, indent=4)
-
-    if rbs_client:
-        try:
-            main_logger.info('Try to send results to RBS')
-            res = []
-
-            for case in tests_list:
-                case_info = json.load(open(os.path.realpath(
-                    os.path.join(os.path.abspath(args.output_dir), '{}_RPR.json'.format(case['name'])))))
-                image_id = is_client.send_image(os.path.realpath(
-                    os.path.join(os.path.abspath(args.output_dir), case_info[0]['render_color_path'])))
-                res.append({
-                    'name': case['name'],
-                    'status': case_info[0]['test_status'],
-                    'metrics': {
-                        'render_time': case_info[0]['render_time']
-                    },
-                    "artefacts": {
-                        "rendered_image": str(image_id)
-                    }
-                })
-            suite_name = case_info[0]['test_group']
-            if 'regression' in str(args.tests_list).lower():
-                suite_name = 'Regression'
-            main_logger.info('try to get suite id by name {}'.format(suite_name))
-
-            rbs_client.get_suite_id_by_name(suite_name)
-            main_logger.info('Got suite id {}'.format(rbs_client.suite_id))
-            # send machine info to rbs
-            env = {"gpu": get_gpu(), **get_machine_info()}
-            env.pop('os')
-            env.update({'hostname': env.pop('host'), 'cpu_count': int(env['cpu_count'])})
-            main_logger.info(env)
-            main_logger.info(res)
-
-            response = rbs_client.send_test_suite(res=res, env=env)
-            main_logger.info('Test suite results sent with code {}'.format(response.status_code))
-            main_logger.info(response.content)
-
-        except Exception as e:
-            main_logger.info("Test case result creation error: {}".format(str(e)))
 
     return 0
 
