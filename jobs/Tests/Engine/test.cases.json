@@ -9,7 +9,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_vulkan"
         },
@@ -27,7 +27,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_vulkan"
         },
@@ -45,7 +45,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_vulkan"
         },
@@ -63,7 +63,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_vulkan"
         },
@@ -81,7 +81,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_vulkan"
         },
@@ -99,7 +99,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_vulkan"
         },
@@ -117,7 +117,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_vulkan"
         },
@@ -135,7 +135,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12"
         },
@@ -156,7 +156,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12"
         },
@@ -177,7 +177,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12"
         },
@@ -198,7 +198,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12"
         },
@@ -219,7 +219,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12"
         },
@@ -240,7 +240,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12"
         },
@@ -261,7 +261,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 2,
+            "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12"
         },
@@ -282,7 +282,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl"
         },
@@ -303,7 +303,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl"
         },
@@ -324,7 +324,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl"
         },
@@ -345,7 +345,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl"
         },
@@ -366,7 +366,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl"
         },
@@ -387,7 +387,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl"
         },
@@ -408,7 +408,7 @@
             "file_ext": ".png",
             "animation": false,
             "uiConfig": "scene/UIConfig.json",
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl"
         },
