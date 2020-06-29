@@ -9,7 +9,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -33,7 +33,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -57,7 +57,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -81,7 +81,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -105,7 +105,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -129,7 +129,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -154,7 +154,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -178,7 +178,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -202,7 +202,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -226,7 +226,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 0,
@@ -250,7 +250,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 1,
@@ -274,7 +274,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 1,
@@ -298,7 +298,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 1,
@@ -322,7 +322,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 1,
@@ -346,7 +346,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 1,
@@ -370,7 +370,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 1,
@@ -394,7 +394,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 1,
@@ -418,7 +418,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 1,
@@ -442,7 +442,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -466,7 +466,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -490,7 +490,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -514,7 +514,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -538,7 +538,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -562,7 +562,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -586,7 +586,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -610,7 +610,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 2,
@@ -634,7 +634,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 3,
@@ -658,7 +658,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 3,
@@ -682,7 +682,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 3,
@@ -706,7 +706,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 3,
@@ -730,7 +730,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 4,
@@ -754,7 +754,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 4,
@@ -778,7 +778,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 4,
@@ -802,7 +802,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 4,
@@ -826,7 +826,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 5,
@@ -850,7 +850,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 5,
@@ -874,7 +874,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 5,
@@ -898,7 +898,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 5,
@@ -922,7 +922,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 6,
@@ -946,7 +946,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 6,
@@ -970,7 +970,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 7,
@@ -994,7 +994,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
             "camera": 7,
@@ -1018,7 +1018,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "camera": 0,
@@ -1045,7 +1045,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "camera": 0,
@@ -1072,7 +1072,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "camera": 2,
@@ -1099,7 +1099,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
             "camera": 2,
@@ -1126,7 +1126,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl",
             "camera": 0,
@@ -1153,7 +1153,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl",
             "camera": 0,
@@ -1180,7 +1180,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl",
             "camera": 2,
@@ -1207,7 +1207,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": 0,
+            "render_quality": "low",
             "engine": "rpr",
             "draw_engine": "ogl",
             "camera": 2,
