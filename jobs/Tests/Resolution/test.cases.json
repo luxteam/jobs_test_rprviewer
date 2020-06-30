@@ -9,7 +9,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -32,7 +32,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -55,7 +55,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -78,7 +78,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -101,7 +101,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -124,7 +124,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -147,7 +147,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -170,7 +170,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -193,7 +193,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -216,7 +216,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -239,7 +239,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -262,7 +262,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -285,7 +285,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -308,7 +308,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -331,7 +331,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -354,7 +354,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
@@ -377,7 +377,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": 2,
+            "render_quality": "high",
             "draw_engine": "vw_vulkan",
             "screen": {
                 "full_screen": false,
