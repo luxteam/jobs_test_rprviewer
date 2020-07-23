@@ -1028,7 +1028,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "D3D+Hybrid",
             "Frame 25"
         ],
         "skip_on": [
@@ -1055,7 +1055,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "D3D+Hybrid",
             "Frame 50"
         ],
         "skip_on": [
@@ -1082,7 +1082,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "D3D+Hybrid",
             "Frame 25"
         ],
         "skip_on": [
@@ -1109,7 +1109,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "D3D+Hybrid",
             "Frame 50"
         ],
         "skip_on": [
@@ -1218,6 +1218,114 @@
         },
         "script_info": [
             "OGL+RPR",
+            "Frame 50"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_A_051",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 0,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "D3D+HDX",
+            "Frame 25"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_A_052",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 0,
+            "time_mode": "steady",
+            "frame_exit_after": 50,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "D3D+HDX",
+            "Frame 50"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_A_053",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 2,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "D3D+HDX",
+            "Frame 25"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_A_054",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 2,
+            "time_mode": "steady",
+            "frame_exit_after": 50,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "D3D+HDX",
             "Frame 50"
         ],
         "skip_on": [
