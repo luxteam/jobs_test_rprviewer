@@ -39,7 +39,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hybrid + Vulkan",
+            "Vulkan + Hybrid",
             "High"
         ]
     },
@@ -59,7 +59,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hybrid + Vulkan",
+            "Vulkan + Hybrid",
             "Medium"
         ]
     },
@@ -79,7 +79,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hybrid + Vulkan",
+            "Vulkan + Hybrid",
             "Low"
         ]
     },
@@ -400,6 +400,53 @@
         },
         "script_info": [
             "Animation"
+        ]
+    },
+    {
+        "name": "VW_REG_019",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": "high",
+            "engine": "hdx",
+            "draw_engine": "d3d12"
+        },
+        "script_info": [
+            "D3D + HDX"
+        ],
+        "skip_on": [
+            ["Linux"]
+        ]
+    },
+    {
+        "name": "VW_REG_020",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 0,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+        },
+        "script_info": [
+            "Animation D3D + HDX"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     }
 ]
