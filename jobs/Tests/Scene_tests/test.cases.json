@@ -13,7 +13,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ]
@@ -33,7 +33,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ]
@@ -53,7 +53,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ]
@@ -73,7 +73,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ]
@@ -93,7 +93,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ]
@@ -113,7 +113,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ]
@@ -133,7 +133,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ]
@@ -157,7 +157,7 @@
 
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: Medium",
             "Iterations_per_frame - 10"
         ]
@@ -181,7 +181,7 @@
 
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Render Quality: High",
             "Iterations_per_frame - 10"
         ]
@@ -205,7 +205,7 @@
             
         },
         "script_info": [
-            "Hyb + D3D",
+            "D3D + Hybrid",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ],
@@ -231,7 +231,7 @@
             
         },
         "script_info": [
-            "Hyb + D3D",
+            "D3D + Hybrid",
             "Render Quality: Medium",
             "Iterations_per_frame - 10"
         ],
@@ -256,7 +256,7 @@
             "draw_engine": "vw_d3d12"
         },
         "script_info": [
-            "Hyb + D3D",
+            "D3D + Hybrid",
             "Render Quality: High",
             "Iterations_per_frame - 10"
         ],
@@ -592,7 +592,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "D3D + Hybrid",
             "Frame 25",
             "Iterations_per_frame - 1"
         ],
@@ -620,7 +620,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "D3D + Hybrid",
             "Frame 50",
             "Iterations_per_frame - 1"
         ],
@@ -648,7 +648,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "D3D + Hybrid",
             "Frame 25",
             "Iterations_per_frame - 1"
         ],
@@ -676,7 +676,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "D3D + Hybrid",
             "Frame 50",
             "Iterations_per_frame - 1"
         ],
@@ -813,7 +813,7 @@
         },
         "script_info": [
             "display gamma - 1.2",
-            "Hyb + Vulkan",
+            "Vulkan + Hybrid",
             "Iterations_per_frame - 10"
         ]
     },
@@ -834,7 +834,7 @@
         },
         "script_info": [
             "display gamma - 1.2",
-            "Hyb + D3D",
+            "D3D + Hybrid",
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
@@ -893,6 +893,222 @@
             "xflip/yflip true",
             "directional_light.depth_bias 0.0010",
             "Iterations_per_frame - 10"
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_038",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "low",
+            "uiConfig": "scene/UIConfig.json",
+            "engine": "hdx",
+            "draw_engine": "d3d12"
+            
+        },
+        "script_info": [
+            "D3D + HDX",
+            "Render Quality: Low",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+
+    {
+        "name": "RS_VIEW_ST_039",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12"
+            
+        },
+        "script_info": [
+            "D3D + HDX",
+            "Render Quality: Medium",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_040",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "high",
+            "uiConfig": "scene/UIConfig.json",
+            "engine": "hdx",
+            "draw_engine": "d3d12"
+        },
+        "script_info": [
+            "D3D + HDX",
+            "Render Quality: High",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_041",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 0,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "D3D + HDX",
+            "Frame 25",
+            "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_042",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 0,
+            "time_mode": "steady",
+            "frame_exit_after": 50,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "D3D + HDX",
+            "Frame 50",
+            "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_043",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 2,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "D3D + HDX",
+            "Frame 25",
+            "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_044",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "low",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 2,
+            "time_mode": "steady",
+            "frame_exit_after": 50,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "D3D + HDX",
+            "Frame 50",
+            "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_ST_045",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 60,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": "high",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "displaygamma": 1.2
+        },
+        "script_info": [
+            "display gamma - 1.2",
+            "D3D + HDX",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Linux"]
         ]
     }
 ]
