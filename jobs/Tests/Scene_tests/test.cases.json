@@ -141,7 +141,7 @@
 
      {
         "name": "RS_VIEW_ST_008",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
 
