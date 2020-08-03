@@ -209,12 +209,15 @@ def main():
             test_case_status = TEST_SUCCESS_STATUS
         finally:
             render_time = time.time() - start_time
+            error_messages = []
             try:
                 shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
                             os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
                 test_case_status = TEST_SUCCESS_STATUS
             except FileNotFoundError as err:
-                main_logger.error("Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])))
+                image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
+                error_messages.append(image_not_found_str)
+                main_logger.error(image_not_found_str)
                 main_logger.error(str(err))
                 test_case_status = TEST_CRASH_STATUS
 
@@ -228,6 +231,8 @@ def main():
             # Up to date test case status
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
+                if error_messages:
+                    test_case_report["message"] = test_case_report["message"] + error_messages
                 test_case_report["test_status"] = test_case_status
                 test_case_report["render_time"] = render_time
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
