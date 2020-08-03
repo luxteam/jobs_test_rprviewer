@@ -9,6 +9,7 @@ import time
 import datetime
 import platform
 import copy
+import xml.etree.ElementTree as ET
 
 ROOT_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 sys.path.append(ROOT_DIR_PATH)
@@ -88,6 +89,25 @@ def main():
     main_logger.info("PC conf: {}".format(current_conf))
     main_logger.info("Creating predefined errors json...")
 
+    group_timeout = 0
+    try:
+        xml_tree = ET.parse(os.path.join(ROOT_DIR_PATH, 'jobs', 'Tests', args.test_group, 'test.job-manifest.xml'))
+        xml_root = xml_tree.getroot()
+        for child in xml_root:
+            if child.tag == 'execute':
+                target_execute = False
+                for key, value in child.attrib.items():
+                    if key == 'command' and 'simpleRender' in value:
+                        target_execute = True
+                        break
+                if target_execute and 'timeout' in child.attrib:
+                    group_timeout = child.attrib['timeout']
+                    break
+
+    except Exception as e:
+        core_config.main_logger.error("Can't get group timeout")
+        core_config.main_logger.error(str(e))
+
     # save pre-defined reports with error status
     for test in tests_list:
         # for each case create config from default
@@ -113,7 +133,9 @@ def main():
                        'date_time': datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S"),
                        'script_info': test['script_info'],
                        'test_group': args.test_group,
-                       'render_color_path': 'Color/' + test['name'] + test['file_ext']
+                       'render_color_path': 'Color/' + test['name'] + test['file_ext'],
+                       'group_timeout': group_timeout,
+                       'testcase_timeout': test['render_time']
                        })
         try:
             shutil.copyfile(
@@ -166,6 +188,8 @@ def main():
         start_time = time.time()
         test_case_status = TEST_CRASH_STATUS
 
+        aborted_by_timeout = False
+
         try:
             stdout, stderr = p.communicate(timeout=test['render_time'])
         except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
@@ -180,6 +204,7 @@ def main():
                 child.terminate()
             p.terminate()
             stdout, stderr = p.communicate()
+            aborted_by_timeout = True
         else:
             test_case_status = TEST_SUCCESS_STATUS
         finally:
@@ -207,6 +232,8 @@ def main():
                 test_case_report["render_time"] = render_time
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
                 test_case_report["render_log"] = test['name'] + '_app.log'
+                test_case_report["group_timeout_exceeded"] = False
+                test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
 
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
                 json.dump([test_case_report], file, indent=4)
