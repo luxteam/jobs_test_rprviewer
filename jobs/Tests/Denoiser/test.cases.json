@@ -9,9 +9,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -32,9 +38,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -55,9 +67,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -78,9 +96,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -101,9 +125,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -124,9 +154,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -147,9 +183,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -170,10 +212,16 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "denoiser_split_screen": true,
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -195,10 +243,16 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "denoiser_split_screen": true,
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+             "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -220,10 +274,16 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "denoiser_split_screen": true,
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+             "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -245,10 +305,16 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "denoiser_split_screen": true,
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+             "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -270,10 +336,16 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "denoiser_split_screen": true,
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+             "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -295,10 +367,16 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "denoiser_split_screen": true,
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+             "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
@@ -320,10 +398,16 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "denoiser_split_screen": true,
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+             "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             }
+         ]
         },
         "script_info": [
             "denoiser - rml",
