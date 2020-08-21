@@ -9,11 +9,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
-            "upscaler": false
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": true
+             }
+            ]     
         },
         "script_info": [
             "denoiser - none",
@@ -35,10 +46,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": false
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": true
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -60,10 +82,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": false
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": true
+             }
+            ]
+
         },
         "script_info": [
             "denoiser - none",
@@ -85,10 +119,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": false
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": true
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -110,10 +155,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": false
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": true
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -135,10 +191,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": false
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": true
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -160,10 +227,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": false
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": true
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -185,11 +263,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": false
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -211,10 +300,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 1.0,
+             "disabled": false
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -236,10 +336,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 1.5,
+             "disabled": false
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -261,10 +372,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.5,
+             "disabled": false
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -286,10 +408,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 5.0,
+             "disabled": false
+             }
+            ]
+
         },
         "script_info": [
             "denoiser - none",
@@ -311,10 +445,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": false
+             }
+            ]
         },
         "script_info": [
             "denoiser - none",
@@ -336,10 +481,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "none",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": true
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.5,
+             "disabled": false
+             }
+            ]
+
         },
         "script_info": [
             "denoiser - none",
@@ -361,11 +518,23 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": false
+             }
+            ]
+
         },
         "script_info": [
             "denoiser - rml",
@@ -387,10 +556,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 1.5,
+             "disabled": false
+             }
+            ]
         },
         "script_info": [
             "denoiser - rml",
@@ -412,10 +592,21 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.5,
+             "disabled": false
+             }
+            ]
         },
         "script_info": [
             "denoiser - rml",
@@ -437,10 +628,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 5.0,
+             "disabled": false
+             }
+            ]
+
         },
         "script_info": [
             "denoiser - rml",
@@ -462,10 +665,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": false
+             }
+            ]
+
         },
         "script_info": [
             "denoiser - rml",
@@ -487,10 +702,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": false
+             }
+            ]
+
         },
         "script_info": [
             "denoiser - rml",
@@ -512,10 +739,22 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+            {
+             "description": "Denoise",
+             "model_path": "rif/models/denoise_c3_hdr.pb",
+             "disabled": false
+             },
+            {
+             "description": "Upscale",
+             "model_path": "rif/models/upscale2x_fast.pb",
+             "scaling": 2.0,
+             "disabled": false
+             }
+            ]
+
         },
         "script_info": [
             "denoiser - rml",
