@@ -113,7 +113,8 @@ def main():
                        'date_time': datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S"),
                        'script_info': test['script_info'],
                        'test_group': args.test_group,
-                       'render_color_path': 'Color/' + test['name'] + test['file_ext']
+                       'render_color_path': 'Color/' + test['name'] + test['file_ext'],
+                       'testcase_timeout': test['render_time']
                        })
         try:
             shutil.copyfile(
@@ -166,6 +167,8 @@ def main():
         start_time = time.time()
         test_case_status = TEST_CRASH_STATUS
 
+        aborted_by_timeout = False
+
         try:
             stdout, stderr = p.communicate(timeout=test['render_time'])
         except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
@@ -180,16 +183,20 @@ def main():
                 child.terminate()
             p.terminate()
             stdout, stderr = p.communicate()
+            aborted_by_timeout = True
         else:
             test_case_status = TEST_SUCCESS_STATUS
         finally:
             render_time = time.time() - start_time
+            error_messages = []
             try:
                 shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
                             os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
                 test_case_status = TEST_SUCCESS_STATUS
             except FileNotFoundError as err:
-                main_logger.error("Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])))
+                image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
+                error_messages.append(image_not_found_str)
+                main_logger.error(image_not_found_str)
                 main_logger.error(str(err))
                 test_case_status = TEST_CRASH_STATUS
 
@@ -203,10 +210,14 @@ def main():
             # Up to date test case status
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
+                if error_messages:
+                    test_case_report["message"] = test_case_report["message"] + error_messages
                 test_case_report["test_status"] = test_case_status
                 test_case_report["render_time"] = render_time
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
                 test_case_report["render_log"] = test['name'] + '_app.log'
+                test_case_report["group_timeout_exceeded"] = False
+                test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
 
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
                 json.dump([test_case_report], file, indent=4)
