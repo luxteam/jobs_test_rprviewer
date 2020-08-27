@@ -89,6 +89,20 @@ def main():
     main_logger.info("PC conf: {}".format(current_conf))
     main_logger.info("Creating predefined errors json...")
 
+    if system_pl == "Windows":
+        baseline_path_tr = os.path.join(
+            'c:/TestResources/rpr_viewer_autotests_baselines', args.testType)
+    else:
+        baseline_path_tr = os.path.expandvars(os.path.join(
+            '$CIS_TOOLS/JN/TestResources/rpr_viewer_autotests_baselines', args.testType))
+
+    baseline_path = os.path.join(
+        args.output_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.testType)
+
+    if not os.path.exists(baseline_path):
+        os.makedirs(baseline_path)
+        os.makedirs(os.path.join(baseline_path, 'Color'))
+
     # save pre-defined reports with error status
     for test in tests_list:
         # for each case create config from default
@@ -116,20 +130,6 @@ def main():
                        'test_group': args.test_group,
                        'render_color_path': 'Color/' + test['name'] + test['file_ext']
                        })
-
-        if system_pl == "Windows":
-            baseline_path_tr = os.path.join(
-                'c:/TestResources/rpr_viewer_autotests_baselines', args.testType)
-        else:
-            baseline_path_tr = os.path.expandvars(os.path.join(
-                '$CIS_TOOLS/JN/TestResources/rpr_viewer_autotests_baselines', args.testType))
-
-        baseline_path = os.path.join(
-            args.output_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.testType)
-
-        if not os.path.exists(baseline_path):
-            os.makedirs(baseline_path)
-            os.makedirs(os.path.join(baseline_path, 'Color'))
 
         try:
             shutil.copyfile(os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX),
