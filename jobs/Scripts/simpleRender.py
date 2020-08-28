@@ -94,7 +94,7 @@ def main():
             'c:/TestResources/rpr_viewer_autotests_baselines', args.testType)
     else:
         baseline_path_tr = os.path.expandvars(os.path.join(
-            '$CIS_TOOLS/JN/TestResources/rpr_viewer_autotests_baselines', args.testType))
+            '$CIS_TOOLS/../JN/TestResources/rpr_viewer_autotests_baselines', args.testType))
 
     baseline_path = os.path.join(
         args.output_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.testType)
