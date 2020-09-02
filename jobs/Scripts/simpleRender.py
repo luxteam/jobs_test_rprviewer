@@ -116,6 +116,9 @@ def main():
                        'render_color_path': 'Color/' + test['name'] + test['file_ext'],
                        'testcase_timeout': test['render_time']
                        })
+
+        if test_status == TEST_IGNORE_STATUS:
+            report.update({'group_timeout_exceeded': False})
         try:
             shutil.copyfile(
                 os.path.join(ROOT_DIR_PATH, 'jobs_launcher', 'common', 'img', report['test_status'] + test['file_ext']),
