@@ -91,13 +91,13 @@ def main():
 
     if system_pl == "Windows":
         baseline_path_tr = os.path.join(
-            'c:/TestResources/rpr_viewer_autotests_baselines', args.testType)
+            'c:/TestResources/rpr_viewer_autotests_baselines', args.test_group)
     else:
         baseline_path_tr = os.path.expandvars(os.path.join(
-            '$CIS_TOOLS/../TestResources/rpr_viewer_autotests_baselines', args.testType))
+            '$CIS_TOOLS/../TestResources/rpr_viewer_autotests_baselines', args.test_group))
 
     baseline_path = os.path.join(
-        args.output_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.testType)
+        args.output_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.test_group)
 
     if not os.path.exists(baseline_path):
         os.makedirs(baseline_path)
