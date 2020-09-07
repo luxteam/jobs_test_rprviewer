@@ -80,7 +80,7 @@
     },
     {
         "name": "RS_VIEW_ST_005",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
