@@ -10,6 +10,7 @@
         <argument>--scene_path "{ScenesDir}"</argument>
         <argument>--render_path "{RenderPath}"</argument>
         <argument>--test_group Iterations</argument>
+        <argument>--retries {retries}</argument>
     </execute>
 
     <execute command='python "{CWD}/Scripts/make_report_json.py"'>

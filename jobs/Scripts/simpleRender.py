@@ -24,6 +24,7 @@ def create_args_parser():
     parser.add_argument('--scene_path', required=True)
     parser.add_argument('--render_path', required=True, metavar="<path>")
     parser.add_argument('--test_group', required=True)
+    parser.add_argument('--retries', required=False, default=2, type=int)
     return parser.parse_args()
 
 
@@ -172,58 +173,60 @@ def main():
 
         aborted_by_timeout = False
 
-        try:
-            stdout, stderr = p.communicate(timeout=test['render_time'])
-        except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
-            main_logger.error("Aborted by timeout. {}".format(str(err)))
-
-            # RS_CONF_IT_022 - RS_CONF_IT_028
-            if frame_ae == '0':
-                test_case_status = TEST_SUCCESS_STATUS
-                frame_ae = '50'
-
-            for child in reversed(p.children(recursive=True)):
-                child.terminate()
-            p.terminate()
-            stdout, stderr = p.communicate()
-            aborted_by_timeout = True
-        else:
-            test_case_status = TEST_SUCCESS_STATUS
-        finally:
-            render_time = time.time() - start_time
-            error_messages = []
+        i = 0
+        while i < args.retries or test_case_status ==TEST_CRASH_STATUS:
             try:
-                shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
-                            os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                stdout, stderr = p.communicate(timeout=test['render_time'])
+            except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
+                main_logger.error("Aborted by timeout. {}".format(str(err)))
+
+                # RS_CONF_IT_022 - RS_CONF_IT_028
+                if frame_ae == '0':
+                    test_case_status = TEST_SUCCESS_STATUS
+                    frame_ae = '50'
+
+                for child in reversed(p.children(recursive=True)):
+                    child.terminate()
+                p.terminate()
+                stdout, stderr = p.communicate()
+                aborted_by_timeout = True
+            else:
                 test_case_status = TEST_SUCCESS_STATUS
-            except FileNotFoundError as err:
-                image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
-                error_messages.append(image_not_found_str)
-                main_logger.error(image_not_found_str)
-                main_logger.error(str(err))
-                test_case_status = TEST_CRASH_STATUS
 
-            with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
-                file.write("-----[STDOUT]------\n\n")
-                file.write(stdout.decode("UTF-8"))
-            with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
-                file.write("\n-----[STDERR]-----\n\n")
-                file.write(stderr.decode("UTF-8"))
+        render_time = time.time() - start_time
+        error_messages = []
+        try:
+            shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
+                        os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+            test_case_status = TEST_SUCCESS_STATUS
+        except FileNotFoundError as err:
+            image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
+            error_messages.append(image_not_found_str)
+            main_logger.error(image_not_found_str)
+            main_logger.error(str(err))
+            test_case_status = TEST_CRASH_STATUS
 
-            # Up to date test case status
-            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
-                test_case_report = json.loads(file.read())[0]
-                if error_messages:
-                    test_case_report["message"] = test_case_report["message"] + error_messages
-                test_case_report["test_status"] = test_case_status
-                test_case_report["render_time"] = render_time
-                test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
-                test_case_report["render_log"] = test['name'] + '_app.log'
-                test_case_report["group_timeout_exceeded"] = False
-                test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
+        with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
+            file.write("-----[STDOUT]------\n\n")
+            file.write(stdout.decode("UTF-8"))
+        with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
+            file.write("\n-----[STDERR]-----\n\n")
+            file.write(stderr.decode("UTF-8"))
 
-            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
-                json.dump([test_case_report], file, indent=4)
+        # Up to date test case status
+        with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
+            test_case_report = json.loads(file.read())[0]
+            if error_messages:
+                test_case_report["message"] = test_case_report["message"] + error_messages
+            test_case_report["test_status"] = test_case_status
+            test_case_report["render_time"] = render_time
+            test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
+            test_case_report["render_log"] = test['name'] + '_app.log'
+            test_case_report["group_timeout_exceeded"] = False
+            test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
+
+        with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
+            json.dump([test_case_report], file, indent=4)
 
     return 0
 
