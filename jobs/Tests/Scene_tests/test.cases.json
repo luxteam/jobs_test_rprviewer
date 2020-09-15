@@ -481,8 +481,62 @@
         ]
     },
 
-    {
+        {
         "name": "RS_VIEW_ST_019",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Frame 25",
+            "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+
+        {
+        "name": "RS_VIEW_ST_020",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "time_mode": "steady",
+            "frame_exit_after": 50,
+            "iterations_per_frame": 1
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Frame 50",
+            "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+           ["Linux"]
+        ]
+    },
+
+    {
+        "name": "RS_VIEW_ST_021",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -507,7 +561,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_020",
+        "name": "RS_VIEW_ST_022",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -533,7 +587,7 @@
     },
    
     {
-        "name": "RS_VIEW_ST_021",
+        "name": "RS_VIEW_ST_023",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -561,7 +615,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_022",
+        "name": "RS_VIEW_ST_024",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -590,7 +644,7 @@
     },
     
     {
-        "name": "RS_VIEW_ST_023",
+        "name": "RS_VIEW_ST_025",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -618,7 +672,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_024",
+        "name": "RS_VIEW_ST_026",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -646,7 +700,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_025",
+        "name": "RS_VIEW_ST_027",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -667,7 +721,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_027",
+        "name": "RS_VIEW_ST_028",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -691,7 +745,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_028",
+        "name": "RS_VIEW_ST_029",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -718,7 +772,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_029",
+        "name": "RS_VIEW_ST_030",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
