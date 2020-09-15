@@ -34,7 +34,7 @@
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
-            "global_illumination_mode": "ptgi",
+            "global_illumination_mode": "ptgi"
         },
         "script_info": [
             "HDX + D3D",
@@ -59,7 +59,7 @@
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
-            "global_illumination_mode": "dxr_ao",
+            "global_illumination_mode": "dxr_ao"
         },
         "script_info": [
             "HDX + D3D",
@@ -84,7 +84,7 @@
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
-            "global_illumination_mode": "irradiance_volume",
+            "global_illumination_mode": "irradiance_volume"
         },
         "script_info": [
             "HDX + D3D",
@@ -145,7 +145,7 @@
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "ptgi",
-            "enableRaytraceDirectionalShadows": true,
+            "enableRaytraceDirectionalShadows": true
         },
         "script_info": [
             "HDX + D3D",
@@ -172,7 +172,7 @@
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "ptgi",
-            "enableDepthOfField": true,
+            "enableDepthOfField": true
         },
         "script_info": [
             "HDX + D3D",
