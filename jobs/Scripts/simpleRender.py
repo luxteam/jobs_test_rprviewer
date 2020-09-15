@@ -174,7 +174,7 @@ def main():
         aborted_by_timeout = False
 
         i = 0
-        while i < args.retries or test_case_status ==TEST_CRASH_STATUS:
+        while i < args.retries and test_case_status ==TEST_CRASH_STATUS:
             try:
                 stdout, stderr = p.communicate(timeout=test['render_time'])
             except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
