@@ -83,10 +83,25 @@ def main():
                         os.path.join(args.render_path, 'config.original.json'))
 
     render_device = get_gpu()
+    system_pl = platform.system()
     current_conf = set(platform.system()) if not render_device else {platform.system(), render_device}
     main_logger.info("Detected GPUs: {}".format(render_device))
     main_logger.info("PC conf: {}".format(current_conf))
     main_logger.info("Creating predefined errors json...")
+
+    if system_pl == "Windows":
+        baseline_path_tr = os.path.join(
+            'c:/TestResources/rpr_viewer_autotests_baselines', args.test_group)
+    else:
+        baseline_path_tr = os.path.expandvars(os.path.join(
+            '$CIS_TOOLS/../TestResources/rpr_viewer_autotests_baselines', args.test_group))
+
+    baseline_path = os.path.join(
+        args.output_dir, os.path.pardir, os.path.pardir, os.path.pardir, 'Baseline', args.test_group)
+
+    if not os.path.exists(baseline_path):
+        os.makedirs(baseline_path)
+        os.makedirs(os.path.join(baseline_path, 'Color'))
 
     # save pre-defined reports with error status
     for test in tests_list:
@@ -116,6 +131,21 @@ def main():
                        'render_color_path': 'Color/' + test['name'] + test['file_ext'],
                        'testcase_timeout': test['render_time']
                        })
+
+        try:
+            shutil.copyfile(os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX),
+                     os.path.join(baseline_path, test['name'] + CASE_REPORT_SUFFIX))
+
+            with open(os.path.join(baseline_path, test['name'] + CASE_REPORT_SUFFIX)) as baseline:
+                baseline_json = json.load(baseline)
+
+            for thumb in [''] + core_config.THUMBNAIL_PREFIXES:
+                if thumb + 'render_color_path' and os.path.exists(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path'])):
+                    shutil.copyfile(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path']),
+                             os.path.join(baseline_path, baseline_json[thumb + 'render_color_path']))
+        except:
+            main_logger.error('Failed to copy baseline ' +
+                                          os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX))
 
         if test_status == TEST_IGNORE_STATUS:
             report.update({'group_timeout_exceeded': False})
