@@ -3,15 +3,15 @@
         "name": "RS_VIEW_A_001",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "camera": 0,
             "time_mode": "steady",
             "frame_exit_after": 25,
@@ -19,7 +19,7 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "HDX + D3D",
             "Frame 25"
         ]
     },
@@ -27,15 +27,15 @@
         "name": "RS_VIEW_A_002",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "camera": 0,
             "time_mode": "steady",
             "frame_exit_after": 50,
@@ -43,31 +43,31 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "HDX + D3D",
             "Frame 50"
         ]
     },
-    {
+     {
         "name": "RS_VIEW_A_003",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 0,
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 1,
             "time_mode": "steady",
             "frame_exit_after": 25,
             "iterations_per_frame": 1
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "HDX + D3D",
             "Frame 25"
         ]
     },
@@ -75,23 +75,23 @@
         "name": "RS_VIEW_A_004",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 0,
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 1,
             "time_mode": "steady",
             "frame_exit_after": 50,
             "iterations_per_frame": 1
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "HDX + D3D",
             "Frame 50"
         ]
     },
@@ -100,8 +100,8 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -115,7 +115,7 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 25"
         ]
     },
@@ -124,8 +124,8 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -139,9 +139,8 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 50"
-
         ]
     },
     {
@@ -149,8 +148,8 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -164,7 +163,7 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 25"
         ]
     },
@@ -173,8 +172,8 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -188,7 +187,7 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 50"
         ]
     },
@@ -212,7 +211,7 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 25"
         ]
     },
@@ -236,7 +235,7 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 50"
         ]
     },
@@ -245,8 +244,8 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -260,7 +259,7 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 25"
         ]
     },
@@ -269,8 +268,8 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -284,10 +283,11 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 50"
         ]
     },
+    
     {
         "name": "RS_VIEW_A_013",
         "status": "active",
@@ -301,14 +301,14 @@
             "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
-            "camera": 1,
+            "camera": 2,
             "time_mode": "steady",
             "frame_exit_after": 25,
             "iterations_per_frame": 1
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 25"
         ]
     },
@@ -325,39 +325,43 @@
             "render_quality": "low",
             "engine": "hyb",
             "draw_engine": "vw_vulkan",
-            "camera": 1,
+            "camera": 2,
             "time_mode": "steady",
             "frame_exit_after": 50,
             "iterations_per_frame": 1
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 50"
         ]
     },
+   
     {
         "name": "RS_VIEW_A_015",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
             "render_quality": "low",
             "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 1,
+            "draw_engine": "vw_d3d12",
+            "camera": 2,
             "time_mode": "steady",
             "frame_exit_after": 25,
             "iterations_per_frame": 1
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + D3D",
             "Frame 25"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
@@ -365,86 +369,95 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
             "render_quality": "low",
             "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 1,
+            "draw_engine": "vw_d3d12",
+            "camera": 2,
             "time_mode": "steady",
             "frame_exit_after": 50,
             "iterations_per_frame": 1
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + D3D",
             "Frame 50"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
         "name": "RS_VIEW_A_017",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
+        "render_time": 120,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
             "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 1,
+            "engine": "rpr",
+            "draw_engine": "ogl",
+            "camera": 0,
             "time_mode": "steady",
             "frame_exit_after": 25,
             "iterations_per_frame": 1
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "RPR + OGL",
             "Frame 25"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
         "name": "RS_VIEW_A_018",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
+        "render_time": 120,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
             "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 1,
+            "engine": "rpr",
+            "draw_engine": "ogl",
+            "camera": 0,
             "time_mode": "steady",
             "frame_exit_after": 50,
             "iterations_per_frame": 1
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "RPR + OGL",
             "Frame 50"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
         "name": "RS_VIEW_A_019",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
+        "render_time": 120,
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
             "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
+            "engine": "rpr",
+            "draw_engine": "ogl",
             "camera": 2,
             "time_mode": "steady",
             "frame_exit_after": 25,
@@ -452,755 +465,17 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "RPR + OGL",
             "Frame 25"
+        ],
+        "skip_on": [
+           ["Linux"]
         ]
     },
     {
         "name": "RS_VIEW_A_020",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_021",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_022",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_023",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_024",
-        "status": "skipped",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_025",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_026",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_027",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 3,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_028",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 3,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_029",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 3,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_030",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 3,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_031",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 4,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_032",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 4,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_033",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 4,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_034",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 4,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_035",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 5,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_036",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 5,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_037",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 5,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_038",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 5,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_039",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 6,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_040",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 6,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_041",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 7,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 25"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_042",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
-            "camera": 7,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Vulkan+ Hybrid",
-            "Frame 50"
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_043",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12",
-            "camera": 0,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Hyb+D3D",
-            "Frame 25"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_044",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12",
-            "camera": 0,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Hyb+D3D",
-            "Frame 50"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_045",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Hyb+D3D",
-            "Frame 25"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_046",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "Hyb+D3D",
-            "Frame 50"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_047",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 120,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl",
-            "camera": 0,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "OGL+RPR",
-            "Frame 25"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_048",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 120,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl",
-            "camera": 0,
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "OGL+RPR",
-            "Frame 50"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_049",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 120,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl",
-            "camera": 2,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-
-        },
-        "script_info": [
-            "OGL+RPR",
-            "Frame 25"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_VIEW_A_050",
-        "status": "active",
-        "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
@@ -1217,7 +492,7 @@
 
         },
         "script_info": [
-            "OGL+RPR",
+            "RPR + OGL",
             "Frame 50"
         ],
         "skip_on": [
