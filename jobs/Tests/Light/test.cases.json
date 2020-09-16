@@ -3,6 +3,107 @@
         "name": "RS_VIEW_L_001",
         "status": "active",
         "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "custom",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "irradiance_volume"
+
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Global Illumination Mode - irradiance volume"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_002",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "custom",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "dxr_ao"
+
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Global Illumination Mode - dxr_ao"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_003",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "custom",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "ptgi"
+
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Global Illumination Mode - ptgi"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_004",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "custom",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "ptgi",
+            "hybrid": {
+                "fog": {
+                  "enable_visibility": true,
+                  "use_dxr_visibility": false,
+                  "density": 0.05,
+                  "max_distance": 256,
+                  "max_scatter_distance": 256,
+                  "max_view_samples": 32,
+                  "mie_g": 0.72
+                },
+                "enableRaytraceDirectionalShadows": true,
+                "enableRaytraceSpotShadows": true,
+                "enableRaytracePointShadows": true
+             }
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Global Illumination Mode - ptgi",
+            "Fog visability enabled",
+            "Raytrace Directional Shadows",
+            "Raytrace Spot Shadows",
+            "Raytrace Point Shadows"
+        ]
+    },
+    {
+        "name": "RS_VIEW_L_005",
+        "status": "active",
+        "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
@@ -29,36 +130,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_L_002",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "default_light": {
-            "add": true,
-            "intensity": 100,
-            "position": [
-                   0.0,
-                   20.0,
-                   20.0,
-                   1.0
-                  ]
-        }
-
-        },
-        "script_info": [
-            "default light:",
-            "intensity - 100"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_003",
+        "name": "RS_VIEW_L_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -84,78 +156,6 @@
         "script_info": [
             "default light:",
             "intensity - 0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_004",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig":"Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-                "add": true,
-                "intensity": 0.1,
-                "source": "sky.hdr"
-            }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_005",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
-        "uiConfig":"ChessWaterTest_v.3/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-                "add": true,
-                "intensity": 0.1,
-                "source": "sky.hdr"
-            }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_006",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig":"FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
         ]
     },
     {
@@ -187,78 +187,6 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig":"FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_009",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig":"FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_010",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0.1,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0.1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_011",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
@@ -279,31 +207,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_L_012",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig":"SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "environment_light": {
-            "add": true,
-            "intensity": 0,
-            "source": "sky.hdr"
-        }
-
-        },
-        "script_info": [
-            "environment light:",
-            "intensity - 0"
-        ]
-    },
-    {
-        "name": "RS_VIEW_L_013",
+        "name": "RS_VIEW_L_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
