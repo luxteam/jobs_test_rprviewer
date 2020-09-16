@@ -18,6 +18,7 @@
                 }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "height - 1080",
             "width - 1920"
         ]
@@ -41,127 +42,13 @@
                 }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "height - 1080",
             "width - 1920"
         ]
     },
     {
         "name": "RS_CONF_RES_003",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "screen": {
-                "full_screen": false,
-                "height": 1080,
-                "width": 1920
-                }
-        },
-        "script_info": [
-            "height - 1080",
-            "width - 1920"
-        ]
-    },
-    {
-        "name": "RS_CONF_RES_004",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
-        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "screen": {
-                "full_screen": false,
-                "height": 1080,
-                "width": 1920
-                }
-        },
-        "script_info": [
-            "height - 1080",
-            "width - 1920"
-        ]
-    },
-    {
-        "name": "RS_CONF_RES_005",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "screen": {
-                "full_screen": false,
-                "height": 1080,
-                "width": 1920
-                }
-        },
-        "script_info": [
-            "height - 1080",
-            "width - 1920"
-        ]
-    },
-    {
-        "name": "RS_CONF_RES_006",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "screen": {
-                "full_screen": false,
-                "height": 1080,
-                "width": 1920
-                }
-        },
-        "script_info": [
-            "height - 1080",
-            "width - 1920"
-        ]
-    },
-    {
-        "name": "RS_CONF_RES_007",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
-        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "screen": {
-                "full_screen": false,
-                "height": 1080,
-                "width": 1920
-                }
-        },
-        "script_info": [
-            "height - 1080",
-            "width - 1920"
-        ]
-    },
-    {
-        "name": "RS_CONF_RES_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -179,22 +66,24 @@
                 }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "height - 288",
             "width - 512"
         ]
     },
     {
-        "name": "RS_CONF_RES_009",
+        "name": "RS_CONF_RES_004",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "screen": {
                 "full_screen": false,
                 "height": 600,
@@ -202,58 +91,13 @@
                 }
         },
         "script_info": [
+            "HDX + D3D",
             "height - 600",
             "width - 600"
         ]
     },
     {
-        "name": "RS_CONF_RES_010",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "screen": {
-                "full_screen": false,
-                "height": 1280,
-                "width": 720
-                }
-        },
-        "script_info": [
-            "height - 1280",
-            "width - 720"
-        ]
-    },
-    {
-        "name": "RS_CONF_RES_011",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "screen": {
-                "full_screen": false,
-                "height": 600,
-                "width": 800
-                }
-        },
-        "script_info": [
-            "height - 600",
-            "width - 800"
-        ]
-    },
-    {
-        "name": "RS_CONF_RES_012",
+        "name": "RS_CONF_RES_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -271,12 +115,13 @@
                 }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "height - 2160",
             "width - 4096"
         ]
     },
     {
-        "name": "RS_CONF_RES_013",
+        "name": "RS_CONF_RES_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -294,22 +139,24 @@
                 }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "height - 400",
             "width - 1800"
         ]
     },
     {
-        "name": "RS_CONF_RES_014",
+        "name": "RS_CONF_RES_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "screen": {
                 "full_screen": false,
                 "height": 2160,
@@ -317,22 +164,24 @@
                 }
         },
         "script_info": [
+            "HDX + D3D",
             "height - 2160",
             "width - 3840 "
         ]
     },
     {
-        "name": "RS_CONF_RES_015",
+        "name": "RS_CONF_RES_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "screen": {
                 "full_screen": false,
                 "height": 900,
@@ -340,12 +189,13 @@
                 }
         },
         "script_info": [
+            "HDX + D3D",
             "height - 900",
             "width - 1440"
         ]
     },
     {
-        "name": "RS_CONF_RES_016",
+        "name": "RS_CONF_RES_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -363,22 +213,24 @@
                 }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "height - 1200",
             "width - 1600"
         ]
     },
     {
-        "name": "RS_CONF_RES_017",
+        "name": "RS_CONF_RES_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "screen": {
                 "full_screen": false,
                 "height": 480,
@@ -386,6 +238,7 @@
                 }
         },
         "script_info": [
+            "HDX + D3D",
             "height - 480",
             "width - 640"
         ]
