@@ -13,7 +13,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "Low mode"
         ]
     },
@@ -31,7 +31,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "Low mode"
         ]
     },
@@ -49,7 +49,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "Low mode"
         ]
     },
@@ -67,7 +67,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "Low mode"
         ]
     },
@@ -85,7 +85,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "Medium mode"
         ]
     },
@@ -103,7 +103,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "Medium mode"
         ]
     },
@@ -121,7 +121,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "Medium mode"
         ]
     },
@@ -139,7 +139,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "Medium mode"
         ]
     },
@@ -157,7 +157,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "High mode"
         ]
     },
@@ -175,7 +175,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "High mode"
         ]
     },
@@ -193,7 +193,7 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "High mode"
         ]
     },
@@ -211,58 +211,9 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "engine - Hybrid",
+            "Hybrid + Vulkan",
             "High mode"
         ]
-    },
-    {
-        "name": "RS_VIEW_RM_013",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12"
-        },
-        "script_info": [
-            "engine - HDX",
-            "Medium mode"
-        ]
-    },
-    {
-        "name": "RS_VIEW_RM_014",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "custom",
-            "hybrid": {
-                "fog": {
-                  "enable_visibility": true,
-                  "use_dxr_visibility": false,
-                  "density": 0.05,
-                  "max_distance": 256,
-                  "max_scatter_distance": 256,
-                  "max_view_samples": 32,
-                  "mie_g": 0.72
-                    },
-                "enableDepthOfField": true
-                },
-            "engine": "hdx",
-            "draw_engine": "d3d12"
-        },
-        "script_info": [
-            "engine - HDX",
-            "Custom mode"
-        ]
     }
-]
+
+ ]

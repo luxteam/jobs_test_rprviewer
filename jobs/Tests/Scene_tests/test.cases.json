@@ -1,229 +1,7 @@
-[   {
-        "name": "RS_VIEW_ST_001",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12"
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
-        {
-        "name": "RS_VIEW_ST_002",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "custom",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "global_illumination_mode": "ptgi"
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10",
-            "Global illumination mode - ptgi"     
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
-        {
-        "name": "RS_VIEW_ST_003",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "custom",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "global_illumination_mode": "dxr_ao"
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10",
-            "Global illumination mode - dxr_ao"     
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
-         {
-        "name": "RS_VIEW_ST_004",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "custom",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "global_illumination_mode": "irradiance_volume"
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10",
-            "Global illumination mode - irradiance_volume"     
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
-        {
-        "name": "RS_VIEW_ST_005",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "custom",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "global_illumination_mode": "ptgi",
-            "fog": {
-                "enable_visibility": true,
-                "use_dxr_visibility": false,
-                "density": 0.05,
-                "max_distance": 256,
-                "max_scatter_distance": 256,
-                "max_view_samples": 32,
-                "mie_g": 0.72
-                    }
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10",
-            "Global illumination mode - ptgi",  
-            "Fog visability enabled"   
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
-        {
-        "name": "RS_VIEW_ST_006",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "custom",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "global_illumination_mode": "ptgi",
-            "enableRaytraceDirectionalShadows": true
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10",
-            "Global illumination mode - ptgi",  
-            "Raytrace Directional Shadows"   
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
-        {
-        "name": "RS_VIEW_ST_007",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "custom",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "global_illumination_mode": "ptgi",
-            "enableDepthOfField": true
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10",
-            "Global illumination mode - ptgi",  
-            "Depth Of Field"   
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
-       {
-        "name": "RS_VIEW_ST_008",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "custom",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "global_illumination_mode": "ptgi",
-            "rif_postprocessing": [
-            {
-              "type": "bloom",
-              "name": "bloom_1",
-              "disabled": false,
-              "radius": 0.01,
-              "threshold": 0.5,
-              "weight": 0.51,
-              "decay": 0.0
-            }
-            ]
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10",
-            "Global illumination mode - ptgi",  
-            "Rif postprocessing - bloom, threshold - 0.5"   
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    }, 
+[   
    
-        {
-        "name": "RS_VIEW_ST_009",
+    {
+        "name": "RS_VIEW_ST_001",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -237,14 +15,14 @@
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Hybrid + Vulkan",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ]
     },
 
      {
-        "name": "RS_VIEW_ST_010",
+        "name": "RS_VIEW_ST_002",
         "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
@@ -261,14 +39,14 @@
 
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Hybrid + Vulkan",
             "Render Quality: Medium",
             "Iterations_per_frame - 10"
         ]
     },
 
     {
-        "name": "RS_VIEW_ST_011",
+        "name": "RS_VIEW_ST_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -285,14 +63,14 @@
 
         },
         "script_info": [
-            "Hyb + Vulkan",
+            "Hybrid + Vulkan",
             "Render Quality: High",
             "Iterations_per_frame - 10"
         ]
     },
 
     {
-        "name": "RS_VIEW_ST_012",
+        "name": "RS_VIEW_ST_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -309,7 +87,7 @@
             
         },
         "script_info": [
-            "Hyb + D3D",
+            "Hybrid + D3D",
             "Render Quality: Low",
             "Iterations_per_frame - 10"
         ],
@@ -319,7 +97,7 @@
     },
 
     {
-        "name": "RS_VIEW_ST_013",
+        "name": "RS_VIEW_ST_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -335,7 +113,7 @@
             
         },
         "script_info": [
-            "Hyb + D3D",
+            "Hybrid + D3D",
             "Render Quality: Medium",
             "Iterations_per_frame - 10"
         ],
@@ -344,7 +122,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_014",
+        "name": "RS_VIEW_ST_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -360,7 +138,7 @@
             "draw_engine": "vw_d3d12"
         },
         "script_info": [
-            "Hyb + D3D",
+            "Hybrid + D3D",
             "Render Quality: High",
             "Iterations_per_frame - 10"
         ],
@@ -370,14 +148,12 @@
     },
 
     {
-        "name": "RS_VIEW_ST_015",
+        "name": "RS_VIEW_ST_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -393,7 +169,7 @@
             ]
         },
         "script_info": [
-            "Hyb + D3D + ML",
+            "Hybrid + D3D + ML",
             "Render Quality: High",
             "Iterations_per_frame - 10"
         ],
@@ -402,14 +178,12 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_016",
+        "name": "RS_VIEW_ST_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
-
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
         "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -426,7 +200,7 @@
             ]
         },
         "script_info": [
-            "Hyb + D3D + Upscaler",
+            "Hybrid + D3D + Upscaler",
             "Render Quality: High",
             "Iterations_per_frame - 10"
         ],
@@ -436,7 +210,7 @@
     },
 
        {
-        "name": "RS_VIEW_ST_017",
+        "name": "RS_VIEW_ST_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -450,7 +224,7 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR",
+            "RPR + OGL",
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
@@ -459,7 +233,7 @@
     },
 
         {
-        "name": "RS_VIEW_ST_018",
+        "name": "RS_VIEW_ST_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -473,70 +247,15 @@
             "draw_engine": "ogl"
         },
         "script_info": [
-            "OGL+RPR",
+            "RPR + OGL",
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
            ["Linux"]
         ]
     },
-
-        {
-        "name": "RS_VIEW_ST_019",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Frame 25",
-            "Iterations_per_frame - 1"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
-        {
-        "name": "RS_VIEW_ST_020",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "time_mode": "steady",
-            "frame_exit_after": 50,
-            "iterations_per_frame": 1
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Frame 50",
-            "Iterations_per_frame - 1"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-
     {
-        "name": "RS_VIEW_ST_021",
+        "name": "RS_VIEW_ST_011",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -555,13 +274,13 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 25",
             "Iterations_per_frame - 1"
         ]
     },
     {
-        "name": "RS_VIEW_ST_022",
+        "name": "RS_VIEW_ST_012",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -580,14 +299,14 @@
 
         },
         "script_info": [
-            "Vulkan+ Hybrid",
+            "Hybrid + Vulkan",
             "Frame 50",
             "Iterations_per_frame - 1"
         ]
     },
    
     {
-        "name": "RS_VIEW_ST_023",
+        "name": "RS_VIEW_ST_013",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -606,7 +325,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "Hybrid + D3D",
             "Frame 25",
             "Iterations_per_frame - 1"
         ],
@@ -615,7 +334,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_024",
+        "name": "RS_VIEW_ST_014",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -634,7 +353,7 @@
 
         },
         "script_info": [
-            "Hyb+D3D",
+            "Hybrid + D3D",
             "Frame 50",
             "Iterations_per_frame - 1"
         ],
@@ -642,9 +361,8 @@
            ["Linux"]
         ]
     },
-    
     {
-        "name": "RS_VIEW_ST_025",
+        "name": "RS_VIEW_ST_015",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -663,7 +381,7 @@
 
         },
         "script_info": [
-            "OGL+RPR",
+            "RPR + OGL",
             "Frame 25",
             "Iterations_per_frame - 1"
         ],
@@ -672,7 +390,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_026",
+        "name": "RS_VIEW_ST_016",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -691,7 +409,7 @@
 
         },
         "script_info": [
-            "OGL+RPR",
+            "RPR + OGL",
             "Frame 50",
             "Iterations_per_frame - 1"
         ],
@@ -700,7 +418,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_027",
+        "name": "RS_VIEW_ST_017",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -716,12 +434,12 @@
         },
         "script_info": [
             "display gamma - 1.2",
-            "Hyb + Vulkan",
+            "Hybrid + Vulkan",
             "Iterations_per_frame - 10"
         ]
     },
     {
-        "name": "RS_VIEW_ST_028",
+        "name": "RS_VIEW_ST_018",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -737,7 +455,7 @@
         },
         "script_info": [
             "display gamma - 1.2",
-            "Hyb + D3D",
+            "Hybrid + D3D",
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
@@ -745,7 +463,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_029",
+        "name": "RS_VIEW_ST_019",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -765,6 +483,7 @@
             }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "maxRecursion - 5",
             "xflip/yflip true",
             "directional_light.depth_bias 0.0015",
@@ -772,7 +491,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_030",
+        "name": "RS_VIEW_ST_020",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -792,6 +511,7 @@
             }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "maxRecursion - 3",
             "xflip/yflip true",
             "directional_light.depth_bias 0.0010",

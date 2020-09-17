@@ -1,31 +1,7 @@
 [
+    
     {
         "name": "VW_REG_001",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 120,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "screen": {
-                "full_screen": false,
-                "height": 2160,
-                "width": 3840 
-                }
-        },
-        "script_info": [
-            "HDX + D3D",
-            "height - 2160",
-            "width - 3840 "
-        ]
-    },
-    {
-        "name": "VW_REG_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -45,7 +21,7 @@
         ]
     },
     {
-        "name": "VW_REG_003",
+        "name": "VW_REG_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -65,7 +41,7 @@
         ]
     },
     {
-        "name": "VW_REG_004",
+        "name": "VW_REG_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -85,7 +61,7 @@
         ]
     },
     {
-        "name": "VW_REG_005",
+        "name": "VW_REG_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -107,7 +83,7 @@
         ]
     },
     {
-        "name": "VW_REG_006",
+        "name": "VW_REG_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -129,29 +105,7 @@
         ]
     },
     {
-        "name": "VW_REG_007",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "frame_exit_after": 0,
-            "iterations_per_frame": 1
-        },
-        "script_info": [
-            "Iterations:",
-            "Iterations per frame = 1",
-            "Frame exit after = 0"
-        ]
-    },
-    {
-        "name": "VW_REG_008",
+        "name": "VW_REG_006",
         "status": "skipped",
         "file_ext": ".png",
         "render_time": 100,
@@ -177,36 +131,12 @@
             }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "Hybrid settings"
         ]
     },
     {
-        "name": "VW_REG_009",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": true,
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "camera": 0,
-            "time_mode": "steady",
-            "frame_exit_after": 25,
-            "iterations_per_frame": 1
-        },
-        "script_info": [
-            "Animation HDX + D3D"
-        ],
-        "skip_on": [
-            ["Linux"]
-        ]
-    },
-    {
-        "name": "VW_REG_010",
+        "name": "VW_REG_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -231,7 +161,7 @@
         ]
     },
     {
-        "name": "VW_REG_011",
+        "name": "VW_REG_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -251,6 +181,7 @@
             ]
         },
         "script_info": [
+            "Hybrid + D3D",
             "RML denoiser"
         ],
         "skip_on": [
@@ -258,37 +189,7 @@
         ]
     },
     {
-        "name": "VW_REG_012",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "rif_postprocessing": [
-                {
-                  "type": "bloom",
-                  "name": "bloom_1",
-                  "disabled": false,
-                  "radius": 0.01,
-                  "threshold": 0.0,
-                  "weight": 0.51,
-                  "decay": 0.0
-                } 
-            ]
-        },
-        "script_info": [
-            "HDX + D3D"
-            "rif_postprocessing -  bloom"
-        ]
-    },
-    {
-        "name": "VW_REG_013",
+        "name": "VW_REG_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -311,11 +212,12 @@
         }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "Default light"
         ]
     },
     {
-        "name": "VW_REG_014",
+        "name": "VW_REG_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -333,11 +235,12 @@
         }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "Enviroment light HDR"
         ]
     },
     {
-        "name": "VW_REG_015",
+        "name": "VW_REG_011",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -355,31 +258,12 @@
             }
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "Enviroment light EXR"
         ]
     },
     {
-        "name": "VW_REG_016",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "camera": 3
-        },
-        "script_info": [
-            "HDX + D3D"
-            "Camera"
-        ]
-    },
-    {
-        "name": "VW_REG_017",
+        "name": "VW_REG_012",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -402,6 +286,7 @@
               ]
         },
         "script_info": [
+            "Hybrid + D3D",
             "Upscaler"
         ],
         "skip_on": [
@@ -409,7 +294,7 @@
         ]
     },
     {
-        "name": "VW_REG_018",
+        "name": "VW_REG_013",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -427,6 +312,7 @@
             "iterations_per_frame": 1
         },
         "script_info": [
+            "Hybrid + Vulkan",
             "Animation"
         ]
     }

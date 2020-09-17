@@ -1,42 +1,7 @@
 [
+    
     {
         "name": "RS_VIEW_US_001",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "rml_postprocessing": [
-                {
-                  "description": "Denoise",
-                  "model_path": "rif/models/denoise_c3_hdr.pb",
-                  "disabled": true
-                },
-                {
-                  "description": "Upscale",
-                  "model_path": "rif/models/upscale2x_fast.pb",
-                  "scaling": 2.0,
-                  "disabled": false
-                }
-              ]
-        },
-        "script_info": [
-            "denoiser - none",
-            "HDX + D3D",
-            "upscaler - true"
-        ],
-        "skip_on": [
-            ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_VIEW_US_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -72,7 +37,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_003",
+        "name": "RS_VIEW_US_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -108,7 +73,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_004",
+        "name": "RS_VIEW_US_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -144,7 +109,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_005",
+        "name": "RS_VIEW_US_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -178,7 +143,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_006",
+        "name": "RS_VIEW_US_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -212,7 +177,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_007",
+        "name": "RS_VIEW_US_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
