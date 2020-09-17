@@ -3,24 +3,25 @@
         "name": "VW_REG_001",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "screen": {
                 "full_screen": false,
-                "height": 1080,
-                "width": 1920
+                "height": 2160,
+                "width": 3840 
                 }
         },
         "script_info": [
-            "Resolution:",
-            "height - 1080",
-            "width - 1920"
+            "HDX + D3D",
+            "height - 2160",
+            "width - 3840 "
         ]
     },
     {
@@ -131,15 +132,15 @@
         "name": "VW_REG_007",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
             "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_vulkan",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "frame_exit_after": 0,
             "iterations_per_frame": 1
         },
@@ -183,22 +184,22 @@
         "name": "VW_REG_009",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "render_quality": "low",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "camera": 0,
             "time_mode": "steady",
             "frame_exit_after": 25,
             "iterations_per_frame": 1
         },
         "script_info": [
-            "Animation D3D + Hybrid"
+            "Animation HDX + D3D"
         ],
         "skip_on": [
             ["Linux"]
@@ -239,9 +240,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+                {
+                  "description": "Denoise",
+                  "model_path": "rif/models/denoise_c3_hdr.pb",
+                  "disabled": false
+                }
+            ]
         },
         "script_info": [
             "RML denoiser"
@@ -252,20 +259,32 @@
     },
     {
         "name": "VW_REG_012",
-        "status": "skipped",
+        "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rif",
-            "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "rif_postprocessing": [
+                {
+                  "type": "bloom",
+                  "name": "bloom_1",
+                  "disabled": false,
+                  "radius": 0.01,
+                  "threshold": 0.0,
+                  "weight": 0.51,
+                  "decay": 0.0
+                } 
+            ]
         },
         "script_info": [
-            "RIF denoiser"
+            "HDX + D3D"
+            "rif_postprocessing -  bloom"
         ]
     },
     {
@@ -343,17 +362,19 @@
         "name": "VW_REG_016",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 60,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
-        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
             "camera": 3
         },
         "script_info": [
+            "HDX + D3D"
             "Camera"
         ]
     },
@@ -371,7 +392,14 @@
             "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+                {
+                  "description": "Upscale",
+                  "model_path": "rif/models/upscale2x_fast.pb",
+                  "scaling": 2.0,
+                  "disabled": false
+                }
+              ]
         },
         "script_info": [
             "Upscaler"
