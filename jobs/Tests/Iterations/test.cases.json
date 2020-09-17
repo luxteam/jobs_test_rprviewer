@@ -18,30 +18,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_IT_002",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "iterations_per_frame": 1
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 1"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_CONF_IT_003",
+        "name": "RS_CONF_IT_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -59,7 +36,7 @@
         ]
     },
     {
-        "name": "RS_CONF_IT_004",
+        "name": "RS_CONF_IT_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -77,26 +54,39 @@
         ]
     },
     {
-        "name": "RS_VIEW_IT_005",
+        "name": "RS_CONF_IT_004",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "render_time": 90,
+        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan",
             "iterations_per_frame": 25
         },
         "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 25"
-        ],
-        "skip_on": [
-           ["Linux"]
+            "iterations per frame - 25"
+        ]
+    },
+    {
+        "name": "RS_CONF_IT_005",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 90,
+        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan",
+            "iterations_per_frame": 100
+        },
+        "script_info": [
+            "iterations per frame - 100"
         ]
     },
     {
@@ -111,73 +101,14 @@
             "animation": false,
             "render_quality": "high",
             "draw_engine": "vw_vulkan",
-            "iterations_per_frame": 25
+            "iterations_per_frame": 100
         },
         "script_info": [
-            "iterations per frame - 25"
+            "iterations per frame - 100"
         ]
     },
     {
         "name": "RS_CONF_IT_007",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 90,
-        "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
-        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "iterations_per_frame": 100
-        },
-        "script_info": [
-            "iterations per frame - 100"
-        ]
-    },
-    {
-        "name": "RS_VIEW_IT_008",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "iterations_per_frame": 100
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 100"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_CONF_IT_009",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 90,
-        "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
-        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "high",
-            "draw_engine": "vw_vulkan",
-            "iterations_per_frame": 100
-        },
-        "script_info": [
-            "iterations per frame - 100"
-        ]
-    },
-    {
-        "name": "RS_CONF_IT_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -197,32 +128,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_IT_011",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "frame_exit_after": 0,
-            "iterations_per_frame": 1
-        },
-        "script_info": [
-            "HDX + D3D",
-            "frame exit after - 0",
-            "iterations per frame - 1"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_CONF_IT_012",
+        "name": "RS_CONF_IT_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -239,31 +145,6 @@
         "script_info": [
             "frame exit after - 100",
             "iterations per frame - 1"
-        ]
-    },
-    {
-        "name": "RS_VIEW_IT_013",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "frame_exit_after": 100,
-            "iterations_per_frame": 1
-        },
-        "script_info": [
-            "HDX + D3D",
-            "frame exit after - 100",
-            "iterations per frame - 1"
-        ],
-        "skip_on": [
-           ["Linux"]
         ]
     }
     

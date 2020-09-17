@@ -20,9 +20,8 @@
             ]
         },
         "script_info": [
-            "denoiser - rml",
-            "draw_engine - D3D",
-            "engine - Hybrid"
+            "RML postprocessing - Denoise",
+            "Hybrid + D3D"
         ],
         "skip_on": [
             ["Linux"]
@@ -39,14 +38,19 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+                {
+                  "description": "Denoise",
+                  "model_path": "rif/models/denoise_c3_hdr.pb",
+                  "disabled": false
+                }
+            ]
         },
         "script_info": [
-            "denoiser - rml",
-            "draw_engine - D3D",
-            "engine - Hybrid"
+            "RML postprocessing - Denoise",
+            "Hybrid + D3D"
         ],
         "skip_on": [
             ["Linux"]
@@ -73,9 +77,8 @@
             ]
         },
         "script_info": [
-            "denoiser - rml",
-            "draw_engine - D3D",
-            "engine - Hybrid"
+            "RML postprocessing - Denoise",
+            "Hybrid + D3D"
         ],
         "skip_on": [
             ["Linux"]
@@ -102,9 +105,8 @@
             ]
         },
         "script_info": [
-            "denoiser - rml",
-            "draw_engine - D3D",
-            "engine - Hybrid"
+            "RML postprocessing - Denoise",
+            "Hybrid + D3D"
         ],
         "skip_on": [
             ["Linux"]

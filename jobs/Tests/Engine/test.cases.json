@@ -1,28 +1,6 @@
 [
     {
-        "name": "RS_VIEW_ENG_001",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 180,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "UIConfig.json",
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12"
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Iterations_per_frame - 10"
-        ],
-        "skip_on": [
-           ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_CONF_ENG_002",
+        "name": "RS_CONF_ENG_001",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -42,7 +20,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_003",
+        "name": "RS_CONF_ENG_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -61,7 +39,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_004",
+        "name": "RS_CONF_ENG_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -80,7 +58,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_005",
+        "name": "RS_CONF_ENG_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -99,7 +77,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_006",
+        "name": "RS_CONF_ENG_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -118,7 +96,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_007",
+        "name": "RS_CONF_ENG_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -137,7 +115,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_008",
+        "name": "RS_CONF_ENG_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -156,11 +134,33 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_009",
+        "name": "RS_CONF_ENG_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "scene/UIConfig.json",
+            "render_quality": "high",
+            "engine": "hyb",
+            "draw_engine": "vw_d3d12"
+        },
+        "script_info": [
+            "Hybrid + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Linux"]
+        ]
+    },
+    {
+        "name": "RS_CONF_ENG_009",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 30,
+        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -182,7 +182,7 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
-        "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -204,7 +204,7 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
-        "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
+        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -226,7 +226,7 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
-        "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -248,7 +248,7 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
-        "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
@@ -270,28 +270,6 @@
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
-        "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
-        },
-        "script_info": [
-            "Hybrid + D3D",
-            "Iterations_per_frame - 10"
-        ],
-        "skip_on": [
-            ["Linux"]
-        ]
-    },
-    {
-        "name": "RS_CONF_ENG_015",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
         "config_parameters": {
             "file_ext": ".png",
@@ -310,7 +288,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_016",
+        "name": "RS_CONF_ENG_015",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -332,7 +310,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_017",
+        "name": "RS_CONF_ENG_016",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -354,7 +332,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_018",
+        "name": "RS_CONF_ENG_017",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -376,7 +354,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_019",
+        "name": "RS_CONF_ENG_018",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -398,7 +376,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_020",
+        "name": "RS_CONF_ENG_019",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -420,7 +398,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_021",
+        "name": "RS_CONF_ENG_020",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
@@ -442,7 +420,7 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_022",
+        "name": "RS_CONF_ENG_021",
         "status": "active",
         "file_ext": ".png",
         "render_time": 90,
