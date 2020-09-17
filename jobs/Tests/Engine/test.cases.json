@@ -1,6 +1,6 @@
 [
     {
-        "name": "RS_VIEW_ST_001",
+        "name": "RS_VIEW_ENG_001",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -8,7 +8,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12"

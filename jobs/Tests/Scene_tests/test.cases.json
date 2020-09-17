@@ -7,7 +7,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12"
@@ -30,7 +30,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -55,7 +55,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -80,7 +80,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -105,7 +105,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -140,7 +140,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -167,7 +167,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -194,7 +194,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "custom",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -490,7 +490,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -517,7 +517,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
-            "uiConfig": "scene/UIConfig.json",
+            "uiConfig": "UIConfig.json",
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12",

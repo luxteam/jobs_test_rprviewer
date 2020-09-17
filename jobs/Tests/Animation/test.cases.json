@@ -5,7 +5,7 @@
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -29,7 +29,7 @@
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -53,7 +53,7 @@
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
@@ -77,7 +77,7 @@
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "RprViewer_City_NEW_HDX/scene/UIConfig.json",
+        "uiConfig": "UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,

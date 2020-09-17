@@ -1,6 +1,6 @@
 [
     {
-        "name": "RS_VIEW_ST_001",
+        "name": "RS_VIEW_CT_001",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_002",
+        "name": "RS_VIEW_CT_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_003",
+        "name": "RS_VIEW_CT_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -75,7 +75,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_004",
+        "name": "RS_VIEW_CT_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -100,7 +100,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_005",
+        "name": "RS_VIEW_CT_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -125,7 +125,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_006",
+        "name": "RS_VIEW_CT_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -150,7 +150,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_007",
+        "name": "RS_VIEW_CT_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -175,7 +175,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_008",
+        "name": "RS_VIEW_СT_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -200,7 +200,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_009",
+        "name": "RS_VIEW_СT_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
@@ -225,7 +225,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_ST_010",
+        "name": "RS_VIEW_СT_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 180,
