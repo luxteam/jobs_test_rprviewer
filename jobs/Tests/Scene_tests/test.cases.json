@@ -149,7 +149,7 @@
 
     {
         "name": "RS_VIEW_ST_007",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",

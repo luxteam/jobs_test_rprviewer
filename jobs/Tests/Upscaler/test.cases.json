@@ -110,7 +110,7 @@
     },
     {
         "name": "RS_VIEW_US_004",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -144,7 +144,7 @@
     },
     {
         "name": "RS_VIEW_US_005",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -178,7 +178,7 @@
     },
     {
         "name": "RS_VIEW_US_006",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",

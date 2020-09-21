@@ -1,7 +1,7 @@
  [
     {
         "name": "RS_VIEW_D_001",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -30,7 +30,7 @@
     
     {
         "name": "RS_VIEW_D_002",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -58,7 +58,7 @@
     },
     {
         "name": "RS_VIEW_D_003",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -86,7 +86,7 @@
     },
     {
         "name": "RS_VIEW_D_004",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
