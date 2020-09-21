@@ -362,6 +362,7 @@
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12",
+            "camera": 2,
             "iterations_per_frame": 1
         },
         "script_info": [
@@ -383,6 +384,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12"
         },
@@ -405,6 +407,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "iterations_per_frame": 25
@@ -428,6 +431,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "iterations_per_frame": 100
@@ -451,6 +455,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "frame_exit_after": 0,
@@ -476,6 +481,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "frame_exit_after": 100,
@@ -501,6 +507,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "custom",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "irradiance_volume"
@@ -522,6 +529,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "custom",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "dxr_ao"
@@ -543,6 +551,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "custom",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "ptgi"
@@ -564,6 +573,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "custom",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "ptgi",
@@ -602,6 +612,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "custom",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "ptgi",
@@ -636,6 +647,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "custom",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "ptgi",
@@ -662,6 +674,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "custom",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "ptgi",
@@ -688,6 +701,7 @@
             "animation": false,
             "uiConfig": "UIConfig.json",
             "render_quality": "custom",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "global_illumination_mode": "ptgi",
@@ -724,6 +738,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "screen": {
@@ -750,6 +765,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "screen": {
@@ -776,6 +792,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "screen": {
@@ -802,6 +819,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "screen": {
@@ -828,6 +846,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "medium",
+            "camera": 2,
             "engine": "hdx",
             "draw_engine": "d3d12",
             "screen": {
