@@ -22,6 +22,11 @@
             "Animation",
             "HDX + D3D",
             "Frame 25"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -47,6 +52,11 @@
             "Animation",
             "HDX + D3D",
             "Frame 50"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -72,6 +82,11 @@
             "Animation",
             "HDX + D3D",
             "Frame 25"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -97,6 +112,11 @@
             "Animation",
             "HDX + D3D",
             "Frame 50"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -121,7 +141,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -146,7 +168,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -171,7 +195,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -196,7 +222,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -221,7 +249,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -246,7 +276,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -271,7 +303,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -296,7 +330,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -321,7 +357,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -346,7 +384,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -370,7 +410,9 @@
             "Iterations_per_frame - 1"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -393,7 +435,9 @@
             "Iterations_per_frame - 10"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -417,7 +461,9 @@
             "Iterations_per_frame - 25"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -441,7 +487,9 @@
             "Iterations_per_frame - 100"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -467,7 +515,9 @@
             "iterations per frame - 1"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -493,7 +543,9 @@
             "iterations per frame - 1"
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -516,6 +568,11 @@
         "script_info": [
             "HDX + D3D",
             "Global Illumination Mode - irradiance volume"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -538,6 +595,11 @@
         "script_info": [
             "HDX + D3D",
             "Global Illumination Mode - dxr_ao"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -560,6 +622,11 @@
         "script_info": [
             "HDX + D3D",
             "Global Illumination Mode - ptgi"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -599,6 +666,11 @@
             "Raytrace Directional Shadows",
             "Raytrace Spot Shadows",
             "Raytrace Point Shadows"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -633,7 +705,9 @@
             "Fog visability enabled"   
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -660,7 +734,9 @@
             "Raytrace Directional Shadows"   
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -687,7 +763,9 @@
             "Depth Of Field"   
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -724,7 +802,9 @@
             "Rif postprocessing - bloom, threshold - 0.5"   
         ],
         "skip_on": [
-           ["Linux"]
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     }, 
     {
@@ -752,6 +832,11 @@
             "Resolution:",
             "height - 600",
             "width - 600"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -779,6 +864,11 @@
             "Resolution:",
             "height - 1280",
             "width - 720"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -806,6 +896,11 @@
             "Resolution:",
             "height - 900",
             "width - 1440"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -833,6 +928,11 @@
             "Resolution:",
             "height - 480",
             "width - 640"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     },
     {
@@ -860,6 +960,11 @@
             "Resolution:",
             "height - 1920",
             "width - 1080"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
         ]
     }
     
