@@ -16,6 +16,10 @@
         "script_info": [
             "camera - 0",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -35,6 +39,10 @@
         "script_info": [
             "camera - 0",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -54,6 +62,10 @@
         "script_info": [
             "camera - 0",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -73,6 +85,10 @@
         "script_info": [
             "camera - 0",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -92,6 +108,10 @@
         "script_info": [
             "camera - 0",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -111,6 +131,10 @@
         "script_info": [
             "camera - 0",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -130,6 +154,10 @@
         "script_info": [
             "camera - 0",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -149,6 +177,10 @@
         "script_info": [
             "camera - 1",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -168,6 +200,10 @@
         "script_info": [
             "camera - 1",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -187,6 +223,10 @@
         "script_info": [
             "camera - 1",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -206,6 +246,10 @@
         "script_info": [
             "camera - 1",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -225,6 +269,10 @@
         "script_info": [
             "camera - 1",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -244,6 +292,10 @@
         "script_info": [
             "camera - 1",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -263,6 +315,10 @@
         "script_info": [
             "camera - 2",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -282,6 +338,10 @@
         "script_info": [
             "camera - 2",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -301,6 +361,10 @@
         "script_info": [
             "camera - 2",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -320,6 +384,10 @@
         "script_info": [
             "camera - 2",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -339,6 +407,10 @@
         "script_info": [
             "camera - 2",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -358,6 +430,10 @@
         "script_info": [
             "camera - 2",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -377,6 +453,10 @@
         "script_info": [
             "camera - 3",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -396,6 +476,10 @@
         "script_info": [
             "camera - 3",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -415,6 +499,10 @@
         "script_info": [
             "camera - 3",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -434,6 +522,10 @@
         "script_info": [
             "camera - 3",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -453,6 +545,10 @@
         "script_info": [
             "camera - 4",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -472,6 +568,10 @@
         "script_info": [
             "camera - 4",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -491,6 +591,10 @@
         "script_info": [
             "camera - 4",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -510,6 +614,10 @@
         "script_info": [
             "camera - 5",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -529,6 +637,10 @@
         "script_info": [
             "camera - 5",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -548,6 +660,10 @@
         "script_info": [
             "camera - 5",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -567,6 +683,10 @@
         "script_info": [
             "camera - 6",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -586,6 +706,10 @@
         "script_info": [
             "camera - 7",
             "render_quality -  2"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     }
 ]
