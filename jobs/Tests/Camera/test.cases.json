@@ -17,6 +17,10 @@
             "Hybrid + Vulkan",
             "Camera - 0",
             "Render quality - High"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -37,6 +41,10 @@
             "Hybrid + Vulkan",
             "Camera - 0",
             "Render quality - High"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -57,6 +65,10 @@
             "Hybrid + Vulkan",
             "Camera - 2",
             "Render quality - High"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -77,6 +89,10 @@
             "Hybrid + Vulkan",
             "Camera - 2",
             "Render quality - High"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -97,6 +113,10 @@
             "Hybrid + Vulkan",
             "Camera - 3",
             "Render quality - High"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -117,6 +137,10 @@
             "Hybrid + Vulkan",
             "Camera - 4",
             "Render quality - High"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     }
 ]

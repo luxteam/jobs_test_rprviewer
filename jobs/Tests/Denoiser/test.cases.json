@@ -24,7 +24,9 @@
             "Hybrid + D3D"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     
@@ -53,7 +55,9 @@
             "Hybrid + D3D"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -81,7 +85,9 @@
             "Hybrid + D3D"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -109,7 +115,9 @@
             "Hybrid + D3D"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     }
 
