@@ -1,0 +1,971 @@
+[   
+    {
+        "name": "RS_VIEW_HDX_001",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 2,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "Animation",
+            "HDX + D3D",
+            "Frame 25"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_002",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 2,
+            "time_mode": "steady",
+            "frame_exit_after": 50,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "Animation",
+            "HDX + D3D",
+            "Frame 50"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_003",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 1,
+            "time_mode": "steady",
+            "frame_exit_after": 25,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "Animation",
+            "HDX + D3D",
+            "Frame 25"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_004",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": true,
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 1,
+            "time_mode": "steady",
+            "frame_exit_after": 50,
+            "iterations_per_frame": 1
+
+        },
+        "script_info": [
+            "Animation",
+            "HDX + D3D",
+            "Frame 50"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_005",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 0
+            
+        },
+        "script_info": [
+            "Camera - 0",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_006",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 1
+            
+        },
+        "script_info": [
+            "Camera - 1",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_007",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 2
+            
+        },
+        "script_info": [
+            "Camera - 2",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_008",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 3
+            
+        },
+        "script_info": [
+            "Camera - 3",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_009",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 4
+            
+        },
+        "script_info": [
+            "Camera - 4",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_010",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 5
+            
+        },
+        "script_info": [
+            "Camera - 5",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_011",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 6
+            
+        },
+        "script_info": [
+            "Camera - 6",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_012",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 7
+            
+        },
+        "script_info": [
+            "Camera - 7",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_013",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 8
+            
+        },
+        "script_info": [
+            "Camera - 8",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_014",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 9
+            
+        },
+        "script_info": [
+            "Camera - 9",
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_015",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "camera": 2,
+            "iterations_per_frame": 1
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Iterations_per_frame - 1"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_016",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12"
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Iterations_per_frame - 10"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_017",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "iterations_per_frame": 25
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Iterations_per_frame - 25"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_018",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "iterations_per_frame": 100
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Iterations_per_frame - 100"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_019",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "frame_exit_after": 0,
+            "iterations_per_frame": 1
+        },
+        "script_info": [
+            "HDX + D3D",
+            "frame exit after - 0",
+            "iterations per frame - 1"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_020",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "frame_exit_after": 100,
+            "iterations_per_frame": 1
+        },
+        "script_info": [
+            "HDX + D3D",
+            "frame exit after - 100",
+            "iterations per frame - 1"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_021",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "custom",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "irradiance_volume"
+
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Global Illumination Mode - irradiance volume"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_022",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "custom",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "dxr_ao"
+
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Global Illumination Mode - dxr_ao"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_023",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "custom",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "ptgi"
+
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Global Illumination Mode - ptgi"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_024",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "custom",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "ptgi",
+            "hybrid": {
+                "fog": {
+                  "enable_visibility": true,
+                  "use_dxr_visibility": false,
+                  "density": 0.05,
+                  "max_distance": 256,
+                  "max_scatter_distance": 256,
+                  "max_view_samples": 32,
+                  "mie_g": 0.72
+                },
+                "enableRaytraceDirectionalShadows": true,
+                "enableRaytraceSpotShadows": true,
+                "enableRaytracePointShadows": true
+             }
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Global Illumination Mode - ptgi",
+            "Fog visability enabled",
+            "Raytrace Directional Shadows",
+            "Raytrace Spot Shadows",
+            "Raytrace Point Shadows"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_025",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "custom",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "ptgi",
+            "fog": {
+                "enable_visibility": true,
+                "use_dxr_visibility": false,
+                "density": 0.05,
+                "max_distance": 256,
+                "max_scatter_distance": 256,
+                "max_view_samples": 32,
+                "mie_g": 0.72
+                    }
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Iterations_per_frame - 10",
+            "Global illumination mode - ptgi",  
+            "Fog visability enabled"   
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_026",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "custom",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "ptgi",
+            "enableRaytraceDirectionalShadows": true
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Iterations_per_frame - 10",
+            "Global illumination mode - ptgi",  
+            "Raytrace Directional Shadows"   
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_027",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "custom",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "ptgi",
+            "enableDepthOfField": true
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Iterations_per_frame - 10",
+            "Global illumination mode - ptgi",  
+            "Depth Of Field"   
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_028",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 180,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "uiConfig": "UIConfig.json",
+            "render_quality": "custom",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "global_illumination_mode": "ptgi",
+            "rif_postprocessing": [
+            {
+              "type": "bloom",
+              "name": "bloom_1",
+              "disabled": false,
+              "radius": 0.01,
+              "threshold": 0.5,
+              "weight": 0.51,
+              "decay": 0.0
+            }
+            ]
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Iterations_per_frame - 10",
+            "Global illumination mode - ptgi",  
+            "Rif postprocessing - bloom, threshold - 0.5"   
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    }, 
+    {
+        "name": "RS_VIEW_HDX_029",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "screen": {
+                "full_screen": false,
+                "height": 600,
+                "width": 600
+                }
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Resolution:",
+            "height - 600",
+            "width - 600"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_030",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "screen": {
+                "full_screen": false,
+                "height": 1280,
+                "width": 720
+                }
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Resolution:",
+            "height - 1280",
+            "width - 720"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_031",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "screen": {
+                "full_screen": false,
+                "height": 900,
+                "width": 1440 
+                }
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Resolution:",
+            "height - 900",
+            "width - 1440"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_032",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "screen": {
+                "full_screen": false,
+                "height": 480,
+                "width": 640 
+                }
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Resolution:",
+            "height - 480",
+            "width - 640"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    },
+    {
+        "name": "RS_VIEW_HDX_033",
+        "status": "active",
+        "file_ext": ".png",
+        "render_time": 120,
+        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
+        "uiConfig": "UIConfig.json",
+        "config_parameters": {
+            "file_ext": ".png",
+            "animation": false,
+            "render_quality": "medium",
+            "camera": 2,
+            "engine": "hdx",
+            "draw_engine": "d3d12",
+            "screen": {
+                "full_screen": false,
+                "height": 1920,
+                "width": 1080 
+                }
+        },
+        "script_info": [
+            "HDX + D3D",
+            "Resolution:",
+            "height - 1920",
+            "width - 1080"
+        ],
+        "skip_on": [
+            ["Radeon (TM) Pro WX 9100"],
+            ["Radeon RX Vega"],
+            ["AMD Radeon VII"]
+        ]
+    }
+    
+]
