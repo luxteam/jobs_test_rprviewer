@@ -754,15 +754,15 @@
             "draw_engine": "d3d12",
             "screen": {
                 "full_screen": false,
-                "height": 2160,
-                "width": 3840 
+                "height": 1280,
+                "width": 720
                 }
         },
         "script_info": [
             "HDX + D3D",
             "Resolution:",
-            "height - 2160",
-            "width - 3840 "
+            "height - 1280",
+            "width - 720"
         ]
     },
     {
@@ -842,37 +842,6 @@
             "height - 1920",
             "width - 1080"
         ]
-    },
-    {
-        "name": "RS_VIEW_HDX_034",
-        "status": "active",
-        "file_ext": ".png",
-        "render_time": 30,
-        "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
-        "uiConfig": "UIConfig.json",
-        "config_parameters": {
-            "file_ext": ".png",
-            "animation": false,
-            "render_quality": "medium",
-            "engine": "hdx",
-            "draw_engine": "d3d12",
-            "rml_postprocessing": [
-                {
-                  "description": "Upscale",
-                  "model_path": "rif/models/upscale2x_fast.pb",
-                  "scaling": 2.0,
-                  "disabled": false
-                }
-              ]
-        },
-        "script_info": [
-            "HDX + D3D",
-            "Upscaler - true"
-        ],
-        "skip_on": [
-            ["Linux"]
-        ]
     }
-
     
 ]
