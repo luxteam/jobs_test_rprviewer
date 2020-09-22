@@ -24,7 +24,7 @@
     },
     {
         "name": "RS_VIEW_ST_002",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -48,7 +48,7 @@
     },
     {
         "name": "RS_VIEW_ST_003",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -72,7 +72,7 @@
     },
     {
         "name": "RS_VIEW_ST_004",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -120,7 +120,7 @@
     },
     {
         "name": "RS_VIEW_ST_006",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -144,7 +144,7 @@
     },
     {
         "name": "RS_VIEW_ST_007",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -309,7 +309,7 @@
 
     {
         "name": "RS_VIEW_ST_013",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 180,
 
@@ -322,7 +322,13 @@
             "render_quality": "high",
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_d3d12",
-            "denoiser": "rml"
+            "rml_postprocessing": [
+                {
+                    "description": "Denoise",
+                    "model_path": "rif/models/denoise_c3_hdr.pb",
+                    "disabled": false
+                }
+            ]
         },
         "script_info": [
             "Hyb + D3D + ML",
@@ -337,7 +343,7 @@
     },
     {
         "name": "RS_VIEW_ST_014",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 180,
 
@@ -350,7 +356,14 @@
             "render_quality": "high",
             "uiConfig": "scene/UIConfig.json",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+                {
+                    "description": "Upscale",
+                    "model_path": "rif/models/upscale2x_fast.pb",
+                    "scaling": 2.0,
+                    "disabled": false
+                }
+            ]
         },
         "script_info": [
             "Hyb + D3D + Upscaler",
@@ -366,7 +379,7 @@
 
   {
         "name": "RS_VIEW_ST_015",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -390,7 +403,7 @@
     },
     {
         "name": "RS_VIEW_ST_016",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -414,7 +427,7 @@
     },
     {
         "name": "RS_VIEW_ST_017",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -462,7 +475,7 @@
     },
     {
         "name": "RS_VIEW_ST_019",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 180,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -486,7 +499,7 @@
     },
     {
         "name": "RS_VIEW_ST_020",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -592,7 +605,7 @@
     },
     {
         "name": "RS_VIEW_ST_024",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -621,7 +634,7 @@
     },
     {
         "name": "RS_VIEW_ST_025",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -710,7 +723,7 @@
     },
     {
         "name": "RS_VIEW_ST_028",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -740,7 +753,7 @@
     },
     {
         "name": "RS_VIEW_ST_029",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -770,7 +783,7 @@
     },
     {
         "name": "RS_VIEW_ST_030",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -800,7 +813,7 @@
     },
     {
         "name": "RS_VIEW_ST_031",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",

@@ -34,7 +34,7 @@
     },
     {
         "name": "RS_VIEW_L_002",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -67,7 +67,7 @@
     },
     {
         "name": "RS_VIEW_L_003",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -100,7 +100,7 @@
     },
     {
         "name": "RS_VIEW_L_004",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -128,7 +128,7 @@
     },
     {
         "name": "RS_VIEW_L_005",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -156,7 +156,7 @@
     },
     {
         "name": "RS_VIEW_L_006",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -212,7 +212,7 @@
     },
     {
         "name": "RS_VIEW_L_008",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -240,7 +240,7 @@
     },
     {
         "name": "RS_VIEW_L_009",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -268,7 +268,7 @@
     },
     {
         "name": "RS_VIEW_L_010",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -324,7 +324,7 @@
     },
     {
         "name": "RS_VIEW_L_012",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",

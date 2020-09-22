@@ -116,7 +116,8 @@
             "draw_engine": "vw_d3d12"
         },
         "script_info": [
-            "D3D + Hybrid"
+            "D3D + Hybrid",
+            "High"
         ],
         "skip_on": [
             ["Linux"],
@@ -150,7 +151,7 @@
     },
     {
         "name": "VW_REG_007",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -210,7 +211,7 @@
     },
     {
         "name": "VW_REG_009",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -264,7 +265,7 @@
     },
     {
         "name": "VW_REG_011",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -272,9 +273,15 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "vw_d3d12",
+            "rml_postprocessing": [
+                {
+                  "description": "Denoise",
+                  "model_path": "rif/models/denoise_c3_hdr.pb",
+                  "disabled": false
+                }
+            ]
         },
         "script_info": [
             "RML denoiser"
@@ -392,7 +399,7 @@
     },
     {
         "name": "VW_REG_016",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -414,7 +421,7 @@
     },
     {
         "name": "VW_REG_017",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -426,7 +433,14 @@
             "render_quality": "high",
             "engine": "hyb",
             "draw_engine": "vw_d3d12",
-            "upscaler": true
+            "rml_postprocessing": [
+                {
+                  "description": "Upscale",
+                  "model_path": "rif/models/upscale2x_fast.pb",
+                  "scaling": 2.0,
+                  "disabled": false
+                }
+              ]
         },
         "script_info": [
             "Upscaler"

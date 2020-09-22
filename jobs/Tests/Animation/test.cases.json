@@ -113,7 +113,7 @@
     },
     {
         "name": "RS_VIEW_A_005",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -141,7 +141,7 @@
     },
     {
         "name": "RS_VIEW_A_006",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -170,7 +170,7 @@
     },
     {
         "name": "RS_VIEW_A_007",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -198,7 +198,7 @@
     },
     {
         "name": "RS_VIEW_A_008",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -282,7 +282,7 @@
     },
     {
         "name": "RS_VIEW_A_011",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -310,7 +310,7 @@
     },
     {
         "name": "RS_VIEW_A_012",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -338,7 +338,7 @@
     },
     {
         "name": "RS_VIEW_A_013",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -366,7 +366,7 @@
     },
     {
         "name": "RS_VIEW_A_014",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -394,7 +394,7 @@
     },
     {
         "name": "RS_VIEW_A_015",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -422,7 +422,7 @@
     },
     {
         "name": "RS_VIEW_A_016",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -506,7 +506,7 @@
     },
     {
         "name": "RS_VIEW_A_019",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -534,7 +534,7 @@
     },
     {
         "name": "RS_VIEW_A_020",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -618,7 +618,7 @@
     },
     {
         "name": "RS_VIEW_A_023",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -674,7 +674,7 @@
     },
     {
         "name": "RS_VIEW_A_025",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -702,7 +702,7 @@
     },
     {
         "name": "RS_VIEW_A_026",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
@@ -730,7 +730,7 @@
     },
     {
         "name": "RS_VIEW_A_027",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -758,7 +758,7 @@
     },
     {
         "name": "RS_VIEW_A_028",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -786,7 +786,7 @@
     },
     {
         "name": "RS_VIEW_A_029",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -814,7 +814,7 @@
     },
     {
         "name": "RS_VIEW_A_030",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -842,7 +842,7 @@
     },
     {
         "name": "RS_VIEW_A_031",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -870,7 +870,7 @@
     },
     {
         "name": "RS_VIEW_A_032",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -898,7 +898,7 @@
     },
     {
         "name": "RS_VIEW_A_033",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -926,7 +926,7 @@
     },
     {
         "name": "RS_VIEW_A_034",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -954,7 +954,7 @@
     },
     {
         "name": "RS_VIEW_A_035",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -982,7 +982,7 @@
     },
     {
         "name": "RS_VIEW_A_036",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -1010,7 +1010,7 @@
     },
     {
         "name": "RS_VIEW_A_037",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -1038,7 +1038,7 @@
     },
     {
         "name": "RS_VIEW_A_038",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -1066,7 +1066,7 @@
     },
     {
         "name": "RS_VIEW_A_039",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -1094,7 +1094,7 @@
     },
     {
         "name": "RS_VIEW_A_040",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -1122,7 +1122,7 @@
     },
     {
         "name": "RS_VIEW_A_041",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -1150,7 +1150,7 @@
     },
     {
         "name": "RS_VIEW_A_042",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -1178,7 +1178,7 @@
     },
     {
         "name": "RS_VIEW_A_043",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -1207,7 +1207,7 @@
     },
     {
         "name": "RS_VIEW_A_044",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",

@@ -55,7 +55,7 @@
     },
     {
         "name": "RS_CONF_RES_003",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
@@ -82,7 +82,7 @@
     },
     {
         "name": "RS_CONF_RES_004",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
@@ -109,7 +109,7 @@
     },
     {
         "name": "RS_CONF_RES_005",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -136,7 +136,7 @@
     },
     {
         "name": "RS_CONF_RES_006",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
@@ -159,7 +159,7 @@
     },
     {
         "name": "RS_CONF_RES_007",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
@@ -213,7 +213,7 @@
     },
     {
         "name": "RS_CONF_RES_009",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -240,7 +240,7 @@
     },
     {
         "name": "RS_CONF_RES_010",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -267,7 +267,7 @@
     },
     {
         "name": "RS_CONF_RES_011",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -348,7 +348,7 @@
     },
     {
         "name": "RS_CONF_RES_014",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -375,7 +375,7 @@
     },
     {
         "name": "RS_CONF_RES_015",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
@@ -429,7 +429,7 @@
     },
     {
         "name": "RS_CONF_RES_017",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
