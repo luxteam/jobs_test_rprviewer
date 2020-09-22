@@ -19,13 +19,14 @@
 
         },
         "script_info": [
-            "Animation",
+            "Animation on",
+            "Camera E1Shape",
             "HDX + D3D",
             "Frame 25"
         ],
         "skip_on": [
             ["Radeon (TM) Pro WX 9100"],
-            ["Radeon RX Vega"],
+			["Radeon RX Vega"],
             ["AMD Radeon VII"]
         ]
     },
@@ -49,13 +50,14 @@
 
         },
         "script_info": [
-            "Animation",
+            "Animation on",
+            "Camera E1Shape",
             "HDX + D3D",
             "Frame 50"
         ],
         "skip_on": [
             ["Radeon (TM) Pro WX 9100"],
-            ["Radeon RX Vega"],
+			["Radeon RX Vega"],
             ["AMD Radeon VII"]
         ]
     },
@@ -79,7 +81,8 @@
 
         },
         "script_info": [
-            "Animation",
+            "Animation on",
+            "Camera D3Shape",
             "HDX + D3D",
             "Frame 25"
         ],
@@ -109,7 +112,8 @@
 
         },
         "script_info": [
-            "Animation",
+            "Animation on",
+            "Camera D3Shape",
             "HDX + D3D",
             "Frame 50"
         ],
@@ -136,7 +140,8 @@
             
         },
         "script_info": [
-            "Camera - 0",
+            "Animation off",
+            "Camera C1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -163,7 +168,8 @@
             
         },
         "script_info": [
-            "Camera - 1",
+            "Animation off",
+            "Camera D3Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -190,7 +196,8 @@
             
         },
         "script_info": [
-            "Camera - 2",
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -217,7 +224,8 @@
             
         },
         "script_info": [
-            "Camera - 3",
+            "Animation off",
+            "Camera E6Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -244,7 +252,8 @@
             
         },
         "script_info": [
-            "Camera - 4",
+            "Animation off",
+            "Camera C2Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -271,7 +280,8 @@
             
         },
         "script_info": [
-            "Camera - 5",
+            "Animation off",
+            "Camera E7Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -298,7 +308,8 @@
             
         },
         "script_info": [
-            "Camera - 6",
+            "Animation off",
+            "Camera D5Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -325,7 +336,8 @@
             
         },
         "script_info": [
-            "Camera - 7",
+            "Animation off",
+            "Camera D4Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -352,7 +364,8 @@
             
         },
         "script_info": [
-            "Camera - 8",
+            "Animation off",
+            "ubercamShape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -379,7 +392,8 @@
             
         },
         "script_info": [
-            "Camera - 9",
+            "Animation off",
+            "perspShape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -406,6 +420,8 @@
             "iterations_per_frame": 1
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 1"
         ],
@@ -431,6 +447,8 @@
             "draw_engine": "d3d12"
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10"
         ],
@@ -457,6 +475,8 @@
             "iterations_per_frame": 25
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 25"
         ],
@@ -483,6 +503,8 @@
             "iterations_per_frame": 100
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 100"
         ],
@@ -510,6 +532,8 @@
             "iterations_per_frame": 1
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "frame exit after - 0",
             "iterations per frame - 1"
@@ -538,6 +562,8 @@
             "iterations_per_frame": 1
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "frame exit after - 100",
             "iterations per frame - 1"
@@ -566,6 +592,8 @@
 
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Global Illumination Mode - irradiance volume"
         ],
@@ -593,6 +621,8 @@
 
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Global Illumination Mode - dxr_ao"
         ],
@@ -620,6 +650,8 @@
 
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Global Illumination Mode - ptgi"
         ],
@@ -660,6 +692,8 @@
              }
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Global Illumination Mode - ptgi",
             "Fog visability enabled",
@@ -699,6 +733,8 @@
                     }
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10",
             "Global illumination mode - ptgi",  
@@ -728,6 +764,8 @@
             "enableRaytraceDirectionalShadows": true
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10",
             "Global illumination mode - ptgi",  
@@ -757,6 +795,8 @@
             "enableDepthOfField": true
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10",
             "Global illumination mode - ptgi",  
@@ -796,6 +836,8 @@
             ]
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Iterations_per_frame - 10",
             "Global illumination mode - ptgi",  
@@ -828,6 +870,8 @@
                 }
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Resolution:",
             "height - 600",
@@ -860,6 +904,8 @@
                 }
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Resolution:",
             "height - 1280",
@@ -892,6 +938,8 @@
                 }
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Resolution:",
             "height - 900",
@@ -924,6 +972,8 @@
                 }
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Resolution:",
             "height - 480",
@@ -956,6 +1006,8 @@
                 }
         },
         "script_info": [
+            "Animation off",
+            "Camera E1Shape",
             "HDX + D3D",
             "Resolution:",
             "height - 1920",
