@@ -9,6 +9,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
+            "frames_per_second": 1,
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -39,6 +40,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
+            "frames_per_second": 1,
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -69,6 +71,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
+            "frames_per_second": 1,
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12",
@@ -99,6 +102,7 @@
         "config_parameters": {
             "file_ext": ".png",
             "animation": true,
+            "frames_per_second": 1,
             "render_quality": "medium",
             "engine": "hdx",
             "draw_engine": "d3d12",
