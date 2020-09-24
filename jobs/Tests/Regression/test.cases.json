@@ -21,6 +21,10 @@
             "Resolution:",
             "height - 1080",
             "width - 1920"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -41,7 +45,12 @@
         "script_info": [
             "Hybrid + Vulkan",
             "High"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
+
     },
     {
         "name": "VW_REG_003",
@@ -61,6 +70,10 @@
         "script_info": [
             "Hybrid + Vulkan",
             "Medium"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -81,6 +94,10 @@
         "script_info": [
             "Hybrid + Vulkan",
             "Low"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -102,7 +119,9 @@
             "D3D + Hybrid"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -124,7 +143,9 @@
             "RPR + OGL"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -147,6 +168,10 @@
             "Iterations:",
             "Iterations per frame = 1",
             "Frame exit after = 0"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -177,6 +202,10 @@
         },
         "script_info": [
             "Hybrid settings"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -201,7 +230,9 @@
             "Animation D3D + Hybrid"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -226,7 +257,9 @@
             "Animation RPR + OGL"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -247,7 +280,9 @@
             "RML denoiser"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -266,6 +301,10 @@
         },
         "script_info": [
             "RIF denoiser"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -293,6 +332,10 @@
         },
         "script_info": [
             "Default light"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -315,6 +358,10 @@
         },
         "script_info": [
             "Enviroment light HDR"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -337,6 +384,10 @@
         },
         "script_info": [
             "Enviroment light EXR"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -355,6 +406,10 @@
         },
         "script_info": [
             "Camera"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -377,7 +432,9 @@
             "Upscaler"
         ],
         "skip_on": [
-            ["Linux"]
+            ["Linux"],
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -400,6 +457,10 @@
         },
         "script_info": [
             "Animation"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     }
 ]

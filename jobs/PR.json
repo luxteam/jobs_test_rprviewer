@@ -1,6 +1,7 @@
 {
     "split":true,
     "groups":{
-        "Scene_tests":""
+        "Scene_tests":"",
+        "HDX_tests":""
     }
 }
