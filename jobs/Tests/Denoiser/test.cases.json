@@ -11,7 +11,7 @@
             "animation": false,
             "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "-"
         },
         "script_info": [
             "denoiser - rml",

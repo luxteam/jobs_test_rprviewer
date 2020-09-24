@@ -199,7 +199,7 @@ def main():
         i = 0
         test_case_status = TEST_CRASH_STATUS
         while i < args.retries and test_case_status == TEST_CRASH_STATUS:
-
+            i += 1
             p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
             stderr, stdout = b"", b""
             start_time = time.time()
