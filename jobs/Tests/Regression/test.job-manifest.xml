@@ -9,7 +9,7 @@
         <argument>--render_engine hyb</argument>
         <argument>--scene_path "{ScenesDir}"</argument>
         <argument>--render_path "{RenderPath}"</argument>
-        <argument>--test_group Resolution</argument>
+        <argument>--test_group Regression</argument>
         <argument>--retries {retries}</argument>
     </execute>
 
@@ -17,7 +17,7 @@
         <argument>--work_dir "{OutputDir}"</argument>
     </execute>
 
-    <execute command='python "{CommonDir}/scripts/ImageComparator/compareByJSON.py"'>
+    <execute command='python "{CommonDir}/scripts/compareByJSON.py"'>
         <argument>--work_dir "{OutputDir}"</argument>
         <argument>--base_dir "{BaselineDir}"</argument>
     </execute>

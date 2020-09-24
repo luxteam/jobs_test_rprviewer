@@ -26,6 +26,10 @@
         "script_info": [
             "default light:",
             "intensity - 2000"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -55,6 +59,10 @@
         "script_info": [
             "default light:",
             "intensity - 100"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -84,6 +92,10 @@
         "script_info": [
             "default light:",
             "intensity - 0"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -108,6 +120,10 @@
         "script_info": [
             "environment light:",
             "intensity - 0.1"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -132,6 +148,10 @@
         "script_info": [
             "environment light:",
             "intensity - 0.1"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -156,6 +176,10 @@
         "script_info": [
             "environment light:",
             "intensity - 0.1"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -180,6 +204,10 @@
         "script_info": [
             "environment light:",
             "intensity - 0.1"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -204,6 +232,10 @@
         "script_info": [
             "environment light:",
             "intensity - 0.1"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -228,6 +260,10 @@
         "script_info": [
             "environment light:",
             "intensity - 0.1"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -252,6 +288,10 @@
         "script_info": [
             "environment light:",
             "intensity - 0.1"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -276,6 +316,10 @@
         "script_info": [
             "environment light:",
             "intensity - 2.5"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -300,6 +344,10 @@
         "script_info": [
             "environment light:",
             "intensity - 0"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     },
     {
@@ -334,6 +382,10 @@
             "default + environment lights:",
             "default int - 2000",
             "env int - 5"
+        ],
+        "skip_on": [
+            ["AMD Radeon VII Beta Driver"],
+            ["GeForce RTX 2080 Ti"]
         ]
     }
 ]
