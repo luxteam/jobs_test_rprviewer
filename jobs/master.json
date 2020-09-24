@@ -1,0 +1,7 @@
+{
+    "split":true,
+    "groups":{
+        "Scene_tests":"",
+        "HDX_tests":""
+    }
+}

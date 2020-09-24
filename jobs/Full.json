@@ -1,0 +1,16 @@
+{
+    "split":true,
+    "groups":{
+        "Camera":"",
+        "Denoiser":"",
+        "Engine":"",
+        "Iterations":"",
+        "Light":"",
+        "Render_mode":"",
+        "Resolution":"",
+        "Scene_tests":"",
+        "Upscaler":"",
+        "Regression":"",
+        "Animation":""
+    }
+}
