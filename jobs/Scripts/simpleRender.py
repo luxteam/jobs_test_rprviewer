@@ -197,6 +197,7 @@ def main():
             os.system('chmod +x {}'.format(viewer_run_path))
 
         i = 0
+        test_case_status = TEST_CRASH_STATUS
         while i < args.retries and test_case_status == TEST_CRASH_STATUS:
 
             p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
