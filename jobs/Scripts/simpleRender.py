@@ -196,15 +196,15 @@ def main():
             viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
             os.system('chmod +x {}'.format(viewer_run_path))
 
-        p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
-        stderr, stdout = b"", b""
-        start_time = time.time()
-        test_case_status = TEST_CRASH_STATUS
-
-        aborted_by_timeout = False
-
         i = 0
         while i < args.retries and test_case_status == TEST_CRASH_STATUS:
+
+            p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+            stderr, stdout = b"", b""
+            start_time = time.time()
+            test_case_status = TEST_CRASH_STATUS
+
+            aborted_by_timeout = False
             try:
                 stdout, stderr = p.communicate(timeout=test['render_time'])
             except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
@@ -223,18 +223,18 @@ def main():
             else:
                 test_case_status = TEST_SUCCESS_STATUS
 
-        render_time = time.time() - start_time
-        error_messages = []
-        try:
-            shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
-                        os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
-            test_case_status = TEST_SUCCESS_STATUS
-        except FileNotFoundError as err:
-            image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
-            error_messages.append(image_not_found_str)
-            main_logger.error(image_not_found_str)
-            main_logger.error(str(err))
-            test_case_status = TEST_CRASH_STATUS
+            render_time = time.time() - start_time
+            error_messages = []
+            try:
+                shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
+                            os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                test_case_status = TEST_SUCCESS_STATUS
+            except FileNotFoundError as err:
+                image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
+                error_messages.append(image_not_found_str)
+                main_logger.error(image_not_found_str)
+                main_logger.error(str(err))
+                test_case_status = TEST_CRASH_STATUS
 
         with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
             file.write("-----[STDOUT]------\n\n")
