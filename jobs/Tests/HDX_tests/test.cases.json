@@ -26,7 +26,7 @@
         ],
         "skip_on": [
             ["Radeon (TM) Pro WX 9100"],
-			["Radeon RX Vega"],
+            ["Radeon RX Vega"],
             ["AMD Radeon VII"]
         ]
     },
@@ -57,7 +57,7 @@
         ],
         "skip_on": [
             ["Radeon (TM) Pro WX 9100"],
-			["Radeon RX Vega"],
+            ["Radeon RX Vega"],
             ["AMD Radeon VII"]
         ]
     },
