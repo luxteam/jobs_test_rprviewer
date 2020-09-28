@@ -25,6 +25,7 @@ def create_args_parser():
     parser.add_argument('--render_path', required=True, metavar="<path>")
     parser.add_argument('--test_group', required=True)
     parser.add_argument('--retries', required=False, default=2, type=int)
+    parser.add_argument('--update_refs', required=True)
     return parser.parse_args()
 
 
@@ -133,20 +134,21 @@ def main():
                        'testcase_timeout': test['render_time']
                        })
 
-        try:
-            shutil.copyfile(os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX),
-                     os.path.join(baseline_path, test['name'] + CASE_REPORT_SUFFIX))
+        if 'Update' not in args.update_refs:
+            try:
+                shutil.copyfile(os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX),
+                         os.path.join(baseline_path, test['name'] + CASE_REPORT_SUFFIX))
 
-            with open(os.path.join(baseline_path, test['name'] + CASE_REPORT_SUFFIX)) as baseline:
-                baseline_json = json.load(baseline)
+                with open(os.path.join(baseline_path, test['name'] + CASE_REPORT_SUFFIX)) as baseline:
+                    baseline_json = json.load(baseline)
 
-            for thumb in [''] + THUMBNAIL_PREFIXES:
-                if os.path.exists(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path'])):
-                    shutil.copyfile(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path']),
-                             os.path.join(baseline_path, baseline_json[thumb + 'render_color_path']))
-        except:
-            main_logger.error('Failed to copy baseline ' +
-                                          os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX))
+                for thumb in [''] + THUMBNAIL_PREFIXES:
+                    if os.path.exists(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path'])):
+                        shutil.copyfile(os.path.join(baseline_path_tr, baseline_json[thumb + 'render_color_path']),
+                                 os.path.join(baseline_path, baseline_json[thumb + 'render_color_path']))
+            except:
+                main_logger.error('Failed to copy baseline ' +
+                                              os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX))
 
         if test_status == TEST_IGNORE_STATUS:
             report.update({'group_timeout_exceeded': False})
