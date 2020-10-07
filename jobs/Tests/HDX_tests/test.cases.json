@@ -609,7 +609,7 @@
     },
     {
         "name": "RS_VIEW_HDX_022",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 120,
         "scene_sub_path": "RprViewer_City_NEW_HDX/scene/scene.gltf",
