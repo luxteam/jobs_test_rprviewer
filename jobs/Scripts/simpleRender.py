@@ -116,10 +116,11 @@ def main():
         report = copy.deepcopy(RENDER_REPORT_BASE)
         # if 'engine' exist in case.json - set it; else - engine from xml
         engine = test['config_parameters'].get('engine', args.render_engine)
-        test_status = TEST_IGNORE_STATUS if is_case_skipped(test, current_conf) else TEST_CRASH_STATUS
+        is_skipped = is_case_skipped(test, current_conf)
+        test_status = TEST_IGNORE_STATUS if is_skipped else TEST_CRASH_STATUS
 
         main_logger.info("Case: {}; Engine: {}; Skip here: {}; Predefined status: {};".format(
-            test['name'], engine, bool(skip_on_it), test_status
+            test['name'], engine, bool(is_skipped), test_status
         ))
         report.update({'test_status': test_status,
                        'render_device': render_device,
@@ -163,7 +164,7 @@ def main():
             json.dump([report], file, indent=4)
 
     # run cases
-    for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(test, current_conf):
+    for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(test, current_conf)]:
         main_logger.info("\nProcessing test case: {}".format(test['name']))
         engine = test['config_parameters'].get('engine', args.render_engine)
         frame_ae = str(update_viewer_config(
