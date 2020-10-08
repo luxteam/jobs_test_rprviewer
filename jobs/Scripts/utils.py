@@ -1,4 +1,4 @@
-def is_case_skipped(case, render_platform, engine):
+def is_case_skipped(case, render_platform):
     if case['status'] == 'skipped':
         return True
 
