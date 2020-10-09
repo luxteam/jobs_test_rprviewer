@@ -163,7 +163,10 @@ def main():
             json.dump([report], file, indent=4)
 
     # run cases
+    failed_cases_count = 0
+    case_number = 0
     for test in [x for x in tests_list if x['status'] == 'active' and not sum([current_conf & set(y) == set(y) for y in x.get('skip_on', '')])]:
+        case_number += 1
         main_logger.info("\nProcessing test case: {}".format(test['name']))
         engine = test['config_parameters'].get('engine', args.render_engine)
         frame_ae = str(update_viewer_config(
@@ -261,6 +264,12 @@ def main():
 
         with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
             json.dump([test_case_report], file, indent=4)
+
+        if test_case_status == TEST_CRASH_STATUS:
+            failed_cases_count += 1
+
+        if failed_cases_count == 3 and case_number == 3:
+            break
 
     return 0
 
