@@ -56,13 +56,6 @@ def update_viewer_config(test, engine, scene_path, render_path, tmp, frame_exit_
 def main():
     args = create_args_parser()
 
-    with open(args.tests_list, 'r') as file:
-        try:
-            tests_list = json.loads(file.read())
-        except json.decoder.JSONDecodeError as err:
-            main_logger.error(str(err))
-            exit(1)
-
     # TODO: remove code duplicate
     # remove old images
     old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(x) and x.startswith('img0')]
@@ -77,6 +70,22 @@ def main():
 
     if not os.path.exists(os.path.join(args.output_dir, "Color")):
         os.makedirs(os.path.join(args.output_dir, "Color"))
+
+    try:
+        test_cases_path = os.path.realpath(os.path.join(os.path.abspath(args.output_dir), 'test_cases.json'))
+        shutil.copyfile(args.tests_list, test_cases_path)
+    except:
+        main_logger.error("Can't copy test.cases.json")
+        main_logger.error(str(e))
+        exit(-1)
+
+    try:
+        with open(test_cases_path, 'r') as file:
+            tests_list = json.load(file)
+    except OSError as e:
+        main_logger.error("Failed to read test cases json. ")
+        main_logger.error(str(e))
+        exit(-1)
 
     # TODO: try-catch on file reading
     if not os.path.exists(os.path.join(args.render_path, 'config.original.json')):
@@ -152,6 +161,7 @@ def main():
 
         if test_status == TEST_IGNORE_STATUS:
             report.update({'group_timeout_exceeded': False})
+            test['status'] = TEST_IGNORE_STATUS
         try:
             shutil.copyfile(
                 os.path.join(ROOT_DIR_PATH, 'jobs_launcher', 'common', 'img', report['test_status'] + test['file_ext']),
@@ -161,6 +171,9 @@ def main():
 
         with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
             json.dump([report], file, indent=4)
+
+    with open(test_cases_path, 'w') as file:
+        json.dump(tests_list, file, indent=4)
 
     # run cases
     for test in [x for x in tests_list if x['status'] == 'active' and not sum([current_conf & set(y) == set(y) for y in x.get('skip_on', '')])]:
@@ -261,6 +274,10 @@ def main():
 
         with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
             json.dump([test_case_report], file, indent=4)
+
+        test["status"] = test_case_status
+        with open(test_cases_path, 'w') as file:
+            json.dump(tests_list, file, indent=4)
 
     return 0
 
