@@ -163,7 +163,7 @@ def main():
             json.dump([report], file, indent=4)
 
     # run cases
-    failed_cases_count = 0
+    was_success = False
     case_number = 0
     for test in [x for x in tests_list if x['status'] == 'active' and not sum([current_conf & set(y) == set(y) for y in x.get('skip_on', '')])]:
         case_number += 1
@@ -265,10 +265,10 @@ def main():
         with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
             json.dump([test_case_report], file, indent=4)
 
-        if test_case_status == TEST_CRASH_STATUS:
-            failed_cases_count += 1
+        if test_case_status == TEST_SUCCESS_STATUS:
+            was_success = True
 
-        if failed_cases_count == 3 and case_number == 3:
+        if not was_success and case_number == 3:
             break
 
     return 0
