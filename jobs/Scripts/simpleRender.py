@@ -9,6 +9,7 @@ import time
 import datetime
 import platform
 import copy
+from utils import is_case_skipped
 
 ROOT_DIR_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir, os.path.pardir))
 sys.path.append(ROOT_DIR_PATH)
@@ -115,11 +116,11 @@ def main():
         report = copy.deepcopy(RENDER_REPORT_BASE)
         # if 'engine' exist in case.json - set it; else - engine from xml
         engine = test['config_parameters'].get('engine', args.render_engine)
-        skip_on_it = sum([current_conf & set(x) == set(x) for x in test.get('skip_on', '')])
-        test_status = TEST_IGNORE_STATUS if test['status'] == 'skipped' or skip_on_it else TEST_CRASH_STATUS
+        is_skipped = is_case_skipped(test, current_conf)
+        test_status = TEST_IGNORE_STATUS if is_skipped else TEST_CRASH_STATUS
 
         main_logger.info("Case: {}; Engine: {}; Skip here: {}; Predefined status: {};".format(
-            test['name'], engine, bool(skip_on_it), test_status
+            test['name'], engine, bool(is_skipped), test_status
         ))
         report.update({'test_status': test_status,
                        'render_device': render_device,
@@ -163,7 +164,7 @@ def main():
             json.dump([report], file, indent=4)
 
     # run cases
-    for test in [x for x in tests_list if x['status'] == 'active' and not sum([current_conf & set(y) == set(y) for y in x.get('skip_on', '')])]:
+    for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(test, current_conf)]:
         main_logger.info("\nProcessing test case: {}".format(test['name']))
         engine = test['config_parameters'].get('engine', args.render_engine)
         frame_ae = str(update_viewer_config(
