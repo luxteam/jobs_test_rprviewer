@@ -11,7 +11,7 @@
             "animation": false,
             "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "-"
         },
         "script_info": [
             "denoiser - rml",
@@ -26,7 +26,7 @@
     },
     {
         "name": "RS_VIEW_D_002",
-        "status": "active",
+        "status": "skipped",
         "file_ext": ".png",
         "render_time": 30,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
@@ -36,7 +36,7 @@
             "animation": false,
             "denoiser": "rml",
             "render_quality": "high",
-            "draw_engine": "vw_d3d12"
+            "draw_engine": "-"
         },
         "script_info": [
             "denoiser - rml",

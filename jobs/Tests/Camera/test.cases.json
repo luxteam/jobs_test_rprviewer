@@ -11,7 +11,7 @@
             "animation": false,
             "camera": 0,
             "render_quality": "high",
-            "draw_engine": "vw_vulkan"
+            "draw_engine": "-"
         },
         "script_info": [
             "camera - 0",
@@ -34,7 +34,7 @@
             "animation": false,
             "camera": 0,
             "render_quality": "high",
-            "draw_engine": "vw_vulkan"
+            "draw_engine": "-"
         },
         "script_info": [
             "camera - 0",
@@ -56,7 +56,7 @@
             "file_ext": ".png",
             "animation": false,
             "render_quality": "high",
-            "draw_engine": "vw_vulkan",
+            "draw_engine": "-",
             "camera": 0
         },
         "script_info": [
