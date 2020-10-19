@@ -164,7 +164,7 @@ def main():
             json.dump([report], file, indent=4)
 
     # run cases
-    for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(test, current_conf)]:
+    for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(x, current_conf)]:
         main_logger.info("\nProcessing test case: {}".format(test['name']))
         engine = test['config_parameters'].get('engine', args.render_engine)
         frame_ae = str(update_viewer_config(
