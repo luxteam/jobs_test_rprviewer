@@ -167,7 +167,7 @@ def main():
     # run cases
     was_success = False
     case_number = 0
-    for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(test, current_conf)]:
+    for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(x, current_conf)]:
         case_number += 1
         main_logger.info("\nProcessing test case: {}".format(test['name']))
         engine = test['config_parameters'].get('engine', args.render_engine)
