@@ -27,6 +27,7 @@ def create_args_parser():
     parser.add_argument('--test_group', required=True)
     parser.add_argument('--retries', required=False, default=2, type=int)
     parser.add_argument('--update_refs', required=True)
+    parser.add_argument('--error_until_group_failed', required=False, default=3)
     return parser.parse_args()
 
 
@@ -251,6 +252,9 @@ def main():
             file.write("\n-----[STDERR]-----\n\n")
             file.write(stderr.decode("UTF-8"))
 
+        if not was_success and case_number == args.error_until_group_failed:
+            error_messages.append('Test execution was interrupted due to first ' + args.error_until_group_failed + ' cases resulting in error')
+
         # Up to date test case status
         with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
             test_case_report = json.loads(file.read())[0]
@@ -269,7 +273,7 @@ def main():
         if test_case_status == TEST_SUCCESS_STATUS:
             was_success = True
 
-        if not was_success and case_number == 3:
+        if not was_success and case_number == args.error_until_group_failed:
             break
 
     return 0
