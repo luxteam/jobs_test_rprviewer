@@ -169,112 +169,115 @@ def main():
     case_number = 0
     for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(x, current_conf)]:
         case_number += 1
-        main_logger.info("\nProcessing test case: {}".format(test['name']))
-        engine = test['config_parameters'].get('engine', args.render_engine)
-        frame_ae = str(update_viewer_config(
-            test=test,
-            engine=engine,
-            render_path=args.render_path,
-            scene_path=args.scene_path,
-            tmp=copy.deepcopy(config_tmp)
-        ))
+        skip_group = skip_group or (not was_success and case_number == args.error_until_group_failed)
+        if not skip_group:
+            main_logger.info("\nProcessing test case: {}".format(test['name']))
+            engine = test['config_parameters'].get('engine', args.render_engine)
+            frame_ae = str(update_viewer_config(
+                test=test,
+                engine=engine,
+                render_path=args.render_path,
+                scene_path=args.scene_path,
+                tmp=copy.deepcopy(config_tmp)
+            ))
 
-        if frame_ae == '0':
-            main_logger.info("Case with infinity loop. Abort by timeout is expected. Will save 5th frame")
+            if frame_ae == '0':
+                main_logger.info("Case with infinity loop. Abort by timeout is expected. Will save 5th frame")
 
-        # remove old images
-        old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(os.path.join(args.render_path, x)) and x.startswith('img0')]
-        main_logger.info(os.listdir(args.render_path))
-        if old_images:
-            main_logger.info("Detected old renderer: {}".format(str(old_images)))
-        for img in old_images:
-            try:
-                os.remove(os.path.join(args.render_path, img))
-            except OSError as err:
-                main_logger.error(str(err))
+            # remove old images
+            old_images = [x for x in os.listdir(args.render_path) if os.path.isfile(os.path.join(args.render_path, x)) and x.startswith('img0')]
+            main_logger.info(os.listdir(args.render_path))
+            if old_images:
+                main_logger.info("Detected old renderer: {}".format(str(old_images)))
+            for img in old_images:
+                try:
+                    os.remove(os.path.join(args.render_path, img))
+                except OSError as err:
+                    main_logger.error(str(err))
 
-        os.chdir(args.render_path)
-        if platform.system() == 'Windows':
-            viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe"))
-        elif platform.system() == 'Linux':
-            viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
-            os.system('chmod +x {}'.format(viewer_run_path))
-        else:
-            viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
-            os.system('chmod +x {}'.format(viewer_run_path))
-
-        i = 0
-        test_case_status = TEST_CRASH_STATUS
-        while i < args.retries and test_case_status == TEST_CRASH_STATUS:
-            main_logger.info("Try #" + str(i))
-            i += 1
-            p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
-            stderr, stdout = b"", b""
-            start_time = time.time()
-            test_case_status = TEST_CRASH_STATUS
-
-            aborted_by_timeout = False
-            try:
-                stdout, stderr = p.communicate(timeout=test['render_time'])
-            except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
-                main_logger.error("Aborted by timeout. {}".format(str(err)))
-
-                # RS_CONF_IT_022 - RS_CONF_IT_028
-                if frame_ae == '0':
-                    test_case_status = TEST_SUCCESS_STATUS
-                    frame_ae = '50'
-
-                for child in reversed(p.children(recursive=True)):
-                    child.terminate()
-                p.terminate()
-                stdout, stderr = p.communicate()
-                aborted_by_timeout = True
+            os.chdir(args.render_path)
+            if platform.system() == 'Windows':
+                viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer.exe"))
+            elif platform.system() == 'Linux':
+                viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
+                os.system('chmod +x {}'.format(viewer_run_path))
             else:
-                test_case_status = TEST_SUCCESS_STATUS
+                viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
+                os.system('chmod +x {}'.format(viewer_run_path))
 
-            render_time = time.time() - start_time
-            error_messages = []
-            try:
-                shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
-                            os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
-                test_case_status = TEST_SUCCESS_STATUS
-            except FileNotFoundError as err:
-                image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
-                error_messages.append(image_not_found_str)
-                main_logger.error(image_not_found_str)
-                main_logger.error(str(err))
+            i = 0
+            test_case_status = TEST_CRASH_STATUS
+            while i < args.retries and test_case_status == TEST_CRASH_STATUS:
+                main_logger.info("Try #" + str(i))
+                i += 1
+                p = psutil.Popen(viewer_run_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+                stderr, stdout = b"", b""
+                start_time = time.time()
                 test_case_status = TEST_CRASH_STATUS
 
-        with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
-            file.write("-----[STDOUT]------\n\n")
-            file.write(stdout.decode("UTF-8"))
-        with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
-            file.write("\n-----[STDERR]-----\n\n")
-            file.write(stderr.decode("UTF-8"))
+                aborted_by_timeout = False
+                try:
+                    stdout, stderr = p.communicate(timeout=test['render_time'])
+                except (TimeoutError, psutil.TimeoutExpired, subprocess.TimeoutExpired) as err:
+                    main_logger.error("Aborted by timeout. {}".format(str(err)))
 
-        if not was_success and case_number == args.error_until_group_failed:
-            error_messages.append('Test execution was interrupted due to first ' + args.error_until_group_failed + ' cases resulting in error')
+                    # RS_CONF_IT_022 - RS_CONF_IT_028
+                    if frame_ae == '0':
+                        test_case_status = TEST_SUCCESS_STATUS
+                        frame_ae = '50'
 
-        # Up to date test case status
-        with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
-            test_case_report = json.loads(file.read())[0]
-            if error_messages:
-                test_case_report["message"] = test_case_report["message"] + error_messages
-            test_case_report["test_status"] = test_case_status
-            test_case_report["render_time"] = render_time
-            test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
-            test_case_report["render_log"] = test['name'] + '_app.log'
-            test_case_report["group_timeout_exceeded"] = False
-            test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
+                    for child in reversed(p.children(recursive=True)):
+                        child.terminate()
+                    p.terminate()
+                    stdout, stderr = p.communicate()
+                    aborted_by_timeout = True
+                else:
+                    test_case_status = TEST_SUCCESS_STATUS
 
-        with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
-            json.dump([test_case_report], file, indent=4)
+                render_time = time.time() - start_time
+                error_messages = []
+                try:
+                    shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
+                                os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                    test_case_status = TEST_SUCCESS_STATUS
+                except FileNotFoundError as err:
+                    image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
+                    error_messages.append(image_not_found_str)
+                    main_logger.error(image_not_found_str)
+                    main_logger.error(str(err))
+                    test_case_status = TEST_CRASH_STATUS
 
-        if test_case_status == TEST_SUCCESS_STATUS:
-            was_success = True
+            with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
+                file.write("-----[STDOUT]------\n\n")
+                file.write(stdout.decode("UTF-8"))
+            with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
+                file.write("\n-----[STDERR]-----\n\n")
+                file.write(stderr.decode("UTF-8"))
 
-        if not was_success and case_number == args.error_until_group_failed:
-            break
+            # Up to date test case status
+            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
+                test_case_report = json.loads(file.read())[0]
+                if error_messages:
+                    test_case_report["message"] = test_case_report["message"] + error_messages
+                test_case_report["test_status"] = test_case_status
+                test_case_report["render_time"] = render_time
+                test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
+                test_case_report["render_log"] = test['name'] + '_app.log'
+                test_case_report["group_timeout_exceeded"] = False
+                test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
+
+            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
+                json.dump([test_case_report], file, indent=4)
+
+            if test_case_status == TEST_SUCCESS_STATUS:
+                was_success = True
+
+        else:
+            # Up to date test case status
+            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
+                test_case_report = json.loads(file.read())[0]
+                test_case_report["message"] = ['Test execution was interrupted due to first ' + args.error_until_group_failed + ' cases resulting in error']
+
 
     return 0
 
