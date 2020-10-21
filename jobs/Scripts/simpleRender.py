@@ -277,7 +277,7 @@ def main():
             # Up to date test case status
             with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
-                test_case_report["message"] = ['Test execution was interrupted due to first ' + args.error_until_group_failed + ' cases resulting in error']
+                test_case_report["message"] = ['Test execution was interrupted due to first ' + str(args.error_until_group_failed) + ' cases resulting in error']
 
 
     return 0
