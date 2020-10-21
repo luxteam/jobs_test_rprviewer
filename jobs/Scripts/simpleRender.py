@@ -167,6 +167,7 @@ def main():
     # run cases
     was_success = False
     case_number = 0
+    skip_group = False
     for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(x, current_conf)]:
         case_number += 1
         skip_group = skip_group or (not was_success and case_number == args.error_until_group_failed)
