@@ -1,5 +1,5 @@
 #!/bin/bash
-python3 -m pip install -r ../jobs_launcher/install/requirements.txt
+python3 -m pip install --user -r ../jobs_launcher/install/requirements.txt
 
 RETRIES=${3:-2}
 UPDATE_REFS=${4:-No}
