@@ -76,20 +76,20 @@ def main():
         report = RENDER_REPORT_BASE.copy()
         report.update({'test_status': TEST_CRASH_STATUS if test['status'] == 'active' else TEST_IGNORE_STATUS,
                        'render_device': render_device,
-                       'test_case': test['name'],
+                       'test_case': test['case'],
                        'scene_name': test['scene_sub_path'],
                        'tool': args.render_engine,
-                       'file_name': test['name'] + test['file_ext'],
+                       'file_name': test['case'] + test['file_ext'],
                        'date_time': datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S"),
                        'script_info': test['script_info'],
                        'test_group': args.test_group,
-                       'render_color_path': 'Color/' + test['name'] + test['file_ext']
+                       'render_color_path': 'Color/' + test['case'] + test['file_ext']
                        })
         # TODO: refactor img paths
         try:
             shutil.copyfile(
                 os.path.join(ROOT_DIR_PATH, 'jobs_launcher', 'common', 'img', report['test_status'] + test['file_ext']),
-                os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                os.path.join(args.output_dir, 'Color', test['case'] + test['file_ext']))
         except (OSError, FileNotFoundError) as err:
             main_logger.error("Can't create img stub: {}".format(str(err)))
 
@@ -97,7 +97,7 @@ def main():
             json.dump([report], file, indent=4)
 
     for test in [x for x in tests_list if x['status'] == 'active']:
-        main_logger.info("Processing test case: {}".format(test['name']))
+        main_logger.info("Processing test case: {}".format(test['case']))
 
         frame_ae = str(update_viewer_config(
             test=test,
@@ -146,16 +146,16 @@ def main():
             main_logger.info(render_time)
             try:
                 shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
-                            os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                            os.path.join(args.output_dir, 'Color', test['case'] + test['file_ext']))
             except FileNotFoundError as err:
                 main_logger.error("Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])))
                 main_logger.error(str(err))
                 test_case_status = TEST_CRASH_STATUS
 
-            with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
+            with open(os.path.join(args.output_dir, test['case'] + '_app.log'), 'w') as file:
                 file.write("-----[STDOUT]------\n\n")
                 file.write(stdout.decode("UTF-8"))
-            with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
+            with open(os.path.join(args.output_dir, test['case'] + '_app.log'), 'a') as file:
                 file.write("\n-----[STDERR]-----\n\n")
                 file.write(stderr.decode("UTF-8"))
 
@@ -171,15 +171,15 @@ def main():
                 main_logger.error("Error during bench_txt parsing: {}".format(str(err)))
 
             # Up to date test case status
-            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
+            with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
                 test_case_report["test_status"] = test_case_status
                 test_case_report["render_time"] = render_time
                 test_case_report["render_time_bench"] = render_time_bench
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
-                test_case_report["render_log"] = test['name'] + '_app.log'
+                test_case_report["render_log"] = test['case'] + '_app.log'
 
-            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
+            with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'w') as file:
                 json.dump([test_case_report], file, indent=4)
 
     return 0

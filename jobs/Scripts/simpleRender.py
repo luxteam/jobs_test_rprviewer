@@ -129,27 +129,27 @@ def main():
         test_status = TEST_IGNORE_STATUS if is_skipped else TEST_CRASH_STATUS
 
         main_logger.info("Case: {}; Engine: {}; Skip here: {}; Predefined status: {};".format(
-            test['name'], engine, bool(is_skipped), test_status
+            test['case'], engine, bool(is_skipped), test_status
         ))
         report.update({'test_status': test_status,
                        'render_device': render_device,
-                       'test_case': test['name'],
+                       'test_case': test['case'],
                        'scene_name': test['scene_sub_path'],
                        'tool': engine,
-                       'file_name': test['name'] + test['file_ext'],
+                       'file_name': test['case'] + test['file_ext'],
                        'date_time': datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S"),
                        'script_info': test['script_info'],
                        'test_group': args.test_group,
-                       'render_color_path': 'Color/' + test['name'] + test['file_ext'],
+                       'render_color_path': 'Color/' + test['case'] + test['file_ext'],
                        'testcase_timeout': test['render_time']
                        })
 
         if 'Update' not in args.update_refs:
             try:
-                shutil.copyfile(os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX),
-                         os.path.join(baseline_path, test['name'] + CASE_REPORT_SUFFIX))
+                shutil.copyfile(os.path.join(baseline_path_tr, test['case'] + CASE_REPORT_SUFFIX),
+                         os.path.join(baseline_path, test['case'] + CASE_REPORT_SUFFIX))
 
-                with open(os.path.join(baseline_path, test['name'] + CASE_REPORT_SUFFIX)) as baseline:
+                with open(os.path.join(baseline_path, test['case'] + CASE_REPORT_SUFFIX)) as baseline:
                     baseline_json = json.load(baseline)
 
                 for thumb in [''] + THUMBNAIL_PREFIXES:
@@ -158,7 +158,7 @@ def main():
                                  os.path.join(baseline_path, baseline_json[thumb + 'render_color_path']))
             except:
                 main_logger.error('Failed to copy baseline ' +
-                                              os.path.join(baseline_path_tr, test['name'] + CASE_REPORT_SUFFIX))
+                                              os.path.join(baseline_path_tr, test['case'] + CASE_REPORT_SUFFIX))
 
         if test_status == TEST_IGNORE_STATUS:
             report.update({'group_timeout_exceeded': False})
@@ -166,7 +166,7 @@ def main():
         try:
             shutil.copyfile(
                 os.path.join(ROOT_DIR_PATH, 'jobs_launcher', 'common', 'img', report['test_status'] + test['file_ext']),
-                os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                os.path.join(args.output_dir, 'Color', test['case'] + test['file_ext']))
         except (OSError, FileNotFoundError) as err:
             main_logger.error("Can't create img stub: {}".format(str(err)))
 
@@ -178,7 +178,7 @@ def main():
 
     # run cases
     for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(x, current_conf)]:
-        main_logger.info("\nProcessing test case: {}".format(test['name']))
+        main_logger.info("\nProcessing test case: {}".format(test['case']))
         engine = test['config_parameters'].get('engine', args.render_engine)
         frame_ae = str(update_viewer_config(
             test=test,
@@ -245,7 +245,7 @@ def main():
             error_messages = []
             try:
                 shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
-                            os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                            os.path.join(args.output_dir, 'Color', test['case'] + test['file_ext']))
                 test_case_status = TEST_SUCCESS_STATUS
             except FileNotFoundError as err:
                 image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
@@ -254,26 +254,26 @@ def main():
                 main_logger.error(str(err))
                 test_case_status = TEST_CRASH_STATUS
 
-        with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
+        with open(os.path.join(args.output_dir, test['case'] + '_app.log'), 'w') as file:
             file.write("-----[STDOUT]------\n\n")
             file.write(stdout.decode("UTF-8"))
-        with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
+        with open(os.path.join(args.output_dir, test['case'] + '_app.log'), 'a') as file:
             file.write("\n-----[STDERR]-----\n\n")
             file.write(stderr.decode("UTF-8"))
 
         # Up to date test case status
-        with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
+        with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'r') as file:
             test_case_report = json.loads(file.read())[0]
             if error_messages:
                 test_case_report["message"] = test_case_report["message"] + error_messages
             test_case_report["test_status"] = test_case_status
             test_case_report["render_time"] = render_time
             test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
-            test_case_report["render_log"] = test['name'] + '_app.log'
+            test_case_report["render_log"] = test['case'] + '_app.log'
             test_case_report["group_timeout_exceeded"] = False
             test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
 
-        with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
+        with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'w') as file:
             json.dump([test_case_report], file, indent=4)
 
         test["status"] = test_case_status
