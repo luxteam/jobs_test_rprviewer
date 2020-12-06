@@ -76,7 +76,7 @@ def main():
         test_cases_path = os.path.realpath(os.path.join(os.path.abspath(args.output_dir), 'test_cases.json'))
         shutil.copyfile(args.tests_list, test_cases_path)
     except:
-        main_logger.error("Can't copy test_case.json")
+        main_logger.error("Can't copy test_cases.json")
         main_logger.error(str(e))
         exit(-1)
 

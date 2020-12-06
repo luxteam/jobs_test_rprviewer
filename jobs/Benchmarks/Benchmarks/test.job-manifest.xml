@@ -4,7 +4,7 @@
     <outpath value="{OutputDir}"/>
 
     <execute command='python "{ResourcesDir}/simpleRenderBenchmark.py"'>
-        <argument>--tests_list "{Root}/Benchmarks/test_case.json"</argument>
+        <argument>--tests_list "{Root}/Benchmarks/test_cases.json"</argument>
         <argument>--output_dir "{OutputDir}"</argument>
         <argument>--render_engine hyb</argument>
         <argument>--scene_path "{ScenesDir}"</argument>
