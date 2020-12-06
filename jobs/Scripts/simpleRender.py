@@ -76,7 +76,7 @@ def main():
         test_cases_path = os.path.realpath(os.path.join(os.path.abspath(args.output_dir), 'test_cases.json'))
         shutil.copyfile(args.tests_list, test_cases_path)
     except:
-        main_logger.error("Can't copy test.cases.json")
+        main_logger.error("Can't copy test_case.json")
         main_logger.error(str(e))
         exit(-1)
 
@@ -170,7 +170,7 @@ def main():
         except (OSError, FileNotFoundError) as err:
             main_logger.error("Can't create img stub: {}".format(str(err)))
 
-        with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
+        with open(os.path.join(args.output_dir, test["case"] + CASE_REPORT_SUFFIX), "w") as file:
             json.dump([report], file, indent=4)
 
     with open(test_cases_path, 'w') as file:

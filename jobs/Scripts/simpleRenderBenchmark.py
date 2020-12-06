@@ -93,7 +93,7 @@ def main():
         except (OSError, FileNotFoundError) as err:
             main_logger.error("Can't create img stub: {}".format(str(err)))
 
-        with open(os.path.join(args.output_dir, test["name"] + CASE_REPORT_SUFFIX), "w") as file:
+        with open(os.path.join(args.output_dir, test["case"] + CASE_REPORT_SUFFIX), "w") as file:
             json.dump([report], file, indent=4)
 
     for test in [x for x in tests_list if x['status'] == 'active']:

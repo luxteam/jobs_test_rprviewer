@@ -1,6 +1,6 @@
 [
     {
-        "name": "RS_VIEW_US_001",
+        "case": "RS_VIEW_US_001",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -28,7 +28,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_002",
+        "case": "RS_VIEW_US_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_003",
+        "case": "RS_VIEW_US_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -82,7 +82,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_004",
+        "case": "RS_VIEW_US_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -109,7 +109,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_005",
+        "case": "RS_VIEW_US_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -136,7 +136,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_006",
+        "case": "RS_VIEW_US_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -163,7 +163,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_007",
+        "case": "RS_VIEW_US_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -190,7 +190,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_008",
+        "case": "RS_VIEW_US_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -218,7 +218,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_009",
+        "case": "RS_VIEW_US_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -245,7 +245,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_010",
+        "case": "RS_VIEW_US_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -272,7 +272,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_011",
+        "case": "RS_VIEW_US_011",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -299,7 +299,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_012",
+        "case": "RS_VIEW_US_012",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -326,7 +326,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_013",
+        "case": "RS_VIEW_US_013",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_014",
+        "case": "RS_VIEW_US_014",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -380,7 +380,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_015",
+        "case": "RS_VIEW_US_015",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -408,7 +408,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_016",
+        "case": "RS_VIEW_US_016",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -435,7 +435,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_017",
+        "case": "RS_VIEW_US_017",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -462,7 +462,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_018",
+        "case": "RS_VIEW_US_018",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -489,7 +489,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_019",
+        "case": "RS_VIEW_US_019",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -516,7 +516,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_020",
+        "case": "RS_VIEW_US_020",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,
@@ -543,7 +543,7 @@
         ]
     },
     {
-        "name": "RS_VIEW_US_021",
+        "case": "RS_VIEW_US_021",
         "status": "active",
         "file_ext": ".png",
         "render_time": 30,

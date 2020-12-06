@@ -1,6 +1,6 @@
 [
     {
-        "name": "RS_CONF_RES_001",
+        "case": "RS_CONF_RES_001",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_002",
+        "case": "RS_CONF_RES_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_003",
+        "case": "RS_CONF_RES_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -81,7 +81,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_004",
+        "case": "RS_CONF_RES_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_005",
+        "case": "RS_CONF_RES_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -135,7 +135,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_006",
+        "case": "RS_CONF_RES_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -158,7 +158,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_007",
+        "case": "RS_CONF_RES_007",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -185,7 +185,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_008",
+        "case": "RS_CONF_RES_008",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -212,7 +212,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_009",
+        "case": "RS_CONF_RES_009",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -239,7 +239,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_010",
+        "case": "RS_CONF_RES_010",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -266,7 +266,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_011",
+        "case": "RS_CONF_RES_011",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -293,7 +293,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_012",
+        "case": "RS_CONF_RES_012",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -320,7 +320,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_013",
+        "case": "RS_CONF_RES_013",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -347,7 +347,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_014",
+        "case": "RS_CONF_RES_014",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -374,7 +374,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_015",
+        "case": "RS_CONF_RES_015",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -401,7 +401,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_016",
+        "case": "RS_CONF_RES_016",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
@@ -428,7 +428,7 @@
         ]
     },
     {
-        "name": "RS_CONF_RES_017",
+        "case": "RS_CONF_RES_017",
         "status": "active",
         "file_ext": ".png",
         "render_time": 120,
