@@ -182,24 +182,10 @@ def main():
     case_number = 0
     skip_group = False
     for test in [x for x in tests_list if x['status'] == 'active' and not is_case_skipped(x, current_conf)]:
-<<<<<<< HEAD
-        main_logger.info("\nProcessing test case: {}".format(test['case']))
-        engine = test['config_parameters'].get('engine', args.render_engine)
-        frame_ae = str(update_viewer_config(
-            test=test,
-            engine=engine,
-            render_path=args.render_path,
-            scene_path=args.scene_path,
-            tmp=copy.deepcopy(config_tmp)
-        ))
-
-        if frame_ae == '0':
-            main_logger.info("Case with infinity loop. Abort by timeout is expected. Will save 5th frame")
-=======
         case_number += 1
         skip_group = skip_group or (not was_success and case_number == args.error_until_group_failed)
         if not skip_group:
-            main_logger.info("\nProcessing test case: {}".format(test['name']))
+            main_logger.info("\nProcessing test case: {}".format(test['case']))
             engine = test['config_parameters'].get('engine', args.render_engine)
             frame_ae = str(update_viewer_config(
                 test=test,
@@ -232,7 +218,6 @@ def main():
             else:
                 viewer_run_path = os.path.normpath(os.path.join(args.render_path, "RadeonProViewer"))
                 os.system('chmod +x {}'.format(viewer_run_path))
->>>>>>> 17ff7f4750b5705fc0a3389828177c0d4d05a840
 
             i = 0
             test_case_status = TEST_CRASH_STATUS
@@ -267,7 +252,7 @@ def main():
                 error_messages = []
                 try:
                     shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
-                                os.path.join(args.output_dir, 'Color', test['name'] + test['file_ext']))
+                                os.path.join(args.output_dir, 'Color', test['case'] + test['file_ext']))
                     test_case_status = TEST_SUCCESS_STATUS
                 except FileNotFoundError as err:
                     image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
@@ -276,77 +261,40 @@ def main():
                     main_logger.error(str(err))
                     test_case_status = TEST_CRASH_STATUS
 
-            with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'w') as file:
+            with open(os.path.join(args.output_dir, test['case'] + '_app.log'), 'w') as file:
                 file.write("-----[STDOUT]------\n\n")
                 file.write(stdout.decode("UTF-8"))
-            with open(os.path.join(args.output_dir, test['name'] + '_app.log'), 'a') as file:
+            with open(os.path.join(args.output_dir, test['case'] + '_app.log'), 'a') as file:
                 file.write("\n-----[STDERR]-----\n\n")
                 file.write(stderr.decode("UTF-8"))
 
             # Up to date test case status
-            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
+            with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
                 if error_messages:
                     test_case_report["message"] = test_case_report["message"] + error_messages
                 test_case_report["test_status"] = test_case_status
                 test_case_report["render_time"] = render_time
                 test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
-                test_case_report["render_log"] = test['name'] + '_app.log'
+                test_case_report["render_log"] = test['case'] + '_app.log'
                 test_case_report["group_timeout_exceeded"] = False
                 test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
 
-            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
+            with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'w') as file:
                 json.dump([test_case_report], file, indent=4)
 
             if test_case_status == TEST_SUCCESS_STATUS:
                 was_success = True
 
-<<<<<<< HEAD
-            render_time = time.time() - start_time
-            error_messages = []
-            try:
-                shutil.copyfile(os.path.join(args.render_path, 'img{0}{1}'.format(frame_ae.zfill(4), test['file_ext'])),
-                            os.path.join(args.output_dir, 'Color', test['case'] + test['file_ext']))
-                test_case_status = TEST_SUCCESS_STATUS
-            except FileNotFoundError as err:
-                image_not_found_str = "Image {} not found".format('img{0}{1}'.format(frame_ae.zfill(4), test['file_ext']))
-                error_messages.append(image_not_found_str)
-                main_logger.error(image_not_found_str)
-                main_logger.error(str(err))
-                test_case_status = TEST_CRASH_STATUS
-
-        with open(os.path.join(args.output_dir, test['case'] + '_app.log'), 'w') as file:
-            file.write("-----[STDOUT]------\n\n")
-            file.write(stdout.decode("UTF-8"))
-        with open(os.path.join(args.output_dir, test['case'] + '_app.log'), 'a') as file:
-            file.write("\n-----[STDERR]-----\n\n")
-            file.write(stderr.decode("UTF-8"))
-
-        # Up to date test case status
-        with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'r') as file:
-            test_case_report = json.loads(file.read())[0]
-            if error_messages:
-                test_case_report["message"] = test_case_report["message"] + error_messages
-            test_case_report["test_status"] = test_case_status
-            test_case_report["render_time"] = render_time
-            test_case_report["render_color_path"] = "Color/" + test_case_report["file_name"]
-            test_case_report["render_log"] = test['case'] + '_app.log'
-            test_case_report["group_timeout_exceeded"] = False
-            test_case_report["testcase_timeout_exceeded"] = aborted_by_timeout
-
-        with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'w') as file:
-            json.dump([test_case_report], file, indent=4)
-=======
         else:
             # Up to date test case status
-            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'r') as file:
+            with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'r') as file:
                 test_case_report = json.loads(file.read())[0]
                 test_case_report["message"] = ['Test execution was interrupted due to the first ' + str(args.error_until_group_failed) + ' cases resulting in an error']
                 test_case_report["group_timeout_exceeded"] = False
-            with open(os.path.join(args.output_dir, test['name'] + CASE_REPORT_SUFFIX), 'w') as file:
+            with open(os.path.join(args.output_dir, test['case'] + CASE_REPORT_SUFFIX), 'w') as file:
                 json.dump([test_case_report], file, indent=4)
 
->>>>>>> 17ff7f4750b5705fc0a3389828177c0d4d05a840
 
         test["status"] = test_case_status
         with open(test_cases_path, 'w') as file:
