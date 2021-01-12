@@ -4,7 +4,7 @@
     <outpath value="{OutputDir}"/>
 
     <execute command='python "{ResourcesDir}/simpleRender.py"' timeout="1200">
-        <argument>--tests_list "{Root}/Tests/Render_mode/test.cases.json"</argument>
+        <argument>--tests_list "{Root}/Tests/Render_mode/test_cases.json"</argument>
         <argument>--output_dir "{OutputDir}"</argument>
         <argument>--render_engine hyb</argument>
         <argument>--scene_path "{ScenesDir}"</argument>

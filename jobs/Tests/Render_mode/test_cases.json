@@ -1,20 +1,20 @@
 [
     {
-        "name": "RS_CONF_ENG_001",
+        "case": "RS_VIEW_RM_001",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
+            "render_quality": "low",
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Vulkan+ Hybrid"
+            "engine - Hybrid",
+            "Low mode"
         ],
         "skip_on": [
             ["AMD Radeon VII Beta Driver"],
@@ -22,21 +22,21 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_002",
+        "case": "RS_VIEW_RM_002",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
+            "render_quality": "low",
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Vulkan+ Hybrid"
+            "engine - Hybrid",
+            "Low mode"
         ],
         "skip_on": [
             ["AMD Radeon VII Beta Driver"],
@@ -44,21 +44,21 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_003",
+        "case": "RS_VIEW_RM_003",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
+            "render_quality": "low",
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Vulkan+ Hybrid"
+            "engine - Hybrid",
+            "Low mode"
         ],
         "skip_on": [
             ["AMD Radeon VII Beta Driver"],
@@ -66,21 +66,21 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_004",
+        "case": "RS_VIEW_RM_004",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
+            "render_quality": "low",
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Vulkan+ Hybrid"
+            "engine - Hybrid",
+            "Low mode"
         ],
         "skip_on": [
             ["AMD Radeon VII Beta Driver"],
@@ -88,21 +88,21 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_005",
+        "case": "RS_VIEW_RM_005",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
+            "render_quality": "low",
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Vulkan+ Hybrid"
+            "engine - Hybrid",
+            "Low mode"
         ],
         "skip_on": [
             ["AMD Radeon VII Beta Driver"],
@@ -110,21 +110,21 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_006",
+        "case": "RS_VIEW_RM_006",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
+            "render_quality": "low",
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Vulkan+ Hybrid"
+            "engine - Hybrid",
+            "Low mode"
         ],
         "skip_on": [
             ["AMD Radeon VII Beta Driver"],
@@ -132,21 +132,21 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_007",
+        "case": "RS_VIEW_RM_007",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
+            "render_quality": "low",
             "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "Vulkan+ Hybrid"
+            "engine - Hybrid",
+            "Low mode"
         ],
         "skip_on": [
             ["AMD Radeon VII Beta Driver"],
@@ -154,322 +154,309 @@
         ]
     },
     {
-        "name": "RS_CONF_ENG_008",
+        "case": "RS_VIEW_RM_008",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "render_quality": "medium",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "D3D+Hybrid"
+            "engine - Hybrid",
+            "Medium mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_009",
+        "case": "RS_VIEW_RM_009",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "render_quality": "medium",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "D3D+Hybrid"
+            "engine - Hybrid",
+            "Medium mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
-            ["GeForce RTX 2080 Ti"]        ]
+            ["GeForce RTX 2080 Ti"]
+        ]
     },
     {
-        "name": "RS_CONF_ENG_010",
+        "case": "RS_VIEW_RM_010",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "render_quality": "medium",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "D3D+Hybrid"
+            "engine - Hybrid",
+            "Medium mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_011",
+        "case": "RS_VIEW_RM_011",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "render_quality": "medium",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "D3D+Hybrid"
+            "engine - Hybrid",
+            "Medium mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_012",
+        "case": "RS_VIEW_RM_012",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "render_quality": "medium",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "D3D+Hybrid"
+            "engine - Hybrid",
+            "Medium mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_013",
+        "case": "RS_VIEW_RM_013",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "render_quality": "medium",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "D3D+Hybrid"
+            "engine - Hybrid",
+            "Medium mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_014",
+        "case": "RS_VIEW_RM_014",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 30,
+        "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "high",
-            "engine": "hyb",
-            "draw_engine": "vw_d3d12"
+            "render_quality": "medium",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "D3D+Hybrid"
+            "engine - Hybrid",
+            "Medium mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_015",
+        "case": "RS_VIEW_RM_015",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 120,
+        "render_time": 60,
         "scene_sub_path": "Apartment_Directional_v.20/scene/scene.gltf",
+        "uiConfig": "Apartment_Directional_v.20/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl"
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "OGL+RPR"
+            "engine - Hybrid",
+            "High mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_016",
+        "case": "RS_VIEW_RM_016",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 90,
+        "render_time": 60,
         "scene_sub_path": "ChessWaterTest_v.3/scene/scene.gltf",
+        "uiConfig": "ChessWaterTest_v.3/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl"
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "OGL+RPR"
+            "engine - Hybrid",
+            "High mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_017",
+        "case": "RS_VIEW_RM_017",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 90,
+        "render_time": 60,
         "scene_sub_path": "FalconLight_v.1/scene/scene.gltf",
+        "uiConfig": "FalconLight_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl"
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "OGL+RPR"
+            "engine - Hybrid",
+            "High mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_018",
+        "case": "RS_VIEW_RM_018",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 90,
+        "render_time": 60,
         "scene_sub_path": "Ferrari_Victoria_DDS_v.1/scene/scene.gltf",
+        "uiConfig": "Ferrari_Victoria_DDS_v.1/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl"
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "OGL+RPR"
+            "engine - Hybrid",
+            "High mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_019",
+        "case": "RS_VIEW_RM_019",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 90,
+        "render_time": 60,
         "scene_sub_path": "FuturisticCity_SG2019_v.2/scene/scene.gltf",
+        "uiConfig": "FuturisticCity_SG2019_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl"
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "OGL+RPR"
+            "engine - Hybrid",
+            "High mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_020",
+        "case": "RS_VIEW_RM_020",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 90,
+        "render_time": 60,
         "scene_sub_path": "FuturisticInterior_v.6/scene/scene.gltf",
+        "uiConfig": "FuturisticInterior_v.6/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl"
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "OGL+RPR"
+            "engine - Hybrid",
+            "High mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]
     },
     {
-        "name": "RS_CONF_ENG_021",
+        "case": "RS_VIEW_RM_021",
         "status": "active",
         "file_ext": ".png",
-        "render_time": 90,
+        "render_time": 60,
         "scene_sub_path": "SG2019_rome_v.2/scene/scene.gltf",
+        "uiConfig": "SG2019_rome_v.2/scene/UIConfig.json",
         "config_parameters": {
             "file_ext": ".png",
             "animation": false,
-            "uiConfig": "scene/UIConfig.json",
-            "render_quality": "low",
-            "engine": "rpr",
-            "draw_engine": "ogl"
+            "render_quality": "high",
+            "draw_engine": "vw_vulkan"
         },
         "script_info": [
-            "OGL+RPR"
+            "engine - Hybrid",
+            "High mode"
         ],
         "skip_on": [
-            ["Linux"],
             ["AMD Radeon VII Beta Driver"],
             ["GeForce RTX 2080 Ti"]
         ]

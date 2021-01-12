@@ -1,6 +1,6 @@
 [
     {
-        "name": "RS_VIEW_B_001",
+        "case": "RS_VIEW_B_001",
         "status": "active",
         "file_ext": ".png",
         "render_time": 100,
@@ -24,7 +24,7 @@
     },
 
     {
-        "name": "RS_VIEW_B_002",
+        "case": "RS_VIEW_B_002",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -46,7 +46,7 @@
     },
     
     {
-        "name": "RS_VIEW_B_003",
+        "case": "RS_VIEW_B_003",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -68,7 +68,7 @@
     },
 
     {
-        "name": "RS_VIEW_B_004",
+        "case": "RS_VIEW_B_004",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -90,7 +90,7 @@
     },
 
     {
-        "name": "RS_VIEW_B_005",
+        "case": "RS_VIEW_B_005",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
@@ -112,7 +112,7 @@
     },
 
     {
-        "name": "RS_VIEW_B_006",
+        "case": "RS_VIEW_B_006",
         "status": "active",
         "file_ext": ".png",
         "render_time": 60,
