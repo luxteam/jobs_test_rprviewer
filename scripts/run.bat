@@ -1,4 +1,4 @@
-set PATH=c:\python35\;c:\python35\scripts\;%PATH%
+set PATH=c:\python39\;c:\python39\scripts\;%PATH%
 python -m pip install -r ..\jobs_launcher\install\requirements.txt
 
 set RETRIES=%3
